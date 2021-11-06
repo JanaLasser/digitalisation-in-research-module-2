@@ -1,4 +1,7 @@
 # Digitalization in research
+
+Authors: Hannah Metzler <metzler@csh.ac.at>, Jana Lasser <jana.lasser@tugraz.at>
+
 In the module “digitalization in research” we will provide insights and practice experience for digital methods that are used for a broad range of activities in daily research practice. Our module is structured into four major topics:
 
 * Intro (15-30min)
