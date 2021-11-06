@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script>
+	  Reveal.initialize({
+	    plugins: [ RevealMarkdown ]
+	  });
+	</script>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					Title
+					<p><small> Jana Lasser &#8287&#8287&#8287 | &#8287&#8287&#8287 jana.lasser@tugraz.at &#8287&#8287&#8287 | &#8287&#8287&#8287 @janalasser</small></p>
+					<p style="color:white; font-size:30px">slides available at<br><a href="https://janalasser.at/talks/school_covid_talk/">https://janalasser.at/talks/slide_dir/</a><p>
+				</section>
+
+				<!-- multi-panel slide text -->
+				<section>
+					<h4> Slide title </h4>
+						<em> Text 1.</em>
+						<p class="fragment fade-in"><span style="color:#C0392B">emph:</span> text1 </p>
+						<p class="fragment fade-in"><span style="color:#C0392B">emph:</span> text2 </p>
+				</section>
+
+				<!-- multi-panel slide images -->
+				<section>
+					<h3> Interventions </h3>
+					<div class="r-stack">
+						<p class="fragment fade-in-then-out"> <img src="img/img_1.svg" width="800"></p>
+						<p class="fragment fade-in-then-out"> <img src="img/img_2.svg" width="800"></p>
+						<p class="fragment fade-in-then-out"> <img src="img/img_3.svg" width="800"> </p>
+						<p class="fragment fade-in-then-out"> <img src="img/img_4.svg" width="800"> </p>
+						<p class="fragment fade-in-then-out"> <img src="img/img_5.svg" width="800"> </p>
+					</div>
+				</section>
+
+				<!-- going deep -->
+				<section>
+					<section data-transition="slide-in none">
+						<h3>Heading</h3>
+						<img src="img/img_1.svg">
+					</section>
+					<section data-transition="none">
+						<h3>Heading</h3>
+						<img src="img/img_2.svg">
+					</section>
+					<section data-transition="none">
+						<h3>Heading</h3>
+						<img src="img/img_3.svg">
+					</section>
+					<section data-transition="none">
+						<h3>Heading</h3>
+						<img src="img/img_4.svg">
+					</section>
+				</section>
+
+				<!-- bullet points -->
+				<section style="text-align:left">
+						<p style="font-size:40px"> <b>Slide title</b><p>
+						<li style="font-size:28px"> bullet 1 </li>
+						<li style="font-size:28px"> bullet 2 </li>
+						<li style="font-size:28px"> bullet 3 </li>
+						<li style="font-size:28px"> bullet 4 </li>
+						<li style="font-size:28px"> bullet 5 </li>
+				</section>
+
+				<!-- markdown -->
+				<section data-markdown style="text-align:left">
+					<textarea data-template>
+					    ### Summary 
+					    1. lorem
+					    2. ipsum
+					</textarea>
+				</section>
+
+				<!-- table -->
+				<section data-transition="none">
+					<h4> Resultate: Genauigkeit </h4>
+					<font size="6">
+						<table>
+					    	<thead><tr>
+					            <th>Krankheit</th>
+					            <th>F1 score</th>
+					            <th>Sensitivität</th>
+					            <th>Spezifizität</th>
+					        </tr></thead>
+					        <tbody>
+					      	<tr style="background-color:#7DCEA0">
+					            <td>Stillbrunst</td>
+					            <td>0.731</td>
+					            <td>0.635</td>
+					            <td>0.989</td>
+					        </tr>
+					        <tr style="background-color:#7DCEA0">
+					            <td>Lahmheit</td>
+					            <td>0.715</td>
+					            <td>0.631</td>
+					            <td>0.939</td>
+					        </tr>
+					        <tr style="background-color:#7DCEA0">
+					            <td>Ketose</td>
+					            <td>0.701</td>
+					            <td>0.678</td>
+					            <td>0.975</td>
+					        </tr>
+					        <tr style="background-color:#E6B0AA">
+					            <td>akute Mastitis</td>
+					            <td>0.416</td>
+					            <td>0.277</td>
+					            <td>0.992</td>
+					        </tr>
+					        <tr style="background-color:#E6B0AA">
+					            <td>chron. Mastitis</td>
+					            <td>0.339</td>
+					            <td>0.291</td>
+					            <td>0.981</td>
+					        </tr>
+					        <tr style="background-color:#E6B0AA">
+					            <td>Eierstockzysten</td>
+					            <td>0.482</td>
+					            <td>0.433</td>
+					            <td>0.961</td>
+					        </tr>
+					        <tr style="background-color:#7DCEA0">
+					            <td>Milchfieber</td>
+					            <td>0.619</td>
+					            <td>0.553</td>
+					            <td>0.978</td>
+					        </tr>
+					        <tr style="background-color:#7DCEA0">
+					            <td>Metritis</td>
+					            <td>0.611</td>
+					            <td>0.496</td>
+					            <td>0.994</td>
+					        </tr>
+					    	</tbody>
+					    </table>
+					</font>
+				</section>
+
+				<!-- final slide -->
+				<section>
+					code: <br> <a href="https://pypi.org/project/scseirx/">https://pypi.org/project/scseirx</a> <br> <br>
+					preprint:<br> <a href="bit.ly/school_covid_policy">bit.ly/school_covid_policy</a><br><br>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
