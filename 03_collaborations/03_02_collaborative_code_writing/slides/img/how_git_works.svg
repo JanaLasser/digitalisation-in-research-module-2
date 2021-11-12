@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="291.38632mm"
+   height="130mm"
+   viewBox="0 0 291.38632 130"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (1:1.1+202105261518+ce6663b3b7)"
+   sodipodi:docname="how_git_works.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.54866744"
+     inkscape:cx="74.726504"
+     inkscape:cy="414.64097"
+     inkscape:window-width="2560"
+     inkscape:window-height="1440"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1434"
+       originx="-7.2312629"
+       originy="-9.0833328" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2050" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path2044" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.2312628,-9.083333)">
+    <g
+       id="g1986"
+       transform="matrix(0.79282972,0,0,0.79282972,7.7457445,19.937029)">
+      <path
+         style="fill:#ff9700;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 20.257003,70.488927 v -7.937499 c 0,0 1.322916,-3.96875 5.291666,-3.96875 3.96875,0 7.9375,0 7.9375,0 l 3.96875,3.96875 z"
+         id="path1436" />
+      <rect
+         style="fill:#ffbd00;fill-opacity:1;stroke:none;stroke-width:12.0825;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect846"
+         width="47.798672"
+         height="33.418385"
+         x="20.271431"
+         y="62.487389"
+         ry="7.808641" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1672"
+       width="15.999357"
+       height="17.736237"
+       x="14.717594"
+       y="107.62208"
+       ry="2.7561271" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.231248,111.21908 H 27.719724"
+       id="path1766" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.231248,113.31678 H 27.719724"
+       id="path1768" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.231248,115.41447 H 27.719724"
+       id="path1770" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.231248,117.51216 H 27.719724"
+       id="path1772" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.231248,119.60986 H 27.719724"
+       id="path1774" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.231248,121.70756 H 27.719724"
+       id="path1776" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1956"
+       width="15.999357"
+       height="17.736237"
+       x="34.912346"
+       y="107.62208"
+       ry="2.7561271" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.425999,111.21908 H 47.914475"
+       id="path1958" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.425999,113.31678 H 47.914475"
+       id="path1960" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.425999,115.41447 H 47.914475"
+       id="path1962" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.425999,117.51216 H 47.914475"
+       id="path1964" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.425999,119.60986 H 47.914475"
+       id="path1966" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.425999,121.70756 H 47.914475"
+       id="path1968" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1970"
+       width="15.999357"
+       height="17.736237"
+       x="55.107098"
+       y="107.62208"
+       ry="2.7561271" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.620747,111.21908 H 68.109223"
+       id="path1972" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.620747,113.31678 H 68.109223"
+       id="path1974" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.620747,115.41447 H 68.109223"
+       id="path1976" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.620747,117.51216 H 68.109223"
+       id="path1978" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.620747,119.60986 H 68.109223"
+       id="path1980" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.396415;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 57.620747,121.70756 H 68.109223"
+       id="path1982" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79283;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 23.943875,105.76507 8.390781,-8.390789"
+       id="path2021" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79283;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 61.702389,105.76507 53.311608,97.374281"
+       id="path2412" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79283;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 42.864202,105.63801 42.81107,97.676308"
+       id="path2414"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;word-spacing:0px;fill:#787878;fill-opacity:1;stroke-width:0.264583"
+       x="36.779041"
+       y="23.829802"
+       id="text3411"><tspan
+         sodipodi:role="line"
+         id="tspan3409"
+         style="fill:#787878;fill-opacity:1;stroke-width:0.264583"
+         x="36.779041"
+         y="23.829802">stored on your computer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.99336px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;word-spacing:0px;stroke-width:0.199834"
+       x="19.122755"
+       y="134.6086"
+       id="text5843"><tspan
+         sodipodi:role="line"
+         id="tspan5841"
+         style="stroke-width:0.199834"
+         x="19.122755"
+         y="134.6086">individual files</tspan></text>
+    <rect
+       style="fill:#5aa02c;fill-opacity:1;stroke:#000000;stroke-width:1.02903;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6265"
+       width="51.601162"
+       height="34.413399"
+       x="114.53014"
+       y="66.742096"
+       ry="4.1429014" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;word-spacing:0px;stroke-width:0.264583"
+       x="30.412514"
+       y="85.645309"
+       id="text7937"><tspan
+         sodipodi:role="line"
+         id="tspan7935"
+         style="stroke-width:0.264583"
+         x="30.412514"
+         y="85.645309">folder</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.583333,68.791666 v -5.291667 h 63.499999 v 5.291667"
+       id="path8832" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.15106px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.178777"
+       x="42.506451"
+       y="50.576385"
+       id="text9650"><tspan
+         sodipodi:role="line"
+         id="tspan9648"
+         style="font-style:italic;text-align:center;text-anchor:middle;stroke-width:0.178777"
+         x="42.506451"
+         y="50.576385">&quot;under version control&quot;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;text-align:center;text-anchor:middle;stroke-width:0.178777"
+         x="42.506451"
+         y="59.532581"
+         id="tspan9652">by git</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.15106px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.178777"
+       x="88.434151"
+       y="94.976555"
+       id="text9650-3"><tspan
+         sodipodi:role="line"
+         style="font-style:italic;text-align:center;text-anchor:middle;stroke-width:0.178777"
+         x="88.434151"
+         y="94.976555"
+         id="tspan9652-7">edits are</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;text-align:center;text-anchor:middle;stroke-width:0.178777"
+         x="88.434151"
+         y="103.93275"
+         id="tspan17256">&quot;committed&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="140.4745"
+       y="79.822372"
+       id="text12404"><tspan
+         sodipodi:role="line"
+         id="tspan12402"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.4745"
+         y="79.822372">local git</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.4745"
+         y="93.051498"
+         id="tspan12406">repository</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 68.791666,84.666666 H 105.83333"
+       id="path14127" />
+    <rect
+       style="fill:#5a7fea;fill-opacity:1;stroke:#000000;stroke-width:1.02903;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect20032"
+       width="51.601162"
+       height="34.413399"
+       x="228.32794"
+       y="66.742096"
+       ry="4.1429014" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="254.27231"
+       y="79.822372"
+       id="text20038"><tspan
+         sodipodi:role="line"
+         id="tspan20034"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="254.27231"
+         y="79.822372">remote git</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="254.27231"
+         y="93.051498"
+         id="tspan20036">repository</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.15106px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.178777"
+       x="199.02992"
+       y="94.976555"
+       id="text20044"><tspan
+         sodipodi:role="line"
+         style="font-style:italic;text-align:center;text-anchor:middle;stroke-width:0.178777"
+         x="199.02992"
+         y="94.976555"
+         id="tspan20040">changes are</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;text-align:center;text-anchor:middle;stroke-width:0.178777"
+         x="199.02992"
+         y="103.93275"
+         id="tspan20042">&quot;pushed&quot;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 179.38753,84.666666 h 37.04166"
+       id="path20046" />
+    <path
+       style="fill:none;stroke:#787878;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 174.03471,10.583333 V 137.58333"
+       id="path24592" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:arial;-inkscape-font-specification:arial;text-align:center;word-spacing:0px;text-anchor:middle;fill:#787878;fill-opacity:1;stroke-width:0.264583"
+       x="240.04248"
+       y="23.829802"
+       id="text28480"><tspan
+         sodipodi:role="line"
+         id="tspan28478"
+         style="text-align:center;text-anchor:middle;fill:#787878;fill-opacity:1;stroke-width:0.264583"
+         x="240.04248"
+         y="23.829802">stored in a cloud</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;fill:#787878;fill-opacity:1;stroke-width:0.264583"
+         x="240.04248"
+         y="37.058926"
+         id="tspan30880">(GitHub or GitLab)</tspan></text>
+  </g>
+</svg>
