@@ -1,0 +1,115 @@
+---
+title: "Module 2: Digitalisation in Research" 
+subtitle: "Digitale Tools für Literatursuche & Management"
+author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
+date: "25.11.2021  <br> Folien: hannahmetzler.eu/literature"
+output:
+  xaringan::moon_reader:
+  #  seal: false # this hides the title slide to make a costum one below
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer&middle.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# #This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer) #
+library(showtext)
+style_mono_accent(
+  base_color = "#1f5c99",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Raleway"),#("Yanone Kaffeesatz"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+<div class="my-footer"><span>
+<a> Digitalisation in Research: hannahmetzler.eu/literature  </a>
+</span></div>
+
+---
+# Übersicht
+
+1. Relevante Artikel finden
+  * Web Of Science, Google Scholar, Sci-hub, ...
+  * Knowledge maps, research Rabbit, Scite
+
+2. Up-to-date bleiben
+  * Übung: Google Scholar
+
+3. (Kollaboratives) Literaturmanagement & automatisiertes Zitieren
+  * Zotero
+  * Integration mit Textverarbeitungsprogrammen
+
+---
+# Relevante Artikel finden
+
+* Web Of Science, Google Scholar
+* Sci-hub
+* Knowledge maps
+* Research Rabbit
+
+---
+
+## Scite: Smart citations
+
+* Platform for discovering and evaluating scientific articles
+
+* What research articles say about each other
+* Powered by Deep Learning
+
+* Smart Citations: 
+  * provide the context of the citation
+  * classification as supporting or contrasting evidence for the cited claim
+
+---
+## Scite: Smart citations
+
+```{r, echo=FALSE, out.width=800}
+knitr::include_graphics("figures/smart-citations-illo.svg")
+```
+
+---
+
+# Up-to-date bleiben
+
+
+
+---
+# (Kollaboratives) Literaturmanagement
+
+* Tools
+  * [**Zotero**](https://www.zotero.org/)
+  * Mendeley
+  * Endnote
+  * F1000 <br>
+  ...
+
+---
+# Zotero
+
+---
+## Combine Zotero & Scite
+
+[Zotero plug-in](https://scite.ai/blog/introducing-the-scite-plug-in-for-zotero-61189d66120c): extra columns for citations of articles in your library
+
+```{r, echo=FALSE, out.width=1100}
+knitr::include_graphics("figures/zotero-scite.png")
+```
+
+<br> 
+Right click to view Scite report: [Example on power posing](https://scite.ai/reports/power-posing-1L19pj)
+
+---
+
