@@ -1,4 +1,4 @@
-# Setting up a slack workspace
+# Setting up a slack workspace with Trello and Google Drive integration
 * Find two teammates to work with (so you are a group of three).
 * Make sure you all have a Slack account, trello account and google account.
 * One of you will be responsible for managing slack, one for trello and the other for Google. Decide who does what. The team members will have different tasks (see below).
