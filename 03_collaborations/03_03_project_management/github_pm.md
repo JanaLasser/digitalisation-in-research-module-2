@@ -21,6 +21,7 @@
 * Add a column "to do" to the board, using the "To do" preset and selecting "newly added".
 * Add a column "in progress" to the board, using the "in progress" preset and selecting "Reopened".
 * Add a column "Done" to the board, using the "Done" preset, selecting "Closed".
+* If you have time, investigate about the limitations of the free GitHub version. What pricing options exist and what features do they unlock?
 
 
 ## All team members
@@ -35,3 +36,4 @@
 * Navigate to the remote repository in your browser and find the commit number of the change you just pushed: Click on the file you changed in the repository, the commit number is a long string of letters and numbers on the top right. Copy the commit number.
 * Go back to the issue you were assigned to. Check all the boxes in the issue description. Write a comment describing what you did, paste the commit number there and "close the issue with comment".
 * Check the project board and confirm that all issues have moved to the "Done" column.
+* If you have time, investigate about the limitations of the free GitHub version. What pricing options exist and what features do they unlock?

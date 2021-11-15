@@ -12,6 +12,7 @@
 * Make two new channels: we are going to test Trello integration in one and Google Drive integration in the other.
 * Go to the channel you want to test Trello in and invite the Trello app (/invige @Trello)
 * Make sure your team-mates join both channels.
+* If you have time, investigate about the limitations of the free Slack version. What pricing options exist and what features do they unlock?
 
 
 ## Team member 2: Trello
@@ -23,6 +24,7 @@
 * Add some items including a checklist or two to your list (can be made-up stuff).
 * Go to the slack channel that is dedicated to testing trello. Link the new trello board you just created to the channel (/trello link [URL TO BOARD]).
 * Set the channel to a Trello list (/trello set-list)
+* If you have time, investigate about the limitations of the free Trello version. What pricing options exist and what features do they unlock?
 
 
 ## Team member 3: Google Drive
@@ -31,6 +33,7 @@
 * Make sure your team members have editing access to the document (slack is offering you a dialogue to change editing rights).
 * Add some text and a comment inside the google doc.
 * Ask your team members to add some text and comments in the google doc as well.
+* If you have time, investigate about the limitations of the free Google Drive version. What pricing options exist and what features do they unlock?
 
 
 ## All team members: 
