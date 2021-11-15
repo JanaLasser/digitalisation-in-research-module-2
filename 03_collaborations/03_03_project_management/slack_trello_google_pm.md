@@ -3,9 +3,9 @@
 * Make sure you all have a Slack account, trello account and google account.
 * One of you will be responsible for managing slack, one for trello and the other for Google. Decide who does what. The team members will have different tasks (see below).
 
-## Teamm ember 1: Slack
-* Invite the other team-members to your workspace.
+## Team member 1: Slack
 * Create a new workspace [here](https://slack.com/get-started#/createnew).
+* Invite the other team-members to your workspace.
 * Install the "Google Drive" and "Tello" Apps (search for "Apps" in slack).
 * Authorize Slack to use your Google Drive and Trello accounts.
 * Make sure the other two team members also authorize their Google Drive and Trello accounts in Slack (they should navigate to the "Apps" channel in Slack and click on the respective apps to start the authorization process).
@@ -15,7 +15,7 @@
 
 
 ## Team member 2: Trello
-* Create a new board.
+* Log into your trello account and create a new board.
 * Invite the other team members to your board.
 * Enable the "Slack power-up" for your board by navigating to the settings (top right), click on "Power-ups" and search for "Slack".
 * Enable the "Google drive power-up" for your board.
@@ -26,8 +26,8 @@
 
 
 ## Team member 3: Google Drive
-* Go to the slack channel that is dedicated for testing Google Drive. 
-* Create a new Google doc by clicking on the lightning bolt next to the text input field and then selecting "Google Drive" -> "Create a document"
+* Create a new google doc. 
+* Go to the slack channel that is dedicated for testing Google Drive. Post the link to the document in the channel.
 * Make sure your team members have editing access to the document (slack is offering you a dialogue to change editing rights).
 * Add some text and a comment inside the google doc.
 * Ask your team members to add some text and comments in the google doc as well.
