@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script>
+	  Reveal.initialize({
+	    plugins: [ RevealMarkdown ]
+	  });
+	</script>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p style="font-size:70px"> Good documentation practices<p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Why should we document?<p>
+						<p class="fragment fade-in"; style="font-size:35px">As researchers, we <span style="color:#C0392B">build on the work</span> of (generations) of other researchers.</p>
+						<p class="fragment fade-in"; style="font-size:35px">Polished publications are often <span style="color:#C0392B">not enough to build on</span> (or reproduce) existing work.</p>
+						<p class="fragment fade-in"; style="font-size:35px">Documentation <span style="color:#C0392B">helps us to remember</span> what we did in the past.</p>
+						<p class="fragment fade-in"; style="font-size:35px">Documenting our work helps to <span style="color:#C0392B">find mistakes</span> and unclear parts.</p>
+				</section>
+				<section>
+					<p style="font-size:60px"> How and what should we document?<p>
+						<li class="fragment fade-in"; style="font-size:27px; text-align: left; padding-bottom: 1em;">Files with documentation should reside as <span style="color:#C0392B">close to the primary research</span> (data, figures, code, ...) as possible. Good practice: README file in the same folder.</li>
+						<li class="fragment fade-in"; style="font-size:27px; text-align: left; padding-bottom: 1em"><span style="color:#C0392B">Get the metadata right</span>: Who did the work? When (if relevant: where)? How are you reachable in case of questions (email address)? Are there related documents (link them)? If there were multiple versions of this document, include version information.</li>
+						<li class="fragment fade-in"; style="font-size:27px; text-align: left; padding-bottom: 1em">Describe what you did in <span style="color:#C0392B">clear language</span>. No need to sound overly sophisticated. Describe the <span style="color:#C0392B">file structure</span> of the repository and what to find where. </li>
+						<li class="fragment fade-in"; style="font-size:27px; text-align: left; padding-bottom: 1em">Use <span style="color:#C0392B">structuring elements</span> (headlines, tables, bullets) and enrich with links. </li>
+						<li class="fragment fade-in"; style="font-size:27px; text-align: left; padding-bottom: 1em">Don't use proprietary or program specific file formats (.docx!). Good practice: use <span style="color:#C0392B">Markdown</span>. </li>
+				</section>
+				<section>
+					<p style="font-size:60px"> Markdown<p>
+					<p style="text-align: left;"><em> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).</em></p>
+
+					<p style="text-align: left"><em>Thus, “Markdown” is two things: (1) a plain text formatting syntax; and (2) a software tool, written in Perl, that converts the plain text formatting to HTML.*</em></p>
+					<p style="font-size: 30px;"> Borrowed from <a href="https://daringfireball.net/projects/markdown/">https://daringfireball.net/projects/markdown/</a>
+				</section>
+				<section>
+					<p style="font-size:60px"> Markdown example<p>
+					<img src="img/markdown example.svg", width=1300>
+				</section>
+				<section>
+					<p style="font-size:60px"> HowTo: Markdown*<p>
+					<table style="font-size: 27px;">
+				    	<thead><tr>
+				            <th>Element</th>
+				            <th>Syntax</th>
+				        </tr></thead>
+				        <tbody>
+				      	<tr>
+				            <td>heading</td>
+				            <td># (H1), ## (H2), ### (H3), ...</td>
+				        </tr>
+				        <tr>
+				            <td>bold & italic</td>
+				            <td>**bold text**, *italic text*</td>
+				        </tr>
+				        <tr>
+				            <td>ordered list</td>
+				            <td>1. First item <br> 2. Second item</td>
+				        </tr>
+				    	<tr>
+				            <td>table</td>
+				            <td>| col 1 | col 2 | <br> | --- | --- | <br> | text | text |</td>
+				        </tr>
+				    	<tr>
+				            <td>link</td>
+				            <td>[link text](link url)</td>
+				        </tr>
+				        <tr>
+				            <td>image</td>
+				            <td>![alt text](path to image)</td>
+				        </tr>
+				        <tr>
+				            <td>horizontal rule</td>
+				            <td>---</td>
+				        </tr>
+				    	</tbody>
+				    </table>
+					<p style="font-size: 20px;"> *See also Markdown cheatsheet <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a>
+				</section>
+				<section>
+					<p style="font-size:60px"> Where can you use Markdown?<p>
+					<li style="text-align: left; font-size: 34px; padding-bottom: 1em;"> GitHub renders markdown files automatically. Best practice is to have a README.md file in the repository's root directory (<a href="https://github.com/JanaLasser/agent_based_COVID_SEIRX/blob/main/README.md">example</a>).</li>
+					<li style="text-align: left; font-size: 34px; padding-bottom: 1em;"> <a href="https://osf.io/">OSF</a> features Wiki pages that can be formatted in markdown (<a href="https://osf.io/fvz48/wiki/home/">example</a>).</li>
+					<li style="text-align: left; font-size: 34px; padding-bottom: 1em"> A number of "pad" implementations use Markdown to structure and render their text, for example <a href="https://hackmd.io/">HackMD</a> and <a href="http://torchpad.com/">torchpad</a> (<a href="https://hackmd.io/LY5lKt0NRCCSOP2cXCOegg">example</a>).</li>
+					<li style="text-align: left; font-size: 34px;"> Other examples?</li>
+				</section>
+
+				<section>
+					<p style="font-size:50px">  <span style="color:#C0392B">Exercise [30 min]</span><p>
+					<p> Document your research! <em>[either OSF or GitHub*]</em></p>
+					<p style="text-align: left; font-size:30px"><em> Pick one of your (ongoing or finished) research projects. Create an account on <span style="color:#C0392B">OSF</span> and make a new project for your research there. Document your research using the Wiki function of OSF and following documentation best practices. If you want to, you can also upload other documents or data and describe them.</em></p> 
+					<p style="text-align: left; font-size:30px"><em> Pick one of your (ongoing or finished) coding projects. Create a local and remote <span style="color:#C0392B">Git</span> repository for it and push your code there. Document your research in the README.md file, following documentation best practices.</em></p>
+					<p style="font-size: 20px; text-align: left;">*Note: if you don't set your project/repository to "public", it will remain invisible to anybody but you.</p>
+				</section>
+				<section>
+					<p style="font-size:50px">  <span style="color:#C0392B">Exercise [10 min]</span><p>
+					<p style="font-size: 35px; text-align: left;"><em>Team up with someone and show them your documentation (show them your screen if you don't want to invite them to your project/repository)</em>.</p>
+					<p style="font-size: 35px; text-align: left;">Take 5 minutes to answer the following questions:
+					 	<li style="text-align: left; font-size: 35px"> Is the <b>metadata</b> complete?</li>
+					 	<li style="text-align: left; font-size: 35px"> Was the description of the <b>file structure</b> understandable?</li>
+					 	<li style="text-align: left; font-size: 35px"> Are there improvements regarding the use of <b>formatting elements</b> you could suggest?</li>
+					</p>
+					<p style="font-size: 35px; text-align: left;">Take 2 minutes each to give feedback to your team mate.</p>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
