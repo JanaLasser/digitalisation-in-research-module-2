@@ -39,67 +39,293 @@ layout: true
 </span></div>
 
 ---
-# Übersicht
+# Overview
 
-1. Relevante Artikel finden
-  * Web Of Science, Google Scholar, Sci-hub, ...
-  * Knowledge maps, research Rabbit, Scite
-
-2. Up-to-date bleiben
-  * Übung: Google Scholar
-
-3. (Kollaboratives) Literaturmanagement & automatisiertes Zitieren
+1. Finding relevant articles
+  * Overview: Open Knowledge Maps
+  * Smart literature search: Scite & Research rabbit
+<br><br>
+2. Staying informed
+  * Practical session: Setting alerts & Twitter
+<br><br>
+3. (Collaborative) Management of literature & citations
   * Zotero
-  * Integration mit Textverarbeitungsprogrammen
-
----
-# Relevante Artikel finden
-
-* Web Of Science, Google Scholar
-* Sci-hub
-* Knowledge maps
-* Research Rabbit
+  * Integration with text processing software
 
 ---
 
-## Scite: Smart citations
+# Open Knowledge Maps
 
-* Platform for discovering and evaluating scientific articles
 
+.left-column[
+```{r, echo=FALSE, out.width=130, fig.align='left'}
+knitr::include_graphics("figures/knowledge_map_overview.png")
+```
+<br>
+```{r, echo=FALSE, out.width=130, fig.align='right'}
+knitr::include_graphics("figures/knowledge_map_irrelevant.png")
+```
+```{r, echo=FALSE, out.width=150, fig.align='left'}
+knitr::include_graphics("figures/knowledge_map_concepts.png")
+```
+```{r, echo=FALSE, out.width=85, fig.align='right'}
+knitr::include_graphics("figures/knowledge_map_open.png")
+```
+
+
+]
+.right-column[.center-right[
+* Visual search engine at [openknowledgemaps.org](https://openknowledgemaps.org)
+
+  * Get an overview of a research topic
+  
+  * Clustering similar papers 
+      * Based on text similarity algorithm
+  
+  * Identify relevant concepts
+  * Highlights open content
+  
+]]
+
+---
+```{r, echo=FALSE, out.width=950}
+knitr::include_graphics("figures/knowledge_map.png")
+```
+---
+```{r, echo=FALSE, out.width=950}
+knitr::include_graphics("figures/knowledge_maps_zoomin.png")
+```
+---
+
+# Smart literature search: scite_
+
+* Web Of Science, Scopus, Pubmed, Google Scholar, ...
+
+```{r, echo=FALSE, out.width=100, fig.align='left'}
+knitr::include_graphics("figures/scite.svg")
+```
+
+* [**Scite.ai**](https://scite.ai): Platform for discovering and evaluating scientific articles
+<br>
+* Search within articles (not just titles/abstracts)
 * What research articles say about each other
 * Powered by Deep Learning
-
+<br><br>
 * Smart Citations: 
-  * provide the context of the citation
-  * classification as supporting or contrasting evidence for the cited claim
+  * Displays the context of the citation
+  * Classification: supporting or contrasting evidence for the cited claim
 
 ---
-## Scite: Smart citations
+## Scite_: Smart citations
 
 ```{r, echo=FALSE, out.width=800}
 knitr::include_graphics("figures/smart-citations-illo.svg")
 ```
+ Source: Scite.ai
 
 ---
 
-# Up-to-date bleiben
+## Useful Scite_ features: search & reports
 
+* Literature [search](https://scite.ai/search?q=power%20posing) with smart citations
 
-
----
-# (Kollaboratives) Literaturmanagement
-
-* Tools
-  * [**Zotero**](https://www.zotero.org/)
-  * Mendeley
-  * Endnote
-  * F1000 <br>
-  ...
-
----
-# Zotero
+```{r, echo=FALSE, out.width=1000}
+knitr::include_graphics("figures/scite_search.png")
+```
+* [Citation reports](https://scite.ai/reports/power-posing-1L19pj) on a publication
+    * Citation type: Contrasting, supporting, mentioning
+    * Citation section: Introduction, methods, results, discussion
+    * Publication type: preprint, article, book
+    * Self-cite vs. independent
 
 ---
+
+## Useful Scite_ features: checks & add-on
+
+* Upload documents to [check the reliability of references](https://scite.ai/reference-check/c1c9bbe2-976a-4adb-9d02-fa173329bf3a)
+    * Stop citing retracted or heavily disputed papers unintentionally
+<br><br>
+* Alerts for citations, publications or research claims
+<br><br>
+* [Browser extension](https://scite.ai/extension-install)
+    * e.g. on Google Scholar:
+
+```{r, echo=FALSE, out.width=1000}
+knitr::include_graphics("figures/googlescholar_scite.png")
+```
+
+---
+
+## Useful Scite_ features: visualize ciations
+
+```{r, echo=FALSE, out.width=800}
+knitr::include_graphics("figures/scite_visualize.png")
+```
+
+---
+name: researchrabbit
+
+# Smart literature search: ResearchRabbit
+
+* ["Spotify" for papers](https://researchrabbitapp.com): Discover papers via recommendations based on articles you like <br><br>
+* Visualize paper networks: topic, citations, references
+* Collaboration networks: Discover research teams & their work
+
+* Timelines, earlier & later work
+
+.pull-left[.center-left[
+* Personalized alerts on new content
+
+* Comments/annotations
+* Share collections
+]]
+.pull-right[
+```{r, echo=FALSE, out.width=200, fig.align='center'}
+knitr::include_graphics("figures/researchrabbit_logo.png")
+```
+]
+
+---
+
+```{r, echo=FALSE, out.width=1500}
+knitr::include_graphics("figures/research_rabbit.png")
+```
+Source: researchrabbit.ai
+
+---
+
+# ResearchRabbit vs. scite_
+
+* Scite: smart citations
+    * evidence for claims + context
+    * 7.99$/month
+    
+* ResearchRabbit: smart recommendations
+    * free
+    
+---
+
+# Google Scholar
+
+* Includes all content (preprints etc)
+* Adds content immediately: good for alerts
+* Researcher profiles with all references
+* Often finds open access version
+
+**Other useful resources for accessing content behind paywalls:**
+.left-column[.center-left[
+```{r, echo=FALSE, out.width=100, fig.align='right'}
+knitr::include_graphics("figures/core.svg")
+```
+]]
+.right-column[.center-right[
+* [CORE](https://core.ac.uk) (Plugin + Website): 
+      * Locate free versions of articles behind paywall
+      
+* Absolutely never use Sci-Hub!
+]]
+
+---
+
+# Staying informed: Exercise (15 min)
+
+* [ResearchRabbit](https://researchrabbitapp.com)
+      * Create a collection & explore steps from [overview slide](#researchrabbit)
+      * Automatically keeps track of new work and sends updates
+      
+* Alternative 1: [Scite](https://scite.ai): save a search & choose type of alert
+
+* Alternative 2: [Google Scholar](https://scholar.google.com/) (includes preprints)
+      * Save a search: keywords or important author
+      * Create alert button
+
+* [Twitter](www.twitter.com): Follow the most important scholars for your research topic
+
+---
+
+# (Collaboratively) Managing literature
+
+* Many: Mendely, Endnote, F1000. Citavi...
+* [**Zotero**](https://www.zotero.org/): Open source & very flexible
+
+* Store, organize and cite papers
+* Store in Zotero or with links to folder
+* Online storage
+* Organize: Collections & tags
+* Citing: 
+  * Add-ins
+  * Bib-Tex exports (LateX, Overleaf)
+
+---
+
+.left-column[
+**Overview**
+* Library
+* Collections
+* Subcollections
+* Items
+  * Info
+  * Notes
+  * Snapshot
+  * Attached PDFs
+* Item types
+* Tags
+]
+.right-column[
+```{r, echo=FALSE, out.width=1000}
+knitr::include_graphics("figures/zotero_overview.png")
+```
+]
+
+---
+
+# Zotero: Getting papers into your library
+
+.pull-left[
+* Via the browser extension:  
+```{r, echo=FALSE, out.width=400}
+knitr::include_graphics("figures/zotero_add_browser.png")
+```
+<br><br>
+* Pull PDFs into Zotero
+  * Automatic meta-data & renaming
+]
+
+.pull-right[
+* With item identifier (ISBN, DOI): 
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/zotero_add_doi.png")
+```
+
+* Papers get added into currently active collection
+]
+* Most scientific databases automatically add keywords as tags
+
+---
+# Zotero: Tags
+
+.left-column[
+Tags
+<br> <br> <br> <br><br> <br><br>
+
+Colour tags <br> <br>
+```{r, echo=FALSE, out.width=300}
+knitr::include_graphics("figures/zotero_colour_tags.png")
+```
+]
+
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=800}
+knitr::include_graphics("figures/zotero_tags.png")
+```
+
+```{r, echo=FALSE, out.width=800}
+knitr::include_graphics("figures/zotero_colour_tags_papers.png")
+```
+]]
+
+---
+
 ## Combine Zotero & Scite
 
 [Zotero plug-in](https://scite.ai/blog/introducing-the-scite-plug-in-for-zotero-61189d66120c): extra columns for citations of articles in your library
@@ -113,3 +339,14 @@ Right click to view Scite report: [Example on power posing](https://scite.ai/rep
 
 ---
 
+# Zotero: related articles
+
+* Other features: 
+  * Alt to find the collection
+
+---
+# Reproducibility
+
+* Finding/evaluating journals:
+    * [Scimagojr](www.scimagojr.com/journalrank.php): Rankings per discipline
+    * [TOP factor](https://topfactor.org/): Ranked by transparency & openess criteria ([more](https://www.natureindex.com/news-blog/top-factor-rates-journals-on-transparency-openness))
