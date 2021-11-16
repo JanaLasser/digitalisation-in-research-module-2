@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script>
+	  Reveal.initialize({
+	    plugins: [ RevealMarkdown ]
+	  });
+	</script>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p style="font-size:70px"> Interactive and enriched research articles</p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> The current state of the art in academic publishing: <span style="color:#C0392B">PDF</span></p>
+						<p class="fragment fade-in">PDFs are <span style="color:#C0392B">static</span>. </p>
+						<p class="fragment fade-in">Content <span style="color:#C0392B"> length is limited</span> – sometimes drastically.</p>
+						<p class="fragment fade-in">Content <span style="color:#C0392B"> types are limited</span>.</p>
+						<p class="fragment fade-in">PDFs are very <span style="color:#4949E2"> accessible</span>.</p>
+						<p class="fragment fade-in">PDFs are <span style="color:#4949E2"> easy to maintain</span>.</p>
+				</section>
+
+				<section>
+					<p style="font-size:60px"> Moving research articles to the 21st century: why?</p>
+						<li class="fragment fade-in"; style="text-align: left; font-size: 35px; padding-bottom: 0.5em;"> <span style="color:#C0392B">Transparency and reproducibility</span> are moving to the core of what it means to perform research. This should be reflected in research articles but requires an upgrade to publishing practices.</li>
+						<li class="fragment fade-in"; style="text-align: left; font-size: 35px; padding-bottom: 0.5em"> <span style="color:#C0392B">Understanding</span>: Interactive elements and hierarchical representation of knowledge can help both other researchers and the general public to understand what we did.</li>
+						<li class="fragment fade-in"; style="text-align: left; font-size: 35px"> <span style="color:#C0392B">Why not?</span> The primary tool to <em>read</em> research articles is the browser. And browsers are capable of <em>so much more </em>.</li>
+				</section>
+
+				<section>
+					<p style="font-size:60px; margin: 0px; padding:0px"> Coding notebooks</p>
+					<p style="font-size: 30px; margin: 0px; padding:0px"> Rendered & hyperlinked text (Markdown) </p>
+					<img src="img/notebook_rendered_text.svg", width=800>
+					<p style="font-size: 30px; margin: 0px; padding:0px"> Executable code (Python) </p>
+					<img src="img/notebook_code.svg", width=800>
+				</section>
+				
+				<section>
+					<p style="font-size:60px"> Some application examples</p>
+					<p style="font-size: 40px;"> Reproducing figures of a primary publicatioin given the original data (<a href="https://nbviewer.org/github/WagnerLabPapers/Waskom_JNeurosci_2014/blob/master/Behavioral_and_Decoding_Analyses.ipynb">notebook</a>)</p>
+					<p style="font-size: 40px;"> Accompanying the main publication with a tutorial to reproduce the analysis (<a href="https://github.com/minrk/ligo-binder">notebook</a> &#8594 open binder)</p>
+					<p style="font-size: 40px;"> Converting a full publication to an executable format (<a href="https://github.com/JanaLasser/salt-polygons-are-caused-by-convection">notebook</a> &#8594 open binder)</p>
+					<p style="font-size: 40px;"> <a href="https://elifesciences.org/articles/65658/executable">Article</a> enriched with code embedded in a journal (eLife)</p><br>
+					<p style="font-size: 20px; text-align: left"> Find more application examples in <a href="https://gist.github.com/ocoyawale/54d92fd4bf92508a2a6e482b5fa480fd">this gallery</a> and eLife's <a href="https://elifesciences.org/collections/d72819a9/executable-research-articles">executable research articles collection</a></p>
+				</section>
+
+				<section>
+					<p style="font-size:50px; padding:0; margin:0"> HowTo:</p>
+					<p style="font-size:50px; padding-bottom:20px"> Jupyter notebooks vs. R markdown</p>
+					<table style="font-size: 30px;">
+				    	<thead><tr>
+				            <th>feature</th>
+				            <th>R markdown</th>
+				            <th>jupyter notebook</th>
+				        </tr></thead>
+				        <tbody>
+				      	<tr>
+				            <td>editing</td>
+				            <td>editable in plain text</td>
+				            <td>JSON under the hood needs &#8594 software to edit effectively</td>
+				        </tr>
+				      	<tr>
+				            <td>programming language</td>
+				            <td>R</td>
+				            <td>supports many <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels">kernels</a></td>
+				        </tr>
+				      	<tr>
+				            <td>interactivity</td>
+				            <td>supported natively</td>
+				            <td>supported with <a href="https://bookdown.org/yihui/rmarkdown/shiny-documents.html">shiny documents</a></td>
+				        </tr>
+				      	<tr>
+				            <td>online deployment</td>
+				            <td><a href="https://mybinder.org/">binder</a> (no installation) or <a href="https://pythonforundergradengineers.com/deploy-jupyter-notebook-voila-heroku.html">voila + heroku</a></td>
+				            <td>supported with <a href="https://bookdown.org/yihui/rmarkdown/shiny-deploy.html">ShinyApps</a></td>
+				        </tr>
+				    	</tbody>
+				    </table>
+				</section>
+
+
+				<section>
+					<p style="font-size:55px; padding-bottom:20px"> "Enriched"  articles with <a href="https://web.hypothes.is/">hypothesis.io </a></p>
+					<p style="font-size: 30px; "> <em>Coding notebooks are only relevant for some disciplines &#8594 web annotations</em></p>
+					<p class="fragment fade-in"><img src="img/annotation.svg", width=800></p>
+
+					<p style="font-size: 20px;"> Source: screenshot from <a href="https://english.umd.edu/research-innovation/journals/interpolations/fall-2020/implementing-safe-injection-facilities-combat">this</a> article by Amber Owens.</p>
+				</section>
+
+				<section>
+					<p style="font-size:60px; margin: 0px; padding:0px"> Use of annotations for authors</p>
+					<p style="font-size: 35px;">Use annotations to enrich an article with <span style="color:#C0392B">less formal content</span>.<br><br>
+					<em>Abstracts are the purely descriptive summaries often found at the beginning of scholarly journal articles or in periodical indexes. Annotations are descriptive and critical; they may describe the author's point of view, authority, or clarity and appropriateness of expression.*</em></p>
+					<p class="fragment fade-in"; style="font-size: 35px;">Enrich an article with <span style="color:#C0392B">images, videos</span> or <span style="color:#C0392B">links</span> to other articles which don't find space in the main text.</p> 
+					<p class="fragment fade-in"; style="font-size: 35px;">Annotate the bibliography to highlight important work and <span style="color:#C0392B">contextualise references</span> (there are even <a href="https://www.lib.sfu.ca/help/cite-write/citation-style-guides/annotated-bibliography">guides </a> for this).</p> 
+					<p style="font-size: 20px;">*Borrowed from <a href="https://guides.library.cornell.edu/annotatedbibliography">this</a> annotation guide.</p>
+				</section>
+
+				<section data-transition="fade-in none">
+					<p style="font-size:55px; padding-bottom:20px"> Hypothesis groups </p>
+					<img src="img/hypothesis_groups_1.svg" width="700"></p>
+					<p style="font-size: 20px;">Source: adapted from <a href="https://web.hypothes.is/help/annotating-with-groups/">here</a>.</p>
+				</section>
+				<section data-transition="none fade-out">
+					<p style="font-size:55px; padding-bottom:20px"> Hypothesis groups </p>
+					<img src="img/hypothesis_groups_2.svg" width="700"></p>
+					<p style="font-size: 20px;">Source: adapted from <a href="https://web.hypothes.is/help/annotating-with-groups/">here</a>.</p>
+				</section>
+
+				<section>
+					<p style="font-size:55px; padding-bottom:20px"> One step further: interactive scholarly works</p>
+					<p">Example: <a href="http://blackquotidian.org/">the black quotidian</a></p><br>
+					<p class="fragment fade-in"> These interactive scholarly works are published <em>and reviewed</em> by <a href="https://www.sup.org/digital/">Stanford University Press</a></p>
+				</section>
+
+				<section>
+					<p style="font-size:55px; padding-bottom:20px"> Summary</p>
+					<p style="font-size:40px;"><em>Interactive and enriched publications...</em></p>
+					<p class="fragment fade-in"; style="font-size:35px;"> ... can foster <span style="color:#4949E2">better understanding</span>.</p>
+					<p class="fragment fade-in"; style="font-size:35px;"> ... accelerate publication of data and methods and foster <span style="color:#4949E2">transparency</span> and <span style="color:#4949E2">reproducibility.</span></p>
+					<p class="fragment fade-in"; style="font-size:35px;"> ... are <span style="color:#C0392B">a lot of work</span> with little reward*.</p>
+					<p class="fragment fade-in"; style="font-size:35px;"> ... are <span style="color:#C0392B">technologically complex</span> and <span style="color:#C0392B">hard to maintain</span>.</p>
+					<p class="fragment fade-in"; style="font-size:35px; padding-bottom: 20px;"> ... both <span style="color:#4949E2">increase</span> acessibility (open tools) and <span style="color:#C0392B">decrease</span> accessibility (complexity).</p>
+					<p style="font-size: 20px; text-align: left;">*If we are just counting the "hard currency" of academia: publications and grands.</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
