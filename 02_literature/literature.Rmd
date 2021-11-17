@@ -199,8 +199,10 @@ Source: researchrabbit.ai
 * Scite: smart citations
     * evidence for claims + context
     * 7.99$/month
+    * Useful for reviews/meta-analyses
     
 * ResearchRabbit: smart recommendations
+    * citation and author networks
     * free
     
 ---
@@ -209,21 +211,23 @@ Source: researchrabbit.ai
 
 * Includes all content (preprints etc)
 * Adds content immediately: good for alerts
+  * Alerts tip: (quite specific) keywords or important author
 * Researcher profiles with all references
 * Often finds open access version
 
 **Other useful resources for accessing content behind paywalls:**
-.left-column[.center-left[
-```{r, echo=FALSE, out.width=100, fig.align='right'}
+
+* [CORE](https://core.ac.uk) (Plugin + Website): &ensp;
+```{r, echo=FALSE, out.width=40}
 knitr::include_graphics("figures/core.svg")
 ```
-]]
-.right-column[.center-right[
-* [CORE](https://core.ac.uk) (Plugin + Website): 
       * Locate free versions of articles behind paywall
       
 * Absolutely never use Sci-Hub!
-]]
+.left-column[
+]
+.right-column[
+]
 
 ---
 
@@ -235,9 +239,8 @@ knitr::include_graphics("figures/core.svg")
       
 * Alternative 1: [Scite](https://scite.ai): save a search & choose type of alert
 
-* Alternative 2: [Google Scholar](https://scholar.google.com/) (includes preprints)
-      * Save a search: keywords or important author
-      * Create alert button
+* Alternative 2: [Google Scholar](https://scholar.google.com/)
+      * Save a search & "Create alert" button
 
 * [Twitter](www.twitter.com): Follow the most important scholars for your research topic
 
@@ -248,13 +251,14 @@ knitr::include_graphics("figures/core.svg")
 * Many: Mendely, Endnote, F1000. Citavi...
 * [**Zotero**](https://www.zotero.org/): Open source & very flexible
 
-* Store, organize and cite papers
-* Store in Zotero or with links to folder
-* Online storage
+* **Store, organize and cite papers**
+* Store PDFs in Zotero or with links to folders
+* Online storage for access everywhere
 * Organize: Collections & tags
 * Citing: 
-  * Add-ins
-  * Bib-Tex exports (LateX, Overleaf)
+  * Add-ins for Word, Google docs etc
+  * Automated bibliographies
+* Group libraries for sharing literature
 
 ---
 
@@ -269,17 +273,20 @@ knitr::include_graphics("figures/core.svg")
   * Snapshot
   * Attached PDFs
 * Item types
+  * article
+  * chapter
+  * ...
 * Tags
 ]
 .right-column[
-```{r, echo=FALSE, out.width=1000}
+```{r, echo=FALSE, out.width=1200}
 knitr::include_graphics("figures/zotero_overview.png")
 ```
 ]
 
 ---
 
-# Zotero: Getting papers into your library
+## Zotero: Getting papers into your library
 
 .pull-left[
 * Via the browser extension:  
@@ -302,51 +309,176 @@ knitr::include_graphics("figures/zotero_add_doi.png")
 * Most scientific databases automatically add keywords as tags
 
 ---
-# Zotero: Tags
+
+## Zotero: Collections & tags for organizing papers
+
+* Collections: each item can be in several <br>
 
 .left-column[
-Tags
-<br> <br> <br> <br><br> <br><br>
-
-Colour tags <br> <br>
-```{r, echo=FALSE, out.width=300}
-knitr::include_graphics("figures/zotero_colour_tags.png")
-```
+* Tags
+* Draw onto a tag to tag many items at once
+<br> <br> <br> <br>
+* Colour tags
 ]
-
 .right-column[.center-right[
 ```{r, echo=FALSE, out.width=800}
 knitr::include_graphics("figures/zotero_tags.png")
 ```
-
-```{r, echo=FALSE, out.width=800}
+<br><br>
+```{r, echo=FALSE, out.width=250}
+knitr::include_graphics("figures/zotero_colour_tags.png")
+```
+```{r, echo=FALSE, out.width=500}
 knitr::include_graphics("figures/zotero_colour_tags_papers.png")
 ```
 ]]
 
 ---
 
+# Zotero: Features of each item
+
+* Related articles &ensp;
+```{r, echo=FALSE, out.width=700}
+knitr::include_graphics("figures/zotero_related_entries.png")
+```
+
+* Annotations: 
+  * Marked parts of PDF as a summary
+  * Zotfile extension: Manage Attachments => Extract Annotations
+
+* Press Alt to find collection of an item &ensp;
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/zotero_findcollection.png")
+```
+
+* Drag-&-drop PDF or item entry from Zotero to send/move files or reference
+
+
+---
+
+## Zotero: Syncing libarary & PFDs
+
+.left-column[
+* 300MB: free
+
+* 2GB: 20 Euro/year
+
+* 6GB: 60 Euro/year
+]
+
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=450}
+knitr::include_graphics("figures/zotero_syncing.png")
+```
+]]
+
+
+---
+
+# Search and saved searches
+
+* Quick search: 
+  * speed it up by starting with " in large collections
+
+```{r, echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("figures/zotero_search.png")
+```
+  
+* Advanced search: 
+    * can be saved
+    * constantly updating collection
+    
+```{r, echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("figures/zotero_advanced_search_window.png")
+```
+
+---
+
+## Group libraries
+
+.pull-left[
+* Invite other users to group on [zotero.org](https://www.zotero.org/groups)
+  * for collaborative projects <br>
+]
+.pull-right[
+in Zotero:
+```{r, echo=FALSE, out.width=300, fig.align='left'}
+knitr::include_graphics("figures/zotero_group_libraries.png")
+```
+]
+
+* Make collections available online
+  * private or public
+  * read or edit access
+  * for sharing literature lists/PDFs or discover sources of others
+  
+---
+
+## Zotero: Citations
+
+.pull-left[.center-left[
+* Add-ins for Word, Libre Office, Google Docs are included
+  * Exporting BibTex citations for Overleaf & Latex
+<br>
+
+* Automated reference lists
+<br> <br>
+
+* Quickly switch between citation styles
+]]
+.pull-right[.center-right[
+GoogleDoc: 
+```{r, echo=FALSE, out.width=400}
+knitr::include_graphics("figures/zotero_googledoc.png")
+```
+```{r, echo=FALSE, out.width=600}
+knitr::include_graphics("figures/zotero_reflist.png")
+```
+```{r, echo=FALSE, out.width=350}
+knitr::include_graphics("figures/zotero_citation_styles.png")
+```
+]]
+
+---
+
+## Zotero: Citation tips
+
+.pull-left[.center-left[
+* Suppress authors, add text before after citation in brackets
+
+* Word/Libre Office quicker than Google Docs <br>
+  * Switching is difficult
+
+* Set language to English when choosing citation style
+
+* In Bibliography: check item type in Zotero if formatting not correct (article, book, etc)
+]]
+.pull-right[.center-right[
+```{r, echo=FALSE, out.width=350}
+knitr::include_graphics("figures/zotero_suppress_prefix.png")
+```
+]]
+---
+
 ## Combine Zotero & Scite
 
-[Zotero plug-in](https://scite.ai/blog/introducing-the-scite-plug-in-for-zotero-61189d66120c): extra columns for citations of articles in your library
+* [Zotero plug-in](https://scite.ai/blog/introducing-the-scite-plug-in-for-zotero-61189d66120c): extra columns for citations of articles in your library
+  * Right click to view Scite report
 
 ```{r, echo=FALSE, out.width=1100}
 knitr::include_graphics("figures/zotero-scite.png")
 ```
 
-<br> 
-Right click to view Scite report: [Example on power posing](https://scite.ai/reports/power-posing-1L19pj)
-
 ---
 
-# Zotero: related articles
+## Zotero: More resources 
 
-* Other features: 
-  * Alt to find the collection
+* [Documentation](https://www.zotero.org/support/start)
 
----
-# Reproducibility
+* [Quick start guide](https://www.zotero.org/support/quick_start_guide)
 
-* Finding/evaluating journals:
-    * [Scimagojr](www.scimagojr.com/journalrank.php): Rankings per discipline
-    * [TOP factor](https://topfactor.org/): Ranked by transparency & openess criteria ([more](https://www.natureindex.com/news-blog/top-factor-rates-journals-on-transparency-openness))
+* [12 must know Zotero tips and techniques](
+http://ideophone.org/12-zotero-tips-and-techniques)
+
+* [Numerous other Add-ons](https://www.zotero.org/support/plugins)
+
