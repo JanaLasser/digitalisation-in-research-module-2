@@ -1,6 +1,6 @@
 ---
 title: "Module 2: Digitalisation in Research" 
-subtitle: "Digitale Tools für Literatursuche & Management"
+subtitle: "Digitally Enhanced Literature Search and Management"
 author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
 date: "25.11.2021  <br> Folien: hannahmetzler.eu/literature"
 output:
