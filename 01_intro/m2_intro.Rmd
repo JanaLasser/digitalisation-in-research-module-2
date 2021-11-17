@@ -1,0 +1,53 @@
+---
+title: "Module 2: Digitalisation in Research" 
+subtitle: "Introduction & Overview"
+author: "Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)"
+date: "25.11.2021  <br> Folien: hannahmetzler.eu/m2_intro"
+output:
+  xaringan::moon_reader:
+    seal: false # this hides the title slide to make a costum one below
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer&middle.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# #This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer) #
+library(showtext)
+style_mono_accent(
+  base_color = "#1f5c99",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Raleway"),#("Yanone Kaffeesatz"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+---
+class: inverse, center, middle, title-slide
+background-image: url(figures/title_slide.png)
+background-size: contain
+
+---
+layout: true
+<div class="my-footer"><span>
+<a> Digitalisation in Research: hannahmetzler.eu/m2_intro  </a>
+</span></div>
+
+---
+# Was erwartet euch? 
+
+* Slides: www.hannahmetzler.eu/m2_intro
+* Digitale Tools für alle Schritte in Forschungsprojekten
