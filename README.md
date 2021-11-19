@@ -40,7 +40,7 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * Using digital tools to communicate your research
     * New publishing practices [slides TODO]
-    * Research communication opportunities on social media platforms [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html)] [[exercise: making a profile](file:///home/jana/TU_graz/teaching/WiSe_2021-22_digital_transformation_in_research/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html#/4)]
+    * Research communication opportunities on social media platforms [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html)] [[exercise: making a profile](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html#/4)]
 
 ## Preparation for participants
 To make full use of the sessions, please bring your laptop and charger. We will do a lot of practical exercises, which you can use to work on your own research projects if you have your laptop with you. 
