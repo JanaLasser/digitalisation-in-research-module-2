@@ -41,14 +41,15 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * Using digital tools to communicate your research
     * New publishing practices [slides TODO]
-    * Research communication opportunities on social media platforms [slides TODO]
+    * Research communication opportunities on social media platforms [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html)]
 
 ## Preparation for participants
 To make full use of the sessions, please bring your laptop and charger. We will do a lot of practical exercises, which you can use to work on your own research projects if you have your laptop with you. 
 
 * If you want to follow the [literature management demonstrations](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1):
     * Make an account at [Zotero](https://www.zotero.org/), [install](https://www.zotero.org/download/) Zotero (Standalone) and the Connector for the browser you usually use.
-    * Make an account on [Twitter](https://www.twitter.com).
+    * Make an account on [Twitter](https://www.twitter.com). **Note**: if you want to later use this account in the “research communication” demonstration, make sure you use an account name (the text after the “@” that is either close to your real name or sounds otherwise professional. You don’t need to fill your profile with more information about you, we will do that together.
+
     * Make an account on [ResearchRabbit](https://www.researchrabbit.ai/).
 
 * If you want to follow the [Git & GitHub demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html):
@@ -67,7 +68,7 @@ To make full use of the sessions, please bring your laptop and charger. We will 
     * If you want to use the exercise for your own research: think about a project (finished or ongoing) you would like to document and bring the relevant files.
 
 * If you want to follow the research communication on Twitter demonstration:
-    * Make an account on [Twitter](https://twitter.com/).
+    * Make an account on [Twitter](https://twitter.com/). Make sure you use an account name (the text after the “@” that is either close to your real name or sounds otherwise professional. You don’t need to fill your profile with more information about you, we will do that together.
     * Bring: EITHER a preprint/paper that you have recently published and would like to present to a larger public OR a paper that you have recently enjoyed reading and would like to review for a broader public.
 
 
