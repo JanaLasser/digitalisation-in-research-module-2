@@ -1,5 +1,5 @@
 # Digitalization in research
-*Module 2 of the "Digital Transformation in Research" course*
+*Module 2 of the "[Digital Transformation in Research](https://www.youtube.com/watch?v=t_S4r1-Gl2U)" course*
 
 
 
@@ -19,13 +19,13 @@ Every topic will feature an introduction to the topic by the instructors, follow
 ## Module overview
 * Introduction and Module overview [slides TODO]
 
-* Digitally enhanced literature search and management [slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1)
+* Digitally enhanced literature search and management [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1)]
     * Tools to find relevant articles
     * Ways to stay informed about new articles
     * Locally and collaboratively managing relevant literature 
 * Tools and workflows to manage collaborations
-    * Living documents [slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_01_living_documents/slides/index.html) [hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_01_living_documents/slides/index.html#/8)
-    * Collaborative code writing [slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html) [hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html#/7)
+    * Living documents [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_01_living_documents/slides/index.html)] [[hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_01_living_documents/slides/index.html#/8)]
+    * Collaborative code writing [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html)] [[hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html#/7)]
     * Digital project management in collaborations [slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html) [hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html#/2) [indstructions: Slack](https://github.com/JanaLasser/digitalisation-in-research-module-2/blob/main/03_collaborations/03_03_project_management/slack_trello_google_pm.md) [instructions:_discord](https://github.com/JanaLasser/digitalisation-in-research-module-2/blob/main/03_collaborations/03_03_project_management/discord_asana_dropbox_pm.md) [instructions: GitHub](https://github.com/JanaLasser/digitalisation-in-research-module-2/blob/main/03_collaborations/03_03_project_management/github_pm.md)
 * Ensuring transparency and reproducibility through open research practices
     * Introduction to biases and reproducibility [slides TODO] 
