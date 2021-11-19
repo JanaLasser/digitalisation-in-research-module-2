@@ -62,7 +62,7 @@ To make full use of the sessions, please bring your laptop and charger. We will 
 * If you want to use the preregistration exercise for your own research:
     * Bring an idea for a research project or study you are about to or would like to start in the future
 
-* If you want to follow the reproducibility & Markdown demonstration: 
+* If you want to follow the [good documentation practices demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html): 
     * Make an account on [OSF](https://osf.io/) (Open Science Framework) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there)
     * If you want to use the exercise for your own research: think about a project (finished or ongoing) you would like to document and bring the relevant files.
 
