@@ -1,5 +1,5 @@
 # Digitalization in research
-*Module 2 of the "[Digital Transformation in Research](https://www.youtube.com/watch?v=t_S4r1-Gl2U)" course*
+*Module 2 of the "[Digital Transformation in Research](https://www.youtube.com/watch?v=t_S4r1-Gl2U)" course, November 25 & 26, 2021*
 
 
 
