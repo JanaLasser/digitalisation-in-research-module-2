@@ -36,7 +36,7 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Data management practices and platforms for sharing data [slides TODO]
     * Good documentation practices [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html)] [[hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html#/8)]
     * Interactive and enriched research articles [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_05_coding_notebooks/slides/index.html)]
-    * Coding best practices and reproducibility [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_06_coding_best_practices/slides/index.html)]
+    * Coding best practices and reproducibility [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_06_coding_best_practices/slides/index.html)]
     * Licenses [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_07_licenses/slides/index.html)] [[hands-on exercise](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_07_licenses/slides/index.html#/20)]
 
 * Using digital tools to communicate your research
