@@ -2,7 +2,7 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Digitally Enhanced Literature Search and Management"
 author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
-date: "25.11.2021  <br> Folien: hannahmetzler.eu/literature"
+date: "25.11.2021"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below
@@ -34,9 +34,6 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
-<div class="my-footer"><span>
-<a> Digitalisation in Research: hannahmetzler.eu/literature  </a>
-</span></div>
 
 ---
 # Overview
@@ -190,7 +187,6 @@ knitr::include_graphics("figures/researchrabbit_logo.png")
 ```{r, echo=FALSE, out.width=1500}
 knitr::include_graphics("figures/research_rabbit.png")
 ```
-Source: researchrabbit.ai
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Introduction & Overview"
 author: "Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)"
-date: "25.11.2021  <br> Folien: hannahmetzler.eu/m2_intro"
+date: "25.11.2021  <br> Folien: https://github.com/JanaLasser/digitalisation-in-research-module-2/"
 output:
   xaringan::moon_reader:
     seal: false # this hides the title slide to make a costum one below
@@ -41,13 +41,41 @@ background-image: url(figures/title_slide.png)
 background-size: contain
 
 ---
+class: inverse, center, middle, title-slide
+
+# Introduction & Overview
+
+
+### Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)
+
+#### Folien: github.com/JanaLasser/digitalisation-in-research-module-2
+
+---
 layout: true
 <div class="my-footer"><span>
-<a> Digitalisation in Research: hannahmetzler.eu/m2_intro  </a>
+<a href ="https://github.com/JanaLasser/digitalisation-in-research-module-2"> Folien: https://github.com/JanaLasser/digitalisation-in-research-module-2  </a>
 </span></div>
 
 ---
+
+# Wer sind wir?
+
+**Dr. Jana Lasser** <br> <br>
+TU Graz und Complexity Science Hub Wien <br>
+Physik und Data Science  <br> <br>
+www.janalasser.at     |     
+jana.lasser@tugraz.at     |     
+Twitter: @janalasser <br>
+
+**Dr. Hannah Metzler**  <br> <br>
+Complexity Science Hub Wien und Meduni Wien <br>
+Psychologie, Neurowissenschaft und Data Science <br> <br>
+www.hannahmetzler.eu     |     metzler@csh.ac.at     |     Twitter: @hannahmetzler1 <br>
+
+---
+
 # Was erwartet euch? 
 
-* Slides: www.hannahmetzler.eu/m2_intro
 * Digitale Tools für alle Schritte in Forschungsprojekten
+
+* Slides: https://github.com/JanaLasser/digitalisation-in-research-module-2

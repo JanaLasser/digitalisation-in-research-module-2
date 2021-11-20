@@ -1,0 +1,19 @@
+---
+title: "Reproducibility Intro"
+author: "Hannah Metzler"
+date: "11/17/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+# Reproducibility
+
+* Finding/evaluating journals:
+    * [Scimagojr](www.scimagojr.com/journalrank.php): Rankings per discipline
+    * [TOP factor](https://topfactor.org/): Ranked by transparency & openess criteria ([more](https://www.natureindex.com/news-blog/top-factor-rates-journals-on-transparency-openness))
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
