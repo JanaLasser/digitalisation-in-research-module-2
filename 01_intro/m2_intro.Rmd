@@ -5,7 +5,7 @@ author: "Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (
 date: "25.11.2021  <br> Folien: https://github.com/JanaLasser/digitalisation-in-research-module-2/"
 output:
   xaringan::moon_reader:
-    seal: false # this hides the title slide to make a costum one below
+    seal:  false # this hides the title slide to make a costum one below
     lib_dir: libs 
     css: [xaringan-themer.css, "libs/footer&middle.css"]
     nature:
@@ -37,8 +37,9 @@ layout: true
 
 ---
 class: inverse, center, middle, title-slide
-background-image: url(figures/title_slide.png)
+background-image: url(figures/title_slide.svg)
 background-size: contain
+
 
 ---
 class: inverse, center, middle, title-slide
@@ -76,6 +77,37 @@ www.hannahmetzler.eu     |     metzler@csh.ac.at     |   �
 
 # Was erwartet euch? 
 
-* Digitale Tools für alle Schritte in Forschungsprojekten
+**Digitale Tools für alle Schritte in Forschungsprojekten**
 
-* Slides: https://github.com/JanaLasser/digitalisation-in-research-module-2
+* Literatursuche und Management
+
+* Kollaboration: Schreiben, Code, Projekt Management
+
+* Transparenz und Reproduzierbarkeit: 
+    * Research Workflows
+    * Data Management
+    * Dokumentation
+    * Code & Lizenzen
+    
+* Wissenschaftskommunikation
+
+---
+layout:true
+
+---
+
+# Slides und Kursmaterialien
+
+https://github.com/JanaLasser/digitalisation-in-research-module-2
+
+---
+
+.left-column[
+# Zeitplan
+]
+
+.right-column[
+```{r, echo=FALSE, out.width=550}
+knitr::include_graphics('figures/timeplan.png')
+```
+]
