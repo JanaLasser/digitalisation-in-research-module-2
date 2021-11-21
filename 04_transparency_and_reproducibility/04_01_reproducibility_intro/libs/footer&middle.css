@@ -1,0 +1,27 @@
+div.my-footer {
+    position: absolute;
+    color: gray;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+div.my-footer span {
+    font-size: 13pt;
+    position: absolute;
+    color: gray;
+    left: 15px;
+    bottom: 2px;
+} 
+
+
+.center-left {
+  position:          relative;
+  top:               50%;
+  transform:         translateY(-5%);
+}
+.center-right {
+  position:          relative;
+  top:               50%;
+  transform:         translateY(-5%);
+}
