@@ -1,19 +1,307 @@
 ---
-title: "Reproducibility Intro"
-author: "Hannah Metzler"
-date: "11/17/2021"
-output: html_document
+title: "Module 2: Digitalisation in Research" 
+subtitle: "Introduction to Transparency and Reproducibility in Research"
+author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
+date: "25.11.2021"
+output:
+  xaringan::moon_reader:
+  #  seal: false # this hides the title slide to make a costum one below
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer&middle.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# #This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer) #
+library(showtext)
+style_mono_accent(
+  base_color = "#1f5c99",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Raleway"),#("Yanone Kaffeesatz"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
 ```
 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
 ---
 
-# Reproducibility
+# Can humans predict the future? 
+## History of the reproducibility crisis in psychology
+
+* Bem 2011: Humans can predict in which location erotic images will appear
+
+* False positive psychology: Analytic flexilibity 
+  * Outlier exclusion
+  * 
+  * 
+  
+* False positive rate 6x%
+
+---
+layout: true
+<div class="my-footer"><span>
+<a> Open Science Collaboration 2015; Klein et al. 2014; Camerer et al. 2018; Camerer et al. 2016; Hensel 2021; Gordon et al. 2020
+</a></span></div>
+
+---
+
+# Reproducibility in the social sciences
+
+.pull-left[.center-left[
+* [Psychology 2015](http://science.sciencemag.org/content/349/6251/aac4716): 100 random studies: 38% replicated
+
+* 13 famous findings in [social psychology 2014](https://econtent.hogrefe.com/doi/10.1027/1864-9335/a000178): 38% replicated
+
+* [Behavioural economics 2016](http://science.sciencemag.org/content/351/6280/1433): 61%
+
+* [Social sciences 2018](https://www.nature.com/articles/s41562-018-0399-z): published in Nature & Science 2010-2015: 50%-67%
+
+* [SCORE project](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): Expert pedictions
+]]
+.pull-right[.center-right[
+Expected replication rates: 
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/Golden_scoreproject.svg")
+```
+]]
+    
+    
+???
+[Management](https://www.sciencedirect.com/science/article/pii/S0263237321000025?dgcid=rss_sd_all)
+
+---
+layout: true
+<div class="my-footer"><span>
+<a> Begley & Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012;  Francis, 2014; Ioannidis et al. 2009;   Lancee et al. 2017;<br> Amara & Neves 2021
+</a></span></div>
+
+---
+
+# Problems & projects in biology & medicine
+
+* [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116)
+* A few examples: 
+
+  * [Cancer Biology](https://elifesciences.org/articles/04333), oncology, women's health, cardiovascular diseases: so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles, [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131), [11%](https://www.nature.com/articles/483531a#Tab1)
+  
+  * [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/): 10-40% replicate, <br> issues in [epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143)
+  
+  * Pharmacology of [antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% deviate from registered plan
+  
+  * [Brazilian Reproducibility Initiative](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) for biomedical research
+
+---
+layout: true
+<div class="my-footer"><span>
+<a> Kapoor & Narazanan 2021; Baker 2016
+</a></span></div>
+
+---
+
+.pull-left[
+## 'Hard' sciences
+
+* Computational reproducibility in [Machine Learning](https://reproducible.cs.princeton.edu/): 
+  * 4 out of 12 papers 
+  * [Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) for reproducible ML
+
+* [Survey](https://www.nature.com/articles/533452a) in natural sciences =>
+]
+
+.pull-right[
+
+```{r, echo=FALSE, out.width=380}
+knitr::include_graphics("figures/Baker_survey_disciplines.png")
+```
+]
+
+---
+layout:true
+---
+
+# Cognitive biases all humans have
+
+* Selection bias: Seeking out information
+
+* Confirmation bias: Evaluating information
+
+* Bandwagon effect: agree to easily for group harmony
+
+* Cluster illusion: Recognizing patterns where there are none
+
+* Reporting bias: positive results
+
+???
+https://www.nature.com/articles/d42473-019-00004-y#ref-CR17
+
+---
+
+# Biases in Research
+
+* HARKing: Hypothesizing after results are known
+
+
+---
+
+# Biases throughout the research process
+
+```{r, echo=FALSE, out.width=380}
+knitr::include_graphics("figures/cruwell_biases_cycle.png")
+```
+
+* Design: specific task/stimuli/method… 
+* Data collection: experimenter biases
+  * Bright vs. dull rats (Rosenthal & Lawson 1964)
+  * Power priming
+* Confirmation bias
+* Data analysis: experimenter degrees of freedom 
+  * Inclusion of data points, conditions, participants, analysis methods, …
+  * Looking at results before stopping data collection
+* Write up and publication bias: 
+  * Selective submission and acceptance
+  * Avoiding null-results & non-replications
+
+---
+
+
+
+# Open Science Framework
+
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/research_lifecycle_original.png")
+```
+
+
+
+---
+
+
+
+# Pre-registration
+
+https://osf.io/w82ms/wiki/home/
+* A plan, not a prison
+
+* OSF infos: 
+https://www.cos.io/initiatives/prereg
+
+Why? 
+- prevents p-hacking
+- clearly distinguishes exploratory from confirmatory research
+- works against publication bias
+Source: https://osf.io/yd487/ Schönbrodt, Scheel, Stachl, 2017
+
+---
+
+# Pre-registration in Pratice
+
+Where? 
+
+* [As predicted](www.aspredicted.org): Short template
+* OSF: Detailed template
+* Any public, open-access repository with time-stamped version control
+  * Github, figshare...
+
+As predicted slides 1 and 2
+
+---
+
+# Data management
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href ="https://www.cos.io/rr">https://www.cos.io/rr/  </a>
+</span></div>
+
+---
+
+
+# Registered Reports (RR)
+
+.pull-left[.center-left[
+* Peer-reviewed preregistration  <br> prior to data collection
+
+<!-- ```{r, echo=FALSE, out.width=800, fig.align='center'} -->
+<!-- knitr::include_graphics("figures/reg_report.png") -->
+<!-- ``` -->
+
+* publication independent of results
+
+* protects against reviewer HARKing
+
+* reduces bias & increases rigor
+
+_"Because the study is accepted in advance, the incentives for authors change from producing the most beautiful story to the most accurate one."_  Chris Chambers
+]]
+
+.pull-right[.center-right[
+```{r, echo=FALSE, out.width=470, fig.align='right'}
+knitr::include_graphics("figures/reg_reports_osf_graphic.png")
+```
+]]
+
+
+---
+layout: true
+<div class = "my-footer"> <span>
+<a href="https://doi.org/10.1016/j.cortex.2017.07.014"> McIntosh (2017) Exploratory reports: A new article type for Cortex. 
+</a> </span> </div>
+
+---
+
+# Exploratory Reports
+
+.pull-left[.center-left[
+* Open research questions
+
+* No strong predictions
+
+* Generation of hypotheses
+
+* Transparency for researchers, reviewers, readers
+  * Open data & materials
+  * No story telling
+
+]]
+
+.pull-right[.center-right[
+
+**Useful for e.g.** 
+* data mining
+* detailed single case descriptions
+* clinical database for uncommon conditions
+* true story of experiments
+
+**Templates**
+* [Neuroscience Journal Cortex](https://www.elsevier.com/__data/promis_misc/Exploratory_Reports_Guidelines.pdf)
+* [Social Psychology](https://osf.io/mdz3g/) Journal IRSP
+]]
+
+---
+layout: true
+---
+
+# Choosing journals for reproducible research
 
 * Finding/evaluating journals:
-    * [Scimagojr](www.scimagojr.com/journalrank.php): Rankings per discipline
-    * [TOP factor](https://topfactor.org/): Ranked by transparency & openess criteria ([more](https://www.natureindex.com/news-blog/top-factor-rates-journals-on-transparency-openness))
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+    * Over 300 journals that accept [Registered Reports](https://www.cos.io/initiatives/registered-reports)
+    
+    * Journals that allow pre-registration: [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/)
+    
+    * [TOP factor](https://topfactor.org/): Ranked by transparency & openess criteria ([about TOP](https://www.natureindex.com/news-blog/top-factor-rates-journals-on-transparency-openness))
+    
+    * [Scimagojr](www.scimagojr.com/journalrank.php): Rankings per discipline (not specifically open science)
