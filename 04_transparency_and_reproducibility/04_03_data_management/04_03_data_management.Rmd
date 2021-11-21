@@ -40,9 +40,11 @@ layout: true
 # What is data management?
 
 
+* Funder requirements
+
 ---
 
-# Platforms
+# Platforms & DOIs
 
 * [Open Science Framework](osf.io)
 * [Zenodo](zenodo.org)
@@ -50,7 +52,46 @@ layout: true
 
 ---
 
-# Things to mention
+## Assign a DOI to your dataset
 
-* DMP Tool
-* DOIs
+Digital Object Identifier
+```{r, echo=FALSE, out.width=60}
+knitr::include_graphics("figures/DOI_logo.svg.png")
+```
+  * unique & never changable
+  * citable
+  * findable: doi.org/identifier
+  
+```{r, echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("figures/create_doi_osf.png")
+```
+
+---
+
+# Data Management plans contain
+
+ * Overview of formats and types of data
+ 
+ * Research methodology (data collection, processing, and analyzing)
+ 
+ * Roles & responsibilities for data collection, description, processing, analysis
+ * Standards you will use to describe your data (metadata)
+ 
+ * Storage and backup procedures 
+ 
+ * Long-term archiving and preservation plan 
+ * Access policies and provisions for secondary uses
+
+ * Security measures taken to protect data and/or participant confidentiality
+
+---
+
+## DMP Tool
+
+```{r, echo=FALSE, out.width=700}
+knitr::include_graphics("figures/DMPTool.png")
+```
+
+
+
+
