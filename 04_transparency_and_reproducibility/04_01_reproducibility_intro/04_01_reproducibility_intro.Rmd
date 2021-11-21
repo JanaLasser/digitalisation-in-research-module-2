@@ -175,3 +175,7 @@ knitr::include_graphics("figures/cruwell_biases_cycle.png")
   * Avoiding null-results & non-replications
 
 ---
+
+# Discussion
+
+### How could digital tools be used to address such problems in your discipline?

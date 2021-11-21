@@ -64,6 +64,7 @@ Why?
 - prevents p-hacking
 - clearly distinguishes exploratory from confirmatory research
 - works against publication bias
+- Scooping doubts? Embargo possible. 
 
 
 ---
@@ -74,6 +75,9 @@ Where?
 
 * [As predicted](www.aspredicted.org): Short template
 * OSF: Detailed template
+* [ClinicalTrials.gov](http://clinicaltrials.gov)
+* Economics/social sciences: [AEA	Registry](www.socialscienceregistry.org)
+* Politics/governance: [egap](http://egap.org/content/registration)
 * Any public, open-access repository with time-stamped version control
   * Github, figshare...
 
@@ -87,4 +91,12 @@ knitr::include_graphics("figures/AsPredicted1.png")
 knitr::include_graphics("figures/AsPredicted2.png")
 ```
 
+---
+
+# Preregistration exercise
+
+Write your own pre-registration
+
+* Preferably a real pre-registration for a future study
+* Alternatively: Plan the direct replication of a study 
 
