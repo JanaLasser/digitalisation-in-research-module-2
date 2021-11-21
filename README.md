@@ -40,7 +40,7 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * Using digital tools to communicate your research
     * New publishing practices: preprints and overlay journals [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_01_preprints_and_overlay_journals/slides/index.html)] [[exercise: finding out about self-archiving policies](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_01_preprints_and_overlay_journals/slides/index.html#/14)]
-    * New publishing practices: exploratory and registered reports [slides TODO]
+    * New publishing practices: exploratory and registered reports [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_02_reg_reports/index.html)]
     * Research communication opportunities on social media platforms [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html)] [[exercise: making a profile](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html#/4)]
 
 ## Preparation for participants
