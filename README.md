@@ -19,7 +19,7 @@ In the module “digitalization in research” we will provide insights and prac
 Every topic will feature an introduction into the challenges and possibilities that digitalization brings in the respective area of research practice. We will show examples of best practices and introduce free and open tools that can be used by researchers to digitally enhance their workflows and make them efficient and transparent. Since learning happens best through doing, our module will be very “hands on”. We will ask participants to bring their own research projects to the lecture and implement workflows that they have learned about right away and in their own research context.
 
 ## Module overview
-* Introduction and Module overview [slides TODO]
+* Introduction and Module overview [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/01_intro/index.html)]
 
 * Digitally enhanced literature search and management [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1)]
     * Tools to find relevant articles
