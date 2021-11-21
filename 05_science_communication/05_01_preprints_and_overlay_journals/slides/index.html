@@ -1,0 +1,228 @@
+<!doctype html>
+
+<html>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script>
+	  Reveal.initialize({
+	    plugins: [ RevealMarkdown ]
+	  });
+	</script>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p style="font-size:70px"> New publishing practices: preprints and overlay journals</p>
+				</section>
+				<section data-transition="slide-in none">
+					<p style="font-size:60px"> Publishing workflow</p>
+					<img src="img/publication_workflow_1.svg" width="750"></p>
+					<p style="font-size: 30px; padding:0; margin:0; color:white">Each of these article versions can also be published by the authors via <em>self archiving</em>.</p>
+				</section>
+				<section data-transition="none">
+					<p style="font-size:60px"> Publishing workflow</p>
+					<img src="img/publication_workflow_2.svg" width="750"></p>
+					<p style="font-size: 30px; padding:0; margin:0; color:white">Each of these article versions can also be published by the authors via <em>self archiving</em>.</p>
+				</section>
+				<section data-transition="none">
+					<p style="font-size:60px"> Publishing workflow</p>
+					<img src="img/publication_workflow_3.svg" width="750"></p>
+					<p style="font-size: 30px; padding:0; margin:0; color:white">Each of these article versions can also be published by the authors via <em>self archiving</em>.</p>
+				</section>
+				<section data-transition="none">
+					<p style="font-size:60px"> Publishing workflow</p>
+					<img src="img/publication_workflow_4.svg" width="750"></p>
+					<p style="font-size: 30px; padding:0; margin:0; color:white">Each of these article versions can also be published by the authors via <em>self archiving</em>.</p>
+				</section>
+				<section data-transition="none slide-out">
+					<p style="font-size:60px"> Publishing workflow</p>
+					<img src="img/publication_workflow_4.svg" width="750"></p>
+					<p style="font-size: 30px; padding:0; margin:0">Each of these article versions (e-prints) can also be published by the authors via <em>self archiving</em>.</p>
+				</section>
+				<section>
+					<p style="font-size:60px"> Motivation for self-archiving</p>
+					<p style="font-size:40px; padding-top:1em; text-align: left; padding-left: 1em;"> <span style="color:#C0392B">Accessibility:</span> self-archiving of preprints, postprints or journal versions constitutes "green" Open Access.</p>
+					<p style="font-size:40px; padding-top:1.5em; text-align: left; padding-left: 1em;"> <span style="color:#C0392B">Speed:</span> self-archiving of preprints allows for faster sharing of results, without waiting for peer-review.</p>
+				</section>
+				<section>
+					<p style="font-size:60px"> A short history of sharing preprints</p>
+					<p style="font-size:35px; padding-top:0.25em; text-align: left; padding-left: 1em;"> <b>1960</b>: The first preprints are shared as hard copies to get feedback before submission.</p>
+					<p class="fragment fade-in"; style="font-size:35px; padding-top:0.25em; text-align: left; padding-left: 1em;"> <b>1991</b>: <a href="https://arxiv.org/">arXiv</a>, the first online preprint server launches.</p>
+					<p class="fragment fade-in"; style="font-size:35px; padding-top:0.25em; text-align: left; padding-left: 1em;"> <b>2010</b>: arXiv gets increasingly popular among computer scientists to rapidly share research.</p>
+					<p class="fragment fade-in"; style="font-size:35px; padding-top:0.25em; text-align: left; padding-left: 1em;"> <b>2013 - 2019</b>: A number of other disciplinary preprint servers are launched (<a href="https://www.biorxiv.org/">bioRxiv</a>, <a href="https://psyarxiv.com/">PsyArXiv</a>, <a href="https://www.medrxiv.org/">medRxiv</a>, <a href="https://chemrxiv.org/engage/chemrxiv/public-dashboard">ChemRxiv</a>, <a href="https://osf.io/preprints/socarxiv">SocArXiv</a>).</p>
+					<p class="fragment fade-in"; style="font-size:35px; padding-top:0.25em; text-align: left; padding-left: 1em;"> <b>2020</b>: The need to rapidly dissemniate COVID research boosts popularity of preprint servers.</p>
+				</section>
+				<section>
+						<table style="font-size: 28px;">
+					    	<thead><tr>
+					            <th>Name</th>
+					            <th>Discipline(s)</th>
+					            <th>Size</th>
+					            <th>Indexing</th>
+					        </tr></thead>
+					        <tbody>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://arxiv.org/">arXiv</a></td>
+					            <td style="text-align:left">physics, CS, ...</td>
+					            <td style="text-align:right">1,980,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, Europe PMC, SciLit, PubMed, SHARE, ADS, SINSPIRE-HEP, PrePubmed</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://hal.archives-ouvertes.fr/">HAL</a></td>
+					            <td style="text-align:left">all</td>
+					            <td style="text-align:right">840,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, OpenAIRE</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://zenodo.org/">Zenodo</a></td>
+					            <td style="text-align:left">all</td>
+					            <td style="text-align:right">790,000</td>
+					            <td style="text-align:left; font-size:20px">OpenAIRE</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://www.biorxiv.org/">bioRxiv</a></td>
+					            <td style="text-align:left">biology</td>
+					            <td style="text-align:right">107,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, Microsoft Academic, Europe PMC, Crossref, PubMed, SHARE</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://osf.io/preprints/">OSF preprints</a></td>
+					            <td style="text-align:left">all</td>
+					            <td style="text-align:right">25,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, Microsoft Academic, SHARE, Unpaywall</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://www.medrxiv.org/">medRxiv</a></td>
+					            <td style="text-align:left">medicine</td>
+					            <td style="text-align:right">15,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, Microsoft Academic, Europe PMC, Crossref, PubMed</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://chemrxiv.org/engage/chemrxiv/public-dashboard">chemRxiv</a></td>
+					            <td style="text-align:left">chemistry</td>
+					            <td style="text-align:right">14,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, Europe PMC, Chemical Abstracts Services, Crossref, PubMed, ProQuest, Scopus</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://psyarxiv.com/">PsyArXiv</a></td>
+					            <td style="text-align:left">psychology</td>
+					            <td style="text-align:right">13,000</td>
+					            <td style="text-align:left; font-size:20px">Google Scholar, SHARE, Microsoft Academic, Unpaywall</td>
+					        </tr>
+					    	</tbody>
+					    </table>
+					<p style="font-size: 20px; padding-top: 0.75em;">Information from <a href="https://en.wikipedia.org/wiki/List_of_preprint_repositories">Wikipedia</a> and <a href="https://asapbio.org/preprint-servers">ASAPbio</a>, accessed on 2021-11-21.</p>
+				</section>
+				<section>
+					<p style="font-size:60px"> Overlay journals</p>
+					<p style="text-align: left; padding-left: 1em; padding-right: 1em; font-size: 35px;"> <b>Idea:</b> Provide <span style="color:#C0392B">quality assurance</span> as overlay on top of a preprint server.</p>
+					<p class="fragment fade-in"; style="text-align: left; padding-left: 1em; font-size: 35px; padding-right: 1em; padding-top:0.5em"> <b>Workflow:</b> Either an editor picks relevant articles and contacts the authors or authors submit to the overlay journal.</p>
+					<p class="fragment fade-in"; style="text-align: left; padding-left: 1em; font-size: 35px; padding-right: 1em; padding-top:0.5em"> <b>Examples:</b> <a href="https://joss.theoj.org/">The Journal of Open Source Software</a>, <a href="https://quantum-journal.org/papers/q-2021-11-17-583/">Quantum</a>, <a href="https://lmcs.episciences.org/8722">Logical Methods in Computer Science</a>.</p>
+				</section>
+				<section>
+					<p style="font-size:60px"> Is this a thing?</p>
+					<table style="font-size: 28px;">
+					    	<thead><tr>
+					            <th>Journal</th>
+					            <th>Discipline(s)</th>
+					            <th>Publications</th>
+					            <th>Impact Factor</th>
+					        </tr></thead>
+					        <tbody>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://joss.theoj.org/">The Journal of Open Source Software</a></td>
+					            <td style="text-align:left">Computer Science</td>
+					            <td style="text-align:center">337</td>
+					            <td style="text-align:center">0.88</td>
+					        </tr>
+					      	<tr>
+					            <td style="text-align:left"><a href="https://quantum-journal.org/papers/q-2021-11-17-583/">Quantum</a></td>
+					            <td style="text-align:left">Quantum Physics</td>
+					            <td style="text-align:center">162</td>
+					            <td style="text-align:center">6.77</td>
+					        </tr>
+					        <tr>
+					            <td style="text-align:left"><a href="https://lmcs.episciences.org/8722">Logical Methods in Computer Science</a></td>
+					            <td style="text-align:left">Computer Science</td>
+					            <td style="text-align:center">84</td>
+					            <td style="text-align:center">0.66</td>
+					        </tr>
+					        <tr>
+					            <td style="text-align:left"><a href="https://dmtcs.episciences.org/">Discrete Mathematics & Theoretical Computer Science</a></td>
+					            <td style="text-align:left">Computer Science</td>
+					            <td style="text-align:center">41</td>
+					            <td style="text-align:center">0.46</td>
+					        </tr>
+					        <tr>
+					            <td style="text-align:left"><a href="https://discreteanalysisjournal.com/">Discrete Analysis</a></td>
+					            <td style="text-align:left">Maths</td>
+					            <td style="text-align:center">22</td>
+					            <td style="text-align:center">1.85</td>
+					        </tr>
+					    	</tbody>
+					    </table>
+					<p style="font-size: 20px; padding-top: 0.75em;">Information from <a href="http://oad.simmons.edu/oadwiki/Overlay_Journals">Wikipedia</a>, accessed on 2021-11-21.</p>
+				</section>
+
+
+				<section>
+					<p style="font-size:60px"> When am I allowed to self-archive?</p>
+					<p style="font-size: 35px;"><em>Obstacles for self-archiving:</em></p>
+					<p style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em">The <a href="https://en.wikipedia.org/wiki/Ingelfinger_rule">Ingelfinger rule</a>: journals commit to only <span style="color:#C0392B">publishing findings that haven't been published elsewhere</span>.</p>
+
+					<p class="fragment fade-in"; style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-top:0.5em">Before publishing an article, journals require a Copyright Transfer Agreement. Oftentimes these agreements include <span style="color:#C0392B">exclusive exploitation rights</span> (reproduction, distribution, communication).</p>
+
+					<p class="fragment fade-in"; style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-top:0.5em">While authors hold the copyright of the <em>content</em> of the article (at least before signing it away), <span style="color:#C0392B">publishers might hold the copyright for the <em> formatting</em> of the article</span>.</p>
+				</section>
+				<section>
+					<p style="font-size:60px">What to do if I want to self-archive?</p>
+					<p style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; ">(1) Check the <span style="color:#C0392B">self-archiving policy</span> of the journal you intend to publish in at <a href="https://v2.sherpa.ac.uk/romeo/">Sherpa Romeo</a>.</p>
+					<p class="fragment fade-in"; style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-top: 0.5cm; ">(2) Try to negotiate <span style="color:#C0392B">non-exclusive exploitation rights</span> with the publisher. See <a href="https://openaccess.univie.ac.at/en/publication-services/uscholar/legal-issues/">this page</a> for an example of an alternative contract clause.</p>
+					<p class="fragment fade-in"; style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-top: 0.5cm;">(3) Use your right to <span style="color:#C0392B">secondary exploitation</span> (<a href="https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Gesamtabfrage&Dokumentnummer=NOR40173343">§37a öUrhG</a>) and publish regardless of the signed Copyright Transfer Agreement.</p>
+				</section>
+				<section>
+					<p style="font-size:60px">When can I do secondary exploitation?</p>
+					<li style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-bottom: 0.75em;">Your institution is funded to at least <span style="color:#C0392B">50% by tax money</span>.</li>
+					<li style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-bottom: 0.75em;">The journal that has <span style="color:#C0392B">regular issues</span> (at least two / year).</li>
+					<li style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-bottom: 0.75em;">The publication date is longer than <span style="color:#C0392B">12 months past</span>.</li>
+					<li style="font-size: 35px; text-align: left; padding-left:1em; padding-right:1em; padding-bottom: 0.75em;">You self-archive for <span style="color:#C0392B">non-commercial</span> purposes.</li>
+					<p style="text-align: left; font-size:30px"> <em>If you meet <b>all</b> these conditions, you are allowed to self-archive regardless of your Copryright Transfer Agreement. You have to name the source of the primary publication. Both Austria and Germany have such a law.</em></p>
+				</section>
+				<section>
+					<p style="font-size:50px">  <span style="color:#C0392B">Exercise [10 min]</span><p>
+					<p style="text-align: left; padding-left:1em; padding-right:1em"><em> Go to <a href="https://v2.sherpa.ac.uk/romeo/">Sherpa Romeo</a> and check the self-archiving policy of the three top journals you <b>either</b> regularly publish in <b>or</b> regularly read articles from.</em></p> 
+					<p style="text-align: left;padding-left:1em; padding-right:1em; padding-top:1em"><em>Try to identify at least three additional journals in your field with non-restrictive self-archiving policies. Make a list of these journals.</em></p> 
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

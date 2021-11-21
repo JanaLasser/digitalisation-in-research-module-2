@@ -39,7 +39,7 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Licenses [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_07_licenses/slides/index.html)] [[exercise: license your research](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_07_licenses/slides/index.html#/20)]
 
 * Using digital tools to communicate your research
-    * New publishing practices: preprints and overlay journals [slides TODO]
+    * New publishing practices: preprints and overlay journals [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_01_preprints_and_overlay_journals/slides/index.html)]
     * New publishing practices: exploratory and registered reports [slides TODO]
     * Research communication opportunities on social media platforms [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html)] [[exercise: making a profile](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_04_scicomm_on_social_media/slides/index.html#/4)]
 
