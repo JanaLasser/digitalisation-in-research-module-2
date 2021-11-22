@@ -31,8 +31,8 @@ Every topic will feature an introduction into the challenges and possibilities t
     * ~~Digital project management in collaborations [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html)] [[exercise: different project management workflows](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html#/2)] [[indstructions: Slack](https://github.com/JanaLasser/digitalisation-in-research-module-2/blob/main/03_collaborations/03_03_project_management/slack_trello_google_pm.md)] [[instructions: discord](https://github.com/JanaLasser/digitalisation-in-research-module-2/blob/main/03_collaborations/03_03_project_management/discord_asana_dropbox_pm.md)] [[instructions: GitHub](https://github.com/JanaLasser/digitalisation-in-research-module-2/blob/main/03_collaborations/03_03_project_management/github_pm.md)]~~
 * Ensuring transparency and reproducibility through open research practices
     * Introduction to biases and reproducibility [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_01_reproducibility_intro/index.html)] 
-    * Research designs and workflows to ensure transparent and reproducible results [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_02_reproduciblity_research_workflow/index.html)] 
-    * Data management practices and platforms for sharing data [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_03_data_management/index.html)]
+    * Research designs and workflows to ensure transparent and reproducible results [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_02_reproduciblity_research_workflow/index.html)]
+    * ~~Data management practices and platforms for sharing data [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_03_data_management/index.html)]~~
     * Good documentation practices [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html)] [[exercise: document your repositories](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html#/8)]
     * Interactive and enriched research articles [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_05_coding_notebooks/slides/index.html)]
     * Coding best practices and reproducibility [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_06_coding_best_practices/slides/index.html)]
@@ -58,11 +58,11 @@ To make full use of the sessions, please bring your laptop and charger. We will 
 
     * **NOTE**: git can also be useful for non-coders that want to version-control their text files (for example research articles or a thesis they are writing).
 
-* If you want to follow the [project management demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html):
-    * Install the [slack desktop app](https://slack.com/downloads) OR [discord client](https://discord.com/download) (works for Windows, Mac and Linux) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).
+* ~~If you want to follow the [project management demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html):~~
+    * ~~Install the [slack desktop app](https://slack.com/downloads) OR [discord client](https://discord.com/download) (works for Windows, Mac and Linux) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).~~
 
-* If you want to use the preregistration exercise for your own research:
-    * Bring an idea for a research project or study you are about to or would like to start in the future.
+* ~~If you want to use the preregistration exercise for your own research:~~
+    * ~~Bring an idea for a research project or study you are about to or would like to start in the future.~~
 
 * If you want to follow the [good documentation practices demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html): 
     * Make an account on [OSF](https://osf.io/) (Open Science Framework) OR make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).
