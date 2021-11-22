@@ -46,7 +46,7 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Research communication opportunities on social media platforms [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_03_scicomm_on_social_media/slides/index.html)] [[exercise: making a Twitter profile](https://janalasser.github.io/digitalisation-in-research-module-2/05_science_communication/05_03_scicomm_on_social_media/slides/index.html#/4)]
 
 ## Preparation for participants
-To make full use of the sessions, please bring your laptop and charger. We will do a lot of practical exercises, which you can use to work on your own research projects if you have your laptop with you. 
+~~To make full use of the sessions, please bring your laptop and charger. We will do a lot of practical exercises, which you can use to work on your own research projects if you have your laptop with you.~~
 
 * If you want to follow the [literature management demonstrations](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1):
     * Make an account at [Zotero](https://www.zotero.org/), [install](https://www.zotero.org/download/) Zotero (Standalone) and the Connector for the browser you usually use.
