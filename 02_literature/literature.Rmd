@@ -240,21 +240,43 @@ knitr::include_graphics("figures/core.svg")
 
 * [Twitter](www.twitter.com): Follow the most important scholars for your research topic
 
+
+---
+
+# Break? 
+
+* Literature management with Zotero after the break
+
+* To follow along in Zotero: 
+
+  * Installed Zotero and Connector plugin for browser?
+  
+  * https://www.zotero.org/download/
+
+
 ---
 
 # (Collaboratively) Managing literature
 
-* Many: Mendely, Endnote, F1000. Citavi...
-* [**Zotero**](https://www.zotero.org/): Open source & very flexible
+.pull-left[
+* Many: Mendely, Endnote, F1000, Citavi...
+* [**Zotero**](https://www.zotero.org/): Open source & flexible
 
 * **Store, organize and cite papers**
 * Store PDFs in Zotero or with links to folders
+
 * Online storage for access everywhere
+]
+
+.pull-right[
 * Organize: Collections & tags
+
 * Citing: 
   * Add-ins for Word, Google docs etc
   * Automated bibliographies
+  
 * Group libraries for sharing literature
+]
 
 ---
 
@@ -308,7 +330,7 @@ knitr::include_graphics("figures/zotero_add_doi.png")
 
 ## Zotero: Collections & tags for organizing papers
 
-* Collections: each item can be in several <br>
+* Collections: each item can be in several collections <br>
 
 .left-column[
 * Tags

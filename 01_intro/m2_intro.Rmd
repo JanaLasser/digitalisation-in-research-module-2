@@ -64,14 +64,12 @@ layout: true
 **Dr. Jana Lasser** <br> <br>
 TU Graz und Complexity Science Hub Wien <br>
 Physik und Data Science  <br> <br>
-www.janalasser.at     |     
-jana.lasser@tugraz.at     |     
-Twitter: @janalasser <br>
+www.janalasser.at    |    jana.lasser@tugraz.at    |    Twitter: @janalasser <br>
 
 **Dr. Hannah Metzler**  <br> <br>
 Complexity Science Hub Wien und Meduni Wien <br>
 Psychologie, Neurowissenschaft und Data Science <br> <br>
-www.hannahmetzler.eu     |     metzler@csh.ac.at     |     Twitter: @hannahmetzler1 <br>
+www.hannahmetzler.eu    |    metzler@csh.ac.at    |    Twitter: @hannahmetzler1
 
 ---
 
