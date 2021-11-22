@@ -79,20 +79,26 @@ www.hannahmetzler.eu     |     metzler@csh.ac.at     |   �
 
 **Digitale Tools für alle Schritte in Forschungsprojekten**
 
-* Literatursuche und Management
+.pull-left[
+* Literatursuche & Management
 
-* Kollaboration: Schreiben, Code, Projekt Management
+* Kollaboration: Schreiben & Code
 
-* Transparenz und Reproduzierbarkeit: 
+* Transparenz & Reproduzierbarkeit: 
+
+    * Biases in der Wissenschaft
     * Research Workflows
     * Data Management
     * Dokumentation
     * Code & Lizenzen
+]
     
+.pull-right[
 * Wissenschaftskommunikation
 
----
-layout:true
+  * Neue Publikationsformen
+  * Social Media: Twitter
+]
 
 ---
 
@@ -103,11 +109,29 @@ https://github.com/JanaLasser/digitalisation-in-research-module-2
 ---
 
 .left-column[
-# Zeitplan
+# Zeitplan Tag 1
 ]
 
-.right-column[
-```{r, echo=FALSE, out.width=550}
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=800}
 knitr::include_graphics('figures/timeplan.png')
 ```
-]
+]]
+
+---
+
+# Wer seid ihr?
+
+* Wissenschaftliche Disziplin
+
+* Mehr qualitative oder mehr quantitative Forschung?
+
+* Interesse an Digitalisierung?
+
+* Erfahrung mit Open Science Practices? 
+  * Repositories
+  * Präregistrierung
+  * Open Data, Code etc?
+
+* Erfahrung mit Code? R, Python etc?
+

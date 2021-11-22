@@ -44,7 +44,7 @@ layout: true
 
 ---
 
-# Platforms & DOIs
+# Platforms
 
 * [Open Science Framework](osf.io)
 * [Zenodo](zenodo.org)
