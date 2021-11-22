@@ -50,7 +50,7 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * If you want to follow the [literature management demonstrations](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1):
     * Make an account at [Zotero](https://www.zotero.org/), [install](https://www.zotero.org/download/) Zotero (Standalone) and the Connector for the browser you usually use.
-    * Make an account on [Twitter](https://www.twitter.com). **Note**: if you want to later use this account in the “research communication” demonstration, make sure you use an account name (the text after the “@” that is either close to your real name or sounds otherwise professional. You don’t need to fill your profile with more information about you, we will do that together.
+    * Make an account on [Twitter](https://www.twitter.com). **Note**: if you want to later use this account in the “research communication” demonstration, make sure you use an account name (the text after the “@”) that is either close to your real name or sounds otherwise professional. You don’t need to fill your profile with more information about you, we will do that together.
 
     * Make an account on [ResearchRabbit](https://www.researchrabbit.ai/).
 
