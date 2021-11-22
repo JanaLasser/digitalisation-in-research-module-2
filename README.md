@@ -54,7 +54,8 @@ To make full use of the sessions, please bring your laptop and charger. We will 
 
 * If you want to follow the [Git & GitHub demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html):
     * Make an account on [GitHub](https://github.com/) (alternatively: if your institution hosts a GitLab instance, make an account there).
-    * Download and install [GitKraken](https://www.gitkraken.com/) (works for Windows, Mac and Linux). When asked, link your GitHub (GitLab) account with GitKraken.
+    * Download and install [GitAhead](https://gitahead.github.io/gitahead.com/) (works for Windows, Mac and Linux). Open GitAhead and link your GitHub (GitLab) account with it: double-click GitHub or GitLab in the left sidebar and enter your authentication credentials.
+
     * **NOTE**: git can also be useful for non-coders that want to version-control their text files (for example research articles or a thesis they are writing).
 
 * If you want to follow the [project management demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_03_project_management/slides/index.html):
