@@ -148,7 +148,7 @@ Francis, 2014; Ioannidis et al. 2009;   Lancee et al. 2017;Amara & Neves 2021
 
 ---
 
-# Problems & projects in biology & medicine
+## Problems & projects in biology & medicine
 
 * [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116) <br> <br> 
 * A few examples:  <br> 
@@ -198,7 +198,7 @@ layout: true
 
 ---
 
-## What are the reasons?
+# What are the reasons?
 
 .left-column[
 ```{r, echo=FALSE, out.width=200}
