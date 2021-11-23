@@ -34,20 +34,78 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
+---
+
+## Can humans predict the future? 
+### History of the reproducibility crisis in psychology
+
+* [Feeling the future](https://d1wqtxts1xzle7.cloudfront.net/54466465/FeelingFuture-with-cover-page-v2.pdf?Expires=1637600022&Signature=eObuIJc0SRn9JWu0Ww0FhumpxPWmIKDDHNBJ~S-XE0q4lzlYOEfQPl3gS4H~0ENTGRtZbLFGOA2jNr0BSgaLFcMFWnd~PVLN0kAgGbZKlP8-xwD5jTqiOKwqdlmZBKc3KYlDhL8gTNMfQblRsLxGXy71-hAI5G1a~pvkjAQ9rRapLGDPz23idpNP~Eh2oubGad7TJtSvYsXaBNZy~B1PmwX7gD7MtEJoX6hboc-eKUAwN7iG22U-eCFjt29I2AKE5ezvVgEGU0~keW7euzwyIkfHoPf841bmqEb3HNnMPMePbXWGXwaVuLRepIOprH0-B5NcqxXJVNvdYvvQUTuL~w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA): Paper by prominent psychologist in top psychology journal <br>  <br> 
+<center>
+```{r, echo=FALSE, out.width=160}
+knitr::include_graphics("figures/curtain-263731_1920.jpg")
+```
+```{r, echo=FALSE, out.width=160}
+knitr::include_graphics("figures/curtain-263731_1920.jpg")
+```
+</center> <br> 
+* Exp 1: 53% accuracy in predicting location of *erotic* images (not others) <br>
+* Exp 2: Better at remembering words that are repeated later in time <br> <br> 
+* 9 experiments, reviewed by 4 reviewers &nbsp;&nbsp; **???**
+
+???
+Exp 1:   * Physiolocial sexual arousal 2-3 seconds before the picture <br><br>
+Exp 2: Visualize words, surprise recall test, then type 24 random words (memory) - students had better recall for the words they were later asked to type in
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href="https://journals.sagepub.com/doi/full/10.1177/0956797611417632"> Simmons et al. 2011
+</a></span></div>
 
 ---
 
-# Can humans predict the future? 
-## History of the reproducibility crisis in psychology
+# False positive psychology
 
-* Bem 2011: Humans can predict in which location erotic images will appear
+* Significant finding in psychology: p <.05
 
-* False positive psychology: Analytic flexilibity 
-  * Outlier exclusion
-  * 
-  * 
+* False positive: statistically **significant result** if the **effect is not real**
+
+* Simulations of analytic flexilibity or __researcher degrees of freedom__
+
+    1. 2 outcome variables
+    2. Add 10 more observations
+    3. Control for gender or interaction gender x treatment
+    4. Dropping one of 3 conditions
   
-* False positive rate 6x%
+* False positive probability increases **from 5% to 60.7%** if all 4 combined
+
+* Try it yourself: [P-hacking app](http://shinyapps.org/apps/p-hacker/)
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "http://amstat.tandfonline.com/doi/abs/10.1080/09332480.2005.10722754"> Ioannidis 2005 </a>
+</a></span></div>
+
+---
+
+# Only one negative example? <br> Only psychology?
+
+.left-column[
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("figures/false_findings.svg")
+```
+]
+
+.right-column[.center-right[
+* The more flexibility in design…
+
+* The more financial or other interests and prejudices…
+
+* The hotter scientific fields…
+
+… the less likely the research findings are to be true.
+]]
 
 ---
 layout: true
@@ -84,98 +142,208 @@ knitr::include_graphics("figures/Golden_scoreproject.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a> Begley & Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012;  Francis, 2014; Ioannidis et al. 2009;   Lancee et al. 2017;<br> Amara & Neves 2021
+<a> Begley & Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012;  <br> 
+Francis, 2014; Ioannidis et al. 2009;   Lancee et al. 2017;Amara & Neves 2021
 </a></span></div>
 
 ---
 
 # Problems & projects in biology & medicine
 
-* [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116)
-* A few examples: 
-
-  * [Cancer Biology](https://elifesciences.org/articles/04333), oncology, women's health, cardiovascular diseases: so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles, [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131), [11%](https://www.nature.com/articles/483531a#Tab1)
-  
-  * [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/): 10-40% replicate, <br> issues in [epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143)
-  
-  * Pharmacology of [antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% deviate from registered plan
-  
+* [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116) <br> <br> 
+* A few examples:  <br> 
+  * [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated <br> 
+      * 53 famous findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131) replicated by 1 firm,  [11%](https://www.nature.com/articles/483531a#Tab1) by another  <br>  <br> 
+  * [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%, <br>
+      * Issues in [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) <br> <br> 
+  * Pharmacology of [antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% deviate from registered plan <br> <br> 
   * [Brazilian Reproducibility Initiative](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) for biomedical research
 
 ---
 layout: true
 <div class="my-footer"><span>
-<a> Kapoor & Narazanan 2021; Baker 2016
+<a> Kapoor & Narazanan 2021; Cova et al., 2018; Baker 2016
 </a></span></div>
 
 ---
 
 .pull-left[
-## 'Hard' sciences
+# Other disciplines
 
 * Computational reproducibility in [Machine Learning](https://reproducible.cs.princeton.edu/): 
   * 4 out of 12 papers 
   * [Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) for reproducible ML
+  
+* [Experimental philosophy](https://psyarxiv.com/sxdah)
+  * 70% of 40 experiments replicated
 
-* [Survey](https://www.nature.com/articles/533452a) in natural sciences =>
+* [Survey](https://www.nature.com/articles/533452a) in natural sciences &nbsp;&nbsp;===>
+
+<!-- * Proportion of p-values .045-0.05 Head et al. Plos biology 2015 -->
 ]
 
 .pull-right[
 
-```{r, echo=FALSE, out.width=380}
+```{r, echo=FALSE, out.width=380, fig.align='left'}
 knitr::include_graphics("figures/Baker_survey_disciplines.png")
 ```
 ]
 
 ---
-layout:true
+layout: true
+<div class="my-footer"><span>
+<a href="https://courses.lumenlearning.com/suny-natural-resources-biometrics/chapter/chapter-3-hypothesis-testing/"> Source Image 1; </a>
+<a href="https://libertytoday.uk/2013/03/07/the-nhs-can-only-guess/searching-blindfolded-man/"> Source Image 2</a>
+</span></div>
+
+---
+
+## What are the reasons?
+
+.left-column[
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("figures/null_hypothesis.png")
+```
+
+```{r, echo=FALSE, out.width=150,fig.align='center'}
+knitr::include_graphics("figures/searching-blindfolded-man.jpg")
+```
+<br>
+```{r, echo=FALSE, out.width=100,fig.align='center'}
+knitr::include_graphics("figures/manuscript-149606_1280.png")
+```
+]
+
+.right-column[.center-right[
+* Basic problems with common methods
+<font size="4"> <a href="https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/"> Gelman 2016
+</a></font>
+    * Researcher degrees of freedom
+    * Misunderstanding of statistical null-hypotheses testing
+    * Multiple comparisons problems + weak theories
+
+* Humans: Complex systems with many variables
+
+* Problems in the publication system: Incentives
+    * Peer review
+    * Publication bias for positive findings
+    * Pressure to publish <font size="4"> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010271"> Fanelli 2010; 
+<a href="https://journals.sagepub.com/doi/10.1177/1556264614552421">Tijdink et al. 2014 </a> </font>
+]]
+    
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://revistas.udc.es/index.php/ejge/article/view/ejge.2017.6.1.4322"> Peon et al. 2017 </a>
+</a></span></div>
 
 ---
 
 # Cognitive biases all humans have
 
-* Selection bias: Seeking out information
+.middle[.left-column[
+<br> <br> 
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("figures/mental-health-3350778_1280.png")
+```
+]]
 
-* Confirmation bias: Evaluating information
+.right-column[.center-right[
+* Selection bias: Seeking out information that confirms our view
 
-* Bandwagon effect: agree to easily for group harmony
+* Confirmation bias in evaluating information
 
-* Cluster illusion: Recognizing patterns where there are none
+* Aversion to ambiguity
 
-* Reporting bias: positive results
+* Groupthink: agreeing to easily
+
+* Cluster illusion: Recognizing patterns in randomness
+
+* Appeal to novelty
+]]
 
 ???
 https://www.nature.com/articles/d42473-019-00004-y#ref-CR17 mentions bandwgon and cluster illustion, not sure if good sources cited for this
 
 ---
-
-# Biases in Research
-
-* HARKing: Hypothesizing after results are known
-
+layout: true
+<div class="my-footer"><span>
+<a href = "https://commons.wikimedia.org/wiki/File:Cognitive_Bias_Codex_-_180%2B_biases,_designed_by_John_Manoogian_III_(jm3).jpg"> Benson Manoogian 2016 </a>
+</a></span></div>
+---
+```{r, echo=FALSE, out.width=850, fig.align='center'}
+knitr::include_graphics("figures/cognitive_biases.jpg")
+```
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://www.nature.com/articles/526182a"> Nuzzo 2015; </a>
+<a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"> Good practices material by Alex Christia;
+<a href = "https://www.nature.com/articles/s41562-016-0021.pdf"> Munafo et al. 2017 </a>
+</a></span></div>
 
 ---
 
-# Biases throughout the research process
+# Biases in Research (non-exhaustive list)
 
-```{r, echo=FALSE, out.width=380}
-knitr::include_graphics("figures/cruwell_biases_cycle.png")
-```
+* Selection & confirmation bias in literature search & interpretation
 
-* Design: specific task/stimuli/method… 
-* Data collection: experimenter biases
-  * Bright vs. dull rats (Rosenthal & Lawson 1964)
-  * Power priming
-* Confirmation bias
-* Data analysis: experimenter degrees of freedom 
-  * Inclusion of data points, conditions, participants, analysis methods, …
-  * Looking at results before stopping data collection
-* Write up and publication bias: 
-  * Selective submission and acceptance
-  * Avoiding null-results & non-replications
+* Experimenter bias (e.g. [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
+
+* Poor quality control & documentation
+
+* Results analysis & interpretation: p-hacking, ignoring alternative explanations
+
+* Story telling: Hypothesizing/justifying after results are known <br> ([HARKing, JARKing](https://www.nature.com/articles/526182a))
+
+* Write-up & publication bias towards positive results
+
+* Avoiding null-results & non-replications
+
+---
+
+<!-- # Biases throughout the research process -->
+
+<!-- ```{r, echo=FALSE, out.width=800} -->
+<!-- knitr::include_graphics("figures/cruwell_biases_cycle.png") -->
+<!-- ``` -->
+<!-- [Crüwell et al. 2018](https://osf.io/cfzyx) -->
+<!-- --- -->
+
+# What do we do about all of this?
+
+<div style="text-align:center"> <span style="font-weight: bold; color:#1f5c99"> Acknowledge that we are all human:  protect against biases, correct mistakes and change incentives </font> </span> </div>
+
+* Slower and more careful science <font size = "4"> <a href="http://www.sciencedirect.com/science/article/pii/S1364661319302426"> Frith 2020 </a> </font> 
+    * Better documentation & transparency (Open Science)
+    * Cumulative Science <br> <br>
+* Encourage collaboration & team science
+    * Large datasets, replication projects
+    * Methodological experts<br><br>
+* Change incentive structures for publication & hiring <font size = "4"> <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2000995"> Higginson & Munafo, 2016 </a> </font>
+    * Evaluation based on rigour not novelty <br><br>
+     
+---
+layout: true
+---
+
+# Concrete Solutions tomorrow!
+
+### Acknowledgements
+
+* Some slides based on presentations by Alex Cristia <br> (Ecole Normale Supérieure, Paris)
+
+    * [Good practices materials](https://sites.google.com/site/cogmasterbonnespratiques/train-yourself)
 
 ---
 
 # Discussion
 
-### How could digital tools be used to address such problems in your discipline?
+* Break-out rooms with 3 people, 30 minutes, until 15h
+
+* Which of these biases and problems are issues in your discipline?
+
+* Which solutions can you imagine?
+
+* How could digital tools be used to adress challenges and implement solutions in your discipline?
+    * Which tool for which problem/bias?
