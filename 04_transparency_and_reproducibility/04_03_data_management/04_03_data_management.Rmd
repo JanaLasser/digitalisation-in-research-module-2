@@ -75,11 +75,13 @@ knitr::include_graphics("figures/create_doi_osf.png")
  * Research methodology (data collection, processing, and analyzing)
  
  * Roles & responsibilities for data collection, description, processing, analysis
+ 
  * Standards you will use to describe your data (metadata)
  
  * Storage and backup procedures 
  
  * Long-term archiving and preservation plan 
+ 
  * Access policies and provisions for secondary uses
 
  * Security measures taken to protect data and/or participant confidentiality
