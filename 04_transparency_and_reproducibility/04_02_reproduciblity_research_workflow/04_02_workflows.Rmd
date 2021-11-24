@@ -95,27 +95,56 @@ layout: true
 .left-column[
 ## Open Science Framework
 
-"Technology to **enable** change"
+* Free & open source
+
+* Entire research workflow
+
+* Tool integration
+
+
 ]
 .right-column[.center-right[
-```{r, echo=FALSE, out.width=700, fig.align='center'}
+.center[Technology to **enable** change]
+
+```{r, echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("figures/research_lifecycle_osf_tools.png")
 ```
 ]]
 
 ---
 
-# Open Science Framwork: Advantages
+.left-column[
+<br>
 
-* Entire research workflow
-* Project management tool
-* Integration with your tools
-* Private & public parts
-* Repository
-* Keeping track & (optional) sharing
-* Collaboration
+### Collaboration
 
-???
+###  Documentation
+
+###  Archiving
+]
+.right-column[
+
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/osf_project1.png")
+```
+]
+---
+
+### Merges public & private workflows
+
+```{r, echo=FALSE, out.width=600}
+knitr::include_graphics("figures/osf_components_private_public.png")
+```
+
+---
+
+### Version Control
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/osf_version_control.png")
+```
+
+---
+
 .left-column[
 # Research workflow
 ]
@@ -326,25 +355,24 @@ knitr::include_graphics("figures/research_lifecycle_osf_repositories_code.svg")
 ### Repositories: 
 
 * Keeping track & (optional) sharing
-
-* (Long-term) data storage
-
+* (Long-term) data storage <br> <br>
 * Find the repository that suits you: 
-    * Zenodo: European Union
+    * [Zenodo](www.zenodo.org): European Union
     * [Open Science Framework](www.osf.io)
     * [Figshare](https://figshare.com/features)
     * [Github](www.github.com) for code
+* [Registry of research data repositories](https://www.re3data.org/)
 ]]
 
 ---
 
-## Repositories & DOIs
+# Repositories & DOIs
 
 .pull-left[
 **Assign a DOI to your data, materials, code**
 
 Digital Object Identifier
-```{r, echo=FALSE, out.width=60}
+```{r, echo=FALSE, out.width=100}
 knitr::include_graphics("figures/DOI_logo.svg.png")
 ```
   * unique & never changable
@@ -358,6 +386,25 @@ OSF:
 knitr::include_graphics("figures/create_doi_osf.png")
 ```
 ]
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://royalsocietypublishing.org/doi/full/10.1098/rsos.180448"> Hartgerink et al. 2018 </a>
+</a></span></div>
+---
+
+# Open code
+
+**Why ?**
+
+Psychology journal with mandatory open data
+* 64%  (85/174) of data sets complete & understandable
+
+**Analytic reproducibility of 35 articles with good datasets:**
+* 31% without author assistance
+* 31% with author assistance
+* 27% not reproducible
+
 ---
 
 # Good documentation: Lab notbooks
@@ -374,8 +421,14 @@ knitr::include_graphics("figures/create_doi_osf.png")
   * OSF project wiki
 
 ---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://guides.nyu.edu/data_management/dmp/"> New York University Library </a>
+</a></span></div>
 
-# Data management
+---
+
+# Data management (plans)
 
 * Overview of formats and types of data
 * Research methodology (data collection, processing, and analyzing)
@@ -387,21 +440,54 @@ knitr::include_graphics("figures/create_doi_osf.png")
 * Security measures taken to protect data and/or participant confidentiality
 
 ---
+layout: true
+---
 
-# Publication & Communication
+# Publication
 
-* Publication bias:
-    * Registered reports
+.left-column[
+```{r, echo=FALSE, out.width=250, fig.align='left'}
+knitr::include_graphics("figures/research_lifecycle_osf_publication.svg")
+```
+]
+.right-column[.center-right[
+* Transparent reporting
+  * All measurements & analyses
+  * Clearly label exploratory/confirmatory analyses 
+  
+* Publication bias: New publishing formats
+    * Preprints
+    * Preregistration & registered reports
     * New journals that emphasize reproducibility
     * Journals for null-results & replications
+]]
 
+---
+
+# Peer review & Communication
+
+.pull-left[.center-left[
 * Peer review
-  * Journals that compensate (Collabra)
-  * [Publons](https://publons.com/): get credits for reviewing
+  * [Publons](https://publons.com/): credits for reviewing
+ * Open peer review
+ <font size = "4"> <a href="http://f1000research.com/articles/6-588/v2"> Ross-Hellauer 2017 </a> </font>
+      * content and/or names 
 
-* Post-publication commentaries: [www.pubpeer.com](pubpeer.com) | [www.retractionwatch.com](retractionwatch.com)
-
-* Science communication: Each study is a brick in a house we build
+* Post-publication commentaries: 
+  * [www.pubpeer.com](pubpeer.com)
+  * [www.retractionwatch.com](retractionwatch.com)
+  * Social media
+]]
+.pull-right[
+* Science communication: 
+  * Cumulative science
+  * Each study is a brick in a house we build
+  * Let's built stable houses! 
+  <br><br>
+```{r, echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("figures/house-576347_1280.png")
+```
+]
 
 ---
 
@@ -410,6 +496,7 @@ knitr::include_graphics("figures/create_doi_osf.png")
 * OSF Guide on [best practices](https://help.osf.io/hc/en-us/categories/360001530634-Best-Practices) (data management, file handling etc.)
 * OSF [preregistration](https://www.cos.io/initiatives/prereg) guide
 * [Replication receipe](https://osf.io/zab38/)
+* OSF checklists: [reserearch workflow](https://osf.io/mv8pj/), [research implementation](https://osf.io/mv8pj/wiki/Research%20Implementation/), [writing reports](https://osf.io/mv8pj/wiki/writing%20report/)
 * Tutorials & guides data management
     * [Tutorial: Basics of Research Data Management](https://www.youtube.com/watch?v=3sDhQRIYUmA) (Foster, OpenAire)
     * [Research data management 101](https://www.youtube.com/watch?v=_pHVMwfOZf8) (University of Sydney)
