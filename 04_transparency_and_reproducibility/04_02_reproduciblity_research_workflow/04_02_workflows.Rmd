@@ -37,14 +37,196 @@ layout: true
 
 ---
 
-## Concrete Solutions
+.left-column[
+## Timeplan <br> Day 2
+]
+.right-column[
+```{r, echo=FALSE, out.width=700}
+knitr::include_graphics("figures/timeplan_day2.png")
+```
+]
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://www.nature.com/articles/526182a"> Nuzzo 2015; </a>
+<a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"> Good practices material by Alex Christia;
+<a href = "https://www.nature.com/articles/s41562-016-0021.pdf"> Munafo et al. 2017 </a>
+</a></span></div>
 
-* Study design
-  * Double-blind studies
-  * Larger studies (statistical power)
-  * Standardized methodologies
-  
-* P-hacking & HARKing: Pre-registration of hypotheses & analysis plan
+---
+
+# Summary Research Biases (Recap)
+
+* Selection & confirmation bias in literature search & interpretation
+
+* Experimenter bias (e.g. [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
+
+* Poor quality control & documentation
+
+* Results analysis & interpretation: p-hacking, ignoring alternative explanations
+
+* Story telling: Hypothesizing/justifying after results are known <br> ([HARKing, JARKing](https://www.nature.com/articles/526182a))
+
+* Write-up & publication bias towards positive results
+
+* Avoiding null-results & non-replications
+
+---
+
+# Solutions
+
+* Slower and more careful science
+    * Transparency: Open Science
+    * Replications
+    * Documentation
+    * **Good research practices**
+
+* Encourage collaboration & team science
+
+* Change incentive structures for publication (& hiring)
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "www.osf.io"> Open Science Framework </a>
+</span></div>
+---
+
+.left-column[
+## Open Science Framework
+
+"Technology to **enable** change"
+]
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("figures/research_lifecycle_osf_tools.png")
+```
+]]
+
+---
+
+# Open Science Framwork: Advantages
+
+* Entire research workflow
+* Project management tool
+* Integration with your tools
+* Private & public parts
+* Repository
+* Keeping track & (optional) sharing
+* Collaboration
+
+???
+.left-column[
+# Research workflow
+]
+.right-column[
+```{r, echo=FALSE, out.width=550, fig.align='left'}
+knitr::include_graphics("figures/research_lifecycle_osf.svg")
+```
+]
+---
+layout: true
+
+---
+# Literature search
+
+.pull-left[.center-left[
+```{r, echo=FALSE, out.width=500, fig.align='left'}
+knitr::include_graphics("figures/research_lifecycle_osf_literature.svg")
+```
+]]
+
+.pull-right[
+* Research Rabbit:
+  * good article recommendations <br><br>
+* Open Knowledge Maps: 
+  * discover other related concepts<br><br>
+* Scite: 
+  * find contrasting evidence<br><br>
+* Be aware of your biases
+]
+.center[
+**Look for alternative findings & explanations**
+]
+
+---
+
+# Study design
+
+.pull-left[
+```{r, echo=FALSE, out.width=450, fig.align='left'}
+knitr::include_graphics("figures/research_lifecycle_osf_design.svg")
+```
+]
+
+.pull-right[
+<br>
+* Blinding: e.g. double-blind studies
+
+* Larger studies (statistical power)
+
+* Replications
+
+* Standardized methodologies
+]
+---
+
+# Research process: Transparency
+
+.pull-left[
+**How?**
+
+* Preregistration
+
+* Open data
+
+* Open code
+
+* Open materials
+
+* Transparent reporting
+]
+.pull-right[
+**Why?** 
+* Prevents (some) biases
+
+* Enables replication
+
+* Enables meta-analyses
+
+* Enables identification of errors
+]
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://osf.io/yd487/"> Schönbrodt, Scheel & Stachl 2017 </a>
+</a></span></div>
+
+---
+
+# Pre-registration
+.pull-left[.center-left[
+ = Time-stamped pre-study plan
+
+**Why?**
+* Protects against HARKing & <br> P-hacking
+
+* Distinguish more confirmatory vs. exploratory research
+
+* Works against publication bias (searching registries)
+]]
+.pull-right[.center-right[
+**What?**
+* Hypotheses
+  * Relationship between variables <br> <br> 
+* Methods
+  * Variables, outcomes, conditions
+  * Measurement
+  * Data collection, sample size, exclusion criteria
+* Analysis plan: (control) variables, tests, missing data, ...
+]]
+
 
 ---
 layout: true
@@ -70,87 +252,171 @@ knitr::include_graphics("figures/Kaplan2005_prereg_clinical.png")
 ---
 layout: true
 <div class="my-footer"><span>
-<a href = "https://www.nature.com/articles/526182a"> Nuzzo 2015; </a>
-<a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"> Good practices material by Alex Christia;
-<a href = "https://www.nature.com/articles/s41562-016-0021.pdf"> Munafo et al. 2017 </a>
+<a href = "https://osf.io/yd487/"> Schönbrodt, Scheel & Stachl 2017 </a>
 </a></span></div>
+
 ---
 
-# Concrete solutions
+# Preregistration worries
 
-* Transparency: Open data, code and materials (replication & error detection)
+* No more exploration: wrong, just transparency
 
-* Good documentation
+* Research too complex: A plan, not a prison <font size = "4"> <a href="https://www.cos.io/blog/preregistration-plan-not-prison"> Alexander DeHaven, 2017 </a> </font>
+
+* Multiple predictions possible: pre-register competing hypotheses
+
+* Scooping doubts? Embargos possible. 
+
+* Qualitative research: feedback on study design/plan, aims, data collection, analysis approach, reflect on apriori values  <font size = "4"> <a href="https://www.tandfonline.com/doi/full/10.1080/08989621.2019.1580147"> Haven & Grootel 2019 </a> </font>
+
+* [Secondary analyses of existing data](https://www.cos.io/blog/preregistering-secondary-data-analyses-yes-you-can)
+
+---
+layout: true
+---
+
+## Pre-registration in pratice
+
+* [As predicted](www.aspredicted.org): Short template
+
+* OSF: Detailed template and [information](https://www.cos.io/initiatives/prereg)
+
+* [ClinicalTrials.gov](http://clinicaltrials.gov)
+* Economics/social sciences: [AEA	Registry](www.socialscienceregistry.org)
+
+* Politics/governance: [egap](http://egap.org/content/registration)
+* Any public, open-access repository with time-stamped version control
+  * Github, figshare...
+
+???
+.left-column[
+## As Predicted
+]
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=600}
+knitr::include_graphics("figures/AsPredicted1.png")
+```
+]]
+<!-- --- -->
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=700}
+knitr::include_graphics("figures/AsPredicted2.png")
+```
+]]
+<!-- --- -->
+# Preregistration exercise
+
+Write your own pre-registration
+
+* Preferably a real pre-registration for a future study
+* Alternatively: Plan the direct replication of a study
+
+---
+
+# Open data, code & materials
+
+.pull-left[.center-left[
+```{r, echo=FALSE, out.width=500, fig.align='left'}
+knitr::include_graphics("figures/research_lifecycle_osf_repositories_code.svg")
+```
+]]
+
+.pull-right[.center-right[
+
+### Repositories: 
+
+* Keeping track & (optional) sharing
+
+* (Long-term) data storage
+
+* Find the repository that suits you: 
+    * Zenodo: European Union
+    * [Open Science Framework](www.osf.io)
+    * [Figshare](https://figshare.com/features)
+    * [Github](www.github.com) for code
+]]
+
+---
+
+## Repositories & DOIs
+
+.pull-left[
+**Assign a DOI to your data, materials, code**
+
+Digital Object Identifier
+```{r, echo=FALSE, out.width=60}
+knitr::include_graphics("figures/DOI_logo.svg.png")
+```
+  * unique & never changable
+  * citable
+  * findable: doi.org/identifier
+]
+.pull-right[
+OSF: 
+
+```{r, echo=FALSE, out.width=300}
+knitr::include_graphics("figures/create_doi_osf.png")
+```
+]
+---
+
+# Good documentation: Lab notbooks
+
+* Crucial science tool
+
+* Keep track of ideas, thoughts, decisions
+
+* Use whatever format works for you
+  * Pen & paper (not searchable, not backed up, not shareable…) 
+  * [Labfolder](https://www.labfolder.com/features/): Encrypted, integrated with data, backups, versioning, tags, ...
+  * [Evernote](https://evernote.com/free)
+  * Google doc
+  * OSF project wiki
+
+---
+
+# Data management
+
+* Overview of formats and types of data
+* Research methodology (data collection, processing, and analyzing)
+* Roles & responsibilities for data collection, description, processing, analysis
+* Standards you will use to describe your data (metadata)
+* Storage and backup procedures 
+* Long-term archiving and preservation plan 
+* Access policies and provisions for secondary uses
+* Security measures taken to protect data and/or participant confidentiality
+
+---
+
+# Publication & Communication
 
 * Publication bias:
     * Registered reports
     * New journals that emphasize reproducibility
     * Journals for null-results & replications
 
-* Post-publication commentaries: 
-    * pubpeer.com
-    * retractionwatch.com
+* Peer review
+  * Journals that compensate (Collabra)
+  * [Publons](https://publons.com/): get credits for reviewing
+
+* Post-publication commentaries: [www.pubpeer.com](pubpeer.com) | [www.retractionwatch.com](retractionwatch.com)
 
 * Science communication: Each study is a brick in a house we build
 
-# Open Science Framework
-
-```{r, echo=FALSE, out.width=500}
-knitr::include_graphics("figures/research_lifecycle_original.png")
-```
-
----
-layout: true
-
-Source: https://osf.io/yd487/ Schönbrodt, Scheel, Stachl, 2017
-
 ---
 
-# Pre-registration
+# Resources
 
-https://osf.io/w82ms/wiki/home/
-* A plan, not a prison
+* OSF Guide on [best practices](https://help.osf.io/hc/en-us/categories/360001530634-Best-Practices) (data management, file handling etc.)
+* OSF [preregistration](https://www.cos.io/initiatives/prereg) guide
+* [Replication receipe](https://osf.io/zab38/)
+* Tutorials & guides data management
+    * [Tutorial: Basics of Research Data Management](https://www.youtube.com/watch?v=3sDhQRIYUmA) (Foster, OpenAire)
+    * [Research data management 101](https://www.youtube.com/watch?v=_pHVMwfOZf8) (University of Sydney)
+    * [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme#bestpractices) (Research Data Management Service Group)
+* Digital tools to create your data management plan
+    * [DMP tool](https://dmptool.org)
+    * [DMP online](https://dmponline.dcc.ac.uk/)
 
-* OSF infos: 
-https://www.cos.io/initiatives/prereg
 
-Why? 
-- prevents p-hacking
-- clearly distinguishes exploratory from confirmatory research
-- works against publication bias
-- Scooping doubts? Embargo possible. 
-
-
----
-
-# Pre-registration in pratice
-
-Where? 
-
-* [As predicted](www.aspredicted.org): Short template
-* OSF: Detailed template
-* [ClinicalTrials.gov](http://clinicaltrials.gov)
-* Economics/social sciences: [AEA	Registry](www.socialscienceregistry.org)
-* Politics/governance: [egap](http://egap.org/content/registration)
-* Any public, open-access repository with time-stamped version control
-  * Github, figshare...
-
----
-
-```{r, echo=FALSE, out.width=700}
-knitr::include_graphics("figures/AsPredicted1.png")
-```
----
-```{r, echo=FALSE, out.width=700}
-knitr::include_graphics("figures/AsPredicted2.png")
-```
-
----
-
-# Preregistration exercise
-
-Write your own pre-registration
-
-* Preferably a real pre-registration for a future study
-* Alternatively: Plan the direct replication of a study 
 
