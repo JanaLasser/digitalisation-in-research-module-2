@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Module 2: Digitalisation in Research</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Hannah Metzler   CSH Vienna &amp; Medical University of Vienna" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Module 2: Digitalisation in Research
+## Research designs and workflows for transparent and reproducible results
+### Hannah Metzler <br> <em>CSH Vienna &amp; Medical University of Vienna</em>
+### 26.11.2021
+
+---
+
+
+
+
+
+
+layout: true
+
+---
+
+.left-column[
+## Timeplan &lt;br&gt; Day 2
+]
+.right-column[
+&lt;img src="figures/timeplan_day2.png" width="700" /&gt;
+]
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://www.nature.com/articles/526182a"&gt; Nuzzo 2015; &lt;/a&gt;
+&lt;a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"&gt; Good practices material by Alex Christia;
+&lt;a href = "https://www.nature.com/articles/s41562-016-0021.pdf"&gt; Munafo et al. 2017 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Summary Research Biases (Recap)
+
+* Selection &amp; confirmation bias in literature search &amp; interpretation
+
+* Experimenter bias (e.g. [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
+
+* Poor quality control &amp; documentation
+
+* Results analysis &amp; interpretation: p-hacking, ignoring alternative explanations
+
+* Story telling: Hypothesizing/justifying after results are known &lt;br&gt; ([HARKing, JARKing](https://www.nature.com/articles/526182a))
+
+* Write-up &amp; publication bias towards positive results
+
+* Avoiding null-results &amp; non-replications
+
+---
+
+# Solutions
+
+* Slower and more careful science
+    * Transparency: Open Science
+    * Replications
+    * Documentation
+    * **Good research practices**
+
+* Encourage collaboration &amp; team science
+
+* Change incentive structures for publication (&amp; hiring)
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "www.osf.io"&gt; Open Science Framework &lt;/a&gt;
+&lt;/span&gt;&lt;/div&gt;
+---
+
+.left-column[
+## Open Science Framework
+
+* Free &amp; open source
+
+* Entire research workflow
+
+* Tool integration
+
+
+]
+.right-column[.center-right[
+.center[Technology to **enable** change]
+
+&lt;img src="figures/research_lifecycle_osf_tools.png" width="600" style="display: block; margin: auto;" /&gt;
+]]
+
+---
+
+.left-column[
+&lt;br&gt;
+
+### Collaboration
+
+###  Documentation
+
+###  Archiving
+]
+.right-column[
+
+&lt;img src="figures/osf_project1.png" width="1000" style="display: block; margin: auto;" /&gt;
+]
+---
+
+### Merges public &amp; private workflows
+
+&lt;img src="figures/osf_components_private_public.png" width="600" /&gt;
+
+---
+
+### Version Control
+&lt;img src="figures/osf_version_control.png" width="1000" style="display: block; margin: auto;" /&gt;
+
+---
+
+.left-column[
+# Research workflow
+]
+.right-column[
+&lt;img src="figures/research_lifecycle_osf.svg" width="550" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+---
+layout: true
+
+---
+# Literature search
+
+.pull-left[.center-left[
+&lt;img src="figures/research_lifecycle_osf_literature.svg" width="500" style="display: block; margin: auto auto auto 0;" /&gt;
+]]
+
+.pull-right[
+* Research Rabbit:
+  * good article recommendations &lt;br&gt;&lt;br&gt;
+* Open Knowledge Maps: 
+  * discover other related concepts&lt;br&gt;&lt;br&gt;
+* Scite: 
+  * find contrasting evidence&lt;br&gt;&lt;br&gt;
+* Be aware of your biases
+]
+.center[
+**Look for alternative findings &amp; explanations**
+]
+
+---
+
+# Study design
+
+.pull-left[
+&lt;img src="figures/research_lifecycle_osf_design.svg" width="450" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+.pull-right[
+&lt;br&gt;
+* Blinding: e.g. double-blind studies
+
+* Larger studies (statistical power)
+
+* Replications
+
+* Standardized methodologies
+]
+---
+
+# Research process: Transparency
+
+.pull-left[
+**How?**
+
+* Preregistration
+
+* Open data
+
+* Open code
+
+* Open materials
+
+* Transparent reporting
+]
+.pull-right[
+**Why?** 
+* Prevents (some) biases
+
+* Enables replication
+
+* Enables meta-analyses
+
+* Enables identification of errors
+]
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://osf.io/yd487/"&gt; Schönbrodt, Scheel &amp; Stachl 2017 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Pre-registration
+.pull-left[.center-left[
+ = Time-stamped pre-study plan
+
+**Why?**
+* Protects against HARKing &amp; &lt;br&gt; P-hacking
+
+* Distinguish more confirmatory vs. exploratory research
+
+* Works against publication bias (searching registries)
+]]
+.pull-right[.center-right[
+**What?**
+* Hypotheses
+  * Relationship between variables &lt;br&gt; &lt;br&gt; 
+* Methods
+  * Variables, outcomes, conditions
+  * Measurement
+  * Data collection, sample size, exclusion criteria
+* Analysis plan: (control) variables, tests, missing data, ...
+]]
+
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132382"&gt; Kaplan &amp; Irvin 2005 Plos One &lt;/a&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+---
+
+## Effect of pre-registration in clinical trials
+
+.pull-left[
+* Clinical trials on cardiovascular risk, disease and death
+
+* Preregistration reduces positive findings from 57% to 8%
+]
+.pull-right[.center-right[
+&lt;img src="figures/Kaplan2005_prereg_clinical.png" width="500" /&gt;
+]]
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://osf.io/yd487/"&gt; Schönbrodt, Scheel &amp; Stachl 2017 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Preregistration worries
+
+* No more exploration: wrong, just transparency
+
+* Research too complex: A plan, not a prison &lt;font size = "4"&gt; &lt;a href="https://www.cos.io/blog/preregistration-plan-not-prison"&gt; Alexander DeHaven, 2017 &lt;/a&gt; &lt;/font&gt;
+
+* Multiple predictions possible: pre-register competing hypotheses
+
+* Scooping doubts? Embargos possible. 
+
+* Qualitative research: feedback on study design/plan, aims, data collection, analysis approach, reflect on apriori values  &lt;font size = "4"&gt; &lt;a href="https://www.tandfonline.com/doi/full/10.1080/08989621.2019.1580147"&gt; Haven &amp; Grootel 2019 &lt;/a&gt; &lt;/font&gt;
+
+* [Secondary analyses of existing data](https://www.cos.io/blog/preregistering-secondary-data-analyses-yes-you-can)
+
+---
+layout: true
+---
+
+## Pre-registration in pratice
+
+* [As predicted](www.aspredicted.org): Short template
+
+* OSF: Detailed template and [information](https://www.cos.io/initiatives/prereg)
+
+* [ClinicalTrials.gov](http://clinicaltrials.gov)
+* Economics/social sciences: [AEA	Registry](www.socialscienceregistry.org)
+
+* Politics/governance: [egap](http://egap.org/content/registration)
+* Any public, open-access repository with time-stamped version control
+  * Github, figshare...
+
+???
+.left-column[
+## As Predicted
+]
+.right-column[.center-right[
+&lt;img src="figures/AsPredicted1.png" width="600" /&gt;
+]]
+&lt;!-- --- --&gt;
+.right-column[.center-right[
+&lt;img src="figures/AsPredicted2.png" width="700" /&gt;
+]]
+&lt;!-- --- --&gt;
+# Preregistration exercise
+
+Write your own pre-registration
+
+* Preferably a real pre-registration for a future study
+* Alternatively: Plan the direct replication of a study
+
+---
+
+# Open data, code &amp; materials
+
+.pull-left[.center-left[
+&lt;img src="figures/research_lifecycle_osf_repositories_code.svg" width="500" style="display: block; margin: auto auto auto 0;" /&gt;
+]]
+
+.pull-right[.center-right[
+
+### Repositories: 
+
+* Keeping track &amp; (optional) sharing
+* (Long-term) data storage &lt;br&gt; &lt;br&gt;
+* Find the repository that suits you: 
+    * [Zenodo](www.zenodo.org): European Union
+    * [Open Science Framework](www.osf.io)
+    * [Figshare](https://figshare.com/features)
+    * [Github](www.github.com) for code
+* [Registry of research data repositories](https://www.re3data.org/)
+]]
+
+---
+
+# Repositories &amp; DOIs
+
+.pull-left[
+**Assign a DOI to your data, materials, code**
+
+Digital Object Identifier
+&lt;img src="figures/DOI_logo.svg.png" width="100" /&gt;
+  * unique &amp; never changable
+  * citable
+  * findable: doi.org/identifier
+]
+.pull-right[
+OSF: 
+
+&lt;img src="figures/create_doi_osf.png" width="300" /&gt;
+]
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://royalsocietypublishing.org/doi/full/10.1098/rsos.180448"&gt; Hartgerink et al. 2018 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+---
+
+# Open code
+
+**Why ?**
+
+Psychology journal with mandatory open data
+* 64%  (85/174) of data sets complete &amp; understandable
+
+**Analytic reproducibility of 35 articles with good datasets:**
+* 31% without author assistance
+* 31% with author assistance
+* 27% not reproducible
+
+---
+
+# Good documentation: Lab notbooks
+
+* Crucial science tool
+
+* Keep track of ideas, thoughts, decisions
+
+* Use whatever format works for you
+  * Pen &amp; paper (not searchable, not backed up, not shareable…) 
+  * [Labfolder](https://www.labfolder.com/features/): Encrypted, integrated with data, backups, versioning, tags, ...
+  * [Evernote](https://evernote.com/free)
+  * Google doc
+  * OSF project wiki
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://guides.nyu.edu/data_management/dmp/"&gt; New York University Library &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Data management (plans)
+
+* Overview of formats and types of data
+* Research methodology (data collection, processing, and analyzing)
+* Roles &amp; responsibilities for data collection, description, processing, analysis
+* Standards you will use to describe your data (metadata)
+* Storage and backup procedures 
+* Long-term archiving and preservation plan 
+* Access policies and provisions for secondary uses
+* Security measures taken to protect data and/or participant confidentiality
+
+---
+layout: true
+---
+
+# Publication
+
+.left-column[
+&lt;img src="figures/research_lifecycle_osf_publication.svg" width="250" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+.right-column[.center-right[
+* Transparent reporting
+  * All measurements &amp; analyses
+  * Clearly label exploratory/confirmatory analyses 
+  
+* Publication bias: New publishing formats
+    * Preprints
+    * Preregistration &amp; registered reports
+    * New journals that emphasize reproducibility
+    * Journals for null-results &amp; replications
+]]
+
+---
+
+# Peer review &amp; Communication
+
+.pull-left[.center-left[
+* Peer review
+  * [Publons](https://publons.com/): credits for reviewing
+ * Open peer review
+ &lt;font size = "4"&gt; &lt;a href="http://f1000research.com/articles/6-588/v2"&gt; Ross-Hellauer 2017 &lt;/a&gt; &lt;/font&gt;
+      * content and/or names 
+
+* Post-publication commentaries: 
+  * [www.pubpeer.com](pubpeer.com)
+  * [www.retractionwatch.com](retractionwatch.com)
+  * Social media
+]]
+.pull-right[
+* Science communication: 
+  * Cumulative science
+  * Each study is a brick in a house we build
+  * Let's built stable houses! 
+  &lt;br&gt;&lt;br&gt;
+&lt;img src="figures/house-576347_1280.png" width="250" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Resources
+
+* OSF Guide on [best practices](https://help.osf.io/hc/en-us/categories/360001530634-Best-Practices) (data management, file handling etc.)
+* OSF [preregistration](https://www.cos.io/initiatives/prereg) guide
+* [Replication receipe](https://osf.io/zab38/)
+* OSF checklists: [reserearch workflow](https://osf.io/mv8pj/), [research implementation](https://osf.io/mv8pj/wiki/Research%20Implementation/), [writing reports](https://osf.io/mv8pj/wiki/writing%20report/)
+* Tutorials &amp; guides data management
+    * [Tutorial: Basics of Research Data Management](https://www.youtube.com/watch?v=3sDhQRIYUmA) (Foster, OpenAire)
+    * [Research data management 101](https://www.youtube.com/watch?v=_pHVMwfOZf8) (University of Sydney)
+    * [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme#bestpractices) (Research Data Management Service Group)
+* Digital tools to create your data management plan
+    * [DMP tool](https://dmptool.org)
+    * [DMP online](https://dmponline.dcc.ac.uk/)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
