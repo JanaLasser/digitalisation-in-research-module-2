@@ -88,7 +88,8 @@ layout: true
 ---
 layout: true
 <div class="my-footer"><span>
-<a href = "www.osf.io"> Open Science Framework </a>
+<a href = "www.osf.io"> Open Science Framework; </a>
+<a href = "https://osf.io/6zcw6/download"> David Mellor OSF slides</a>
 </span></div>
 ---
 
@@ -405,6 +406,11 @@ Psychology journal with mandatory open data
 * 31% with author assistance
 * 27% not reproducible
 
+---
+layout: true
+<div class="my-footer"><span>
+<a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"> Good practices material by Alex Christia; </a>
+</a></span></div>
 ---
 
 # Good documentation: Lab notbooks

@@ -37,18 +37,37 @@ layout: true
 
 ---
 
-# What is data management?
+# Data Management (plans)
 
+ * Overview of formats and types of data
+ 
+ * Research methodology (data collection, processing, and analyzing)
+ 
+ * Roles & responsibilities for data collection, description, processing, analysis
+ 
+ * Standards you will use to describe your data (metadata)
+ 
+ * Storage and backup procedures 
+ 
+ * Long-term archiving and preservation plan 
+ 
+ * Access policies and provisions for secondary uses
 
-* Funder requirements
+ * Security measures taken to protect data and/or participant confidentiality
+
 
 ---
 
-# Platforms
+# Repositories: 
 
-* [Open Science Framework](osf.io)
-* [Zenodo](zenodo.org)
-* Figshare
+* Keeping track & (optional) sharing
+* (Long-term) data storage <br> <br>
+* Find the repository that suits you: 
+    * [Zenodo](www.zenodo.org): European Union
+    * [Open Science Framework](www.osf.io)
+    * [Figshare](https://figshare.com/features)
+    * [Github](www.github.com) for code
+* [Registry of research data repositories](https://www.re3data.org/)
 
 ---
 
@@ -68,32 +87,23 @@ knitr::include_graphics("figures/create_doi_osf.png")
 
 ---
 
-# Data Management plans contain
-
- * Overview of formats and types of data
- 
- * Research methodology (data collection, processing, and analyzing)
- 
- * Roles & responsibilities for data collection, description, processing, analysis
- 
- * Standards you will use to describe your data (metadata)
- 
- * Storage and backup procedures 
- 
- * Long-term archiving and preservation plan 
- 
- * Access policies and provisions for secondary uses
-
- * Security measures taken to protect data and/or participant confidentiality
-
----
-
 ## DMP Tool
 
-```{r, echo=FALSE, out.width=700}
+```{r, echo=FALSE, out.width=1000}
 knitr::include_graphics("figures/DMPTool.png")
 ```
 
+---
+
+# Resources
+
+* Tutorials & guides data management
+    * [Tutorial: Basics of Research Data Management](https://www.youtube.com/watch?v=3sDhQRIYUmA) (Foster, OpenAire)
+    * [Research data management 101](https://www.youtube.com/watch?v=_pHVMwfOZf8) (University of Sydney)
+    * [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme#bestpractices) (Research Data Management Service Group)
+* Digital tools to create your data management plan
+    * [DMP tool](https://dmptool.org)
+    * [DMP online](https://dmponline.dcc.ac.uk/)
 
 
 

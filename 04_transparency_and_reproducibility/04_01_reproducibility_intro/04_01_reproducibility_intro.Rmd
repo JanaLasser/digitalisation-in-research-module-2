@@ -278,7 +278,7 @@ knitr::include_graphics("figures/cognitive_biases.jpg")
 layout: true
 <div class="my-footer"><span>
 <a href = "https://www.nature.com/articles/526182a"> Nuzzo 2015; </a>
-<a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"> Good practices material by Alex Christia;
+<a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"> Good practices material by Alex Christia; </a>
 <a href = "https://www.nature.com/articles/s41562-016-0021.pdf"> Munafo et al. 2017 </a>
 </a></span></div>
 
