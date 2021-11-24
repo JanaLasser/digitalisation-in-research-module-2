@@ -23,10 +23,10 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * Introduction and Module overview [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/01_intro/index.html)]
 
-* Digitally enhanced literature search and management [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1)]
-    * Tools to find relevant articles
-    * Ways to stay informed about new articles
-    * Locally and collaboratively managing relevant literature 
+* Digitally enhanced literature search and management 
+    * Tools to find relevant articles [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#3)]
+    * Ways to stay informed about new articles [[exercise: staying informed](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#15)]
+    * Locally and collaboratively managing relevant literature [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#17)]
 * Tools and workflows to manage collaborations
     * Living documents [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_01_living_documents/slides/index.html)] [[exercise: using living documents to their full potential](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_01_living_documents/slides/index.html#/8)]
     * Collaborative code writing [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html)] [[exercise: setting up a Git repository](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html#/7)]
