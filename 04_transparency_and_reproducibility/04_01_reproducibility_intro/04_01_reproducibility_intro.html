@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Module 2: Digitalisation in Research</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Hannah Metzler   CSH Vienna &amp; Medical University of Vienna" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Module 2: Digitalisation in Research
+## Introduction to Biases and Reproducibility in Research
+### Hannah Metzler <br> <em>CSH Vienna &amp; Medical University of Vienna</em>
+### 25.11.2021
+
+---
+
+
+
+
+
+
+layout: true
+---
+
+## Can humans predict the future? 
+### History of the reproducibility crisis in psychology
+
+* [Feeling the future](https://d1wqtxts1xzle7.cloudfront.net/54466465/FeelingFuture-with-cover-page-v2.pdf?Expires=1637600022&amp;Signature=eObuIJc0SRn9JWu0Ww0FhumpxPWmIKDDHNBJ~S-XE0q4lzlYOEfQPl3gS4H~0ENTGRtZbLFGOA2jNr0BSgaLFcMFWnd~PVLN0kAgGbZKlP8-xwD5jTqiOKwqdlmZBKc3KYlDhL8gTNMfQblRsLxGXy71-hAI5G1a~pvkjAQ9rRapLGDPz23idpNP~Eh2oubGad7TJtSvYsXaBNZy~B1PmwX7gD7MtEJoX6hboc-eKUAwN7iG22U-eCFjt29I2AKE5ezvVgEGU0~keW7euzwyIkfHoPf841bmqEb3HNnMPMePbXWGXwaVuLRepIOprH0-B5NcqxXJVNvdYvvQUTuL~w__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA): Paper by prominent psychologist in top psychology journal &lt;br&gt;  &lt;br&gt; 
+&lt;center&gt;
+&lt;img src="figures/curtain-263731_1920.jpg" width="160" /&gt;
+&lt;img src="figures/curtain-263731_1920.jpg" width="160" /&gt;
+&lt;/center&gt; &lt;br&gt; 
+* Exp 1: 53% accuracy in predicting location of *erotic* images (not others) &lt;br&gt;
+* Exp 2: Better at remembering words that are repeated later in time &lt;br&gt; &lt;br&gt; 
+* 9 experiments, reviewed by 4 reviewers &amp;nbsp;&amp;nbsp; **???**
+
+???
+Exp 1:   * Physiolocial sexual arousal 2-3 seconds before the picture &lt;br&gt;&lt;br&gt;
+Exp 2: Visualize words, surprise recall test, then type 24 random words (memory) - students had better recall for the words they were later asked to type in
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href="https://journals.sagepub.com/doi/full/10.1177/0956797611417632"&gt; Simmons et al. 2011
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# False positive psychology
+
+* Significant finding in psychology: p &lt;.05
+
+* False positive: statistically **significant result** if the **effect is not real**
+
+* Simulations of analytic flexilibity or __researcher degrees of freedom__
+
+    1. 2 outcome variables
+    2. Add 10 more observations
+    3. Control for gender or interaction gender x treatment
+    4. Dropping one of 3 conditions
+  
+* False positive probability increases **from 5% to 60.7%** if all 4 combined
+
+* Try it yourself: [P-hacking app](http://shinyapps.org/apps/p-hacker/)
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "http://amstat.tandfonline.com/doi/abs/10.1080/09332480.2005.10722754"&gt; Ioannidis 2005 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Only one negative example? &lt;br&gt; Only psychology?
+
+.left-column[
+&lt;img src="figures/false_findings.svg" width="200" /&gt;
+]
+
+.right-column[.center-right[
+* The more flexibility in design…
+
+* The more financial or other interests and prejudices…
+
+* The hotter scientific fields…
+
+… the less likely the research findings are to be true.
+]]
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a&gt; Open Science Collaboration 2015; Klein et al. 2014; Camerer et al. 2018; Camerer et al. 2016; Hensel 2021; Gordon et al. 2020
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Reproducibility in the social sciences
+
+.pull-left[.center-left[
+* [Psychology 2015](http://science.sciencemag.org/content/349/6251/aac4716): 100 random studies: 38% replicated
+
+* 13 famous findings in [social psychology 2014](https://econtent.hogrefe.com/doi/10.1027/1864-9335/a000178): 38% replicated
+
+* [Behavioural economics 2016](http://science.sciencemag.org/content/351/6280/1433): 61%
+
+* [Social sciences 2018](https://www.nature.com/articles/s41562-018-0399-z): published in Nature &amp; Science 2010-2015: 50%-67%
+
+* [SCORE project](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): Expert pedictions
+]]
+.pull-right[.center-right[
+Expected replication rates: 
+&lt;img src="figures/Golden_scoreproject.svg" width="500" /&gt;
+]]
+    
+    
+???
+[Management](https://www.sciencedirect.com/science/article/pii/S0263237321000025?dgcid=rss_sd_all)
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a&gt; Begley &amp; Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley &amp; Ellis 2012;  &lt;br&gt; 
+Francis, 2014; Ioannidis et al. 2009;   Lancee et al. 2017;Amara &amp; Neves 2021
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Reproduciblity in biology &amp; medicine
+
+* [Review for basic and preclinical biomedical research](http://circres.ahajournals.org/content/116/1/116) &lt;br&gt; &lt;br&gt; 
+* A few examples:  &lt;br&gt; 
+  * [Cancer Biology/Oncology](https://elifesciences.org/articles/04333): so far [5 of 17](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) highly cited articles replicated &lt;br&gt; 
+      * 53 famous findings: [25%](https://www.nature.com/articles/nrd3439-c1?linkId=33568131) replicated by 1 firm,  [11%](https://www.nature.com/articles/483531a#Tab1) by another  &lt;br&gt;  &lt;br&gt; 
+  * [Micro-array based gene expression studies](https://pubmed.ncbi.nlm.nih.gov/19174838/) in *Nature genetics*: 10-40%, &lt;br&gt;
+      * Issues in [Epigenetics](http://www.genetics.org/content/198/2/449), [DNA methylation methods](https://www.sciencedirect.com/science/article/pii/S2666389920300143) &lt;br&gt; &lt;br&gt; 
+  * Pharmacology of [antipsychotic drugs](https://www.nature.com/articles/tp2017203): 81% deviate from registered plan &lt;br&gt; &lt;br&gt; 
+  * [Brazilian Reproducibility Initiative](https://www.nature.com/articles/d41586-021-02486-7?proof=t%C2%A0) for biomedical research
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a&gt; Kapoor &amp; Narazanan 2021; Cova et al., 2018; Baker 2016
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+.pull-left[
+# Other disciplines
+
+* Computational reproducibility in [Machine Learning](https://reproducible.cs.princeton.edu/): 
+  * 4 out of 12 papers 
+  * [Checklist](https://www.cs.mcgill.ca/~jpineau/ReproducibilityChecklist.pdf) for reproducible ML
+  
+* [Experimental philosophy](https://psyarxiv.com/sxdah)
+  * 70% of 40 experiments replicated
+
+* [Survey](https://www.nature.com/articles/533452a) in natural sciences &amp;nbsp;&amp;nbsp;===&gt;
+
+&lt;!-- * Proportion of p-values .045-0.05 Head et al. Plos biology 2015 --&gt;
+]
+
+.pull-right[
+
+&lt;img src="figures/Baker_survey_disciplines.png" width="380" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href="https://courses.lumenlearning.com/suny-natural-resources-biometrics/chapter/chapter-3-hypothesis-testing/"&gt; Source Image 1; &lt;/a&gt;
+&lt;a href="https://libertytoday.uk/2013/03/07/the-nhs-can-only-guess/searching-blindfolded-man/"&gt; Source Image 2&lt;/a&gt;
+&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# What are the reasons?
+
+.left-column[
+&lt;img src="figures/null_hypothesis.png" width="200" /&gt;
+
+&lt;img src="figures/searching-blindfolded-man.jpg" width="150" style="display: block; margin: auto;" /&gt;
+&lt;br&gt;
+&lt;img src="figures/manuscript-149606_1280.png" width="100" style="display: block; margin: auto;" /&gt;
+]
+
+.right-column[.center-right[
+* Basic problems with common methods
+&lt;font size="4"&gt; &lt;a href="https://statmodeling.stat.columbia.edu/2016/09/21/what-has-happened-down-here-is-the-winds-have-changed/"&gt; Gelman 2016
+&lt;/a&gt;&lt;/font&gt;
+    * Researcher degrees of freedom
+    * Misunderstanding of statistical null-hypotheses testing
+    * Multiple comparisons problems + weak theories
+
+* Humans: Complex systems with many variables
+
+* Problems in the publication system: Incentives
+    * Peer review
+    * Publication bias for positive findings
+    * Pressure to publish &lt;font size="4"&gt; &lt;a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010271"&gt; Fanelli 2010; 
+&lt;a href="https://journals.sagepub.com/doi/10.1177/1556264614552421"&gt;Tijdink et al. 2014 &lt;/a&gt; &lt;/font&gt;
+]]
+    
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://revistas.udc.es/index.php/ejge/article/view/ejge.2017.6.1.4322"&gt; Peon et al. 2017 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Cognitive biases all humans have
+
+.middle[.left-column[
+&lt;br&gt; &lt;br&gt; 
+&lt;img src="figures/mental-health-3350778_1280.png" width="200" /&gt;
+]]
+
+.right-column[.center-right[
+* Selection bias: Seeking out information that confirms our view
+
+* Confirmation bias in evaluating information
+
+* Aversion to ambiguity
+
+* Groupthink: agreeing to easily
+
+* Cluster illusion: Recognizing patterns in randomness
+
+* Appeal to novelty
+]]
+
+???
+https://www.nature.com/articles/d42473-019-00004-y#ref-CR17 mentions bandwgon and cluster illustion, not sure if good sources cited for this
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://commons.wikimedia.org/wiki/File:Cognitive_Bias_Codex_-_180%2B_biases,_designed_by_John_Manoogian_III_(jm3).jpg"&gt; Benson Manoogian 2016 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+---
+&lt;img src="figures/cognitive_biases.jpg" width="850" style="display: block; margin: auto;" /&gt;
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://www.nature.com/articles/526182a"&gt; Nuzzo 2015; &lt;/a&gt;
+&lt;a href = "https://sites.google.com/site/cogmasterbonnespratiques/train-yourself"&gt; Good practices material by Alex Christia;
+&lt;a href = "https://www.nature.com/articles/s41562-016-0021.pdf"&gt; Munafo et al. 2017 &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Biases in Research (non-exhaustive list)
+
+* Selection &amp; confirmation bias in literature search &amp; interpretation
+
+* Experimenter bias (e.g. [bright vs. dull rats](https://psycnet.apa.org/record/1965-01547-001), [power priming](http://journals.sagepub.com/eprint/zEiAqVspym6Y3XBmkhMJ/full))
+
+* Poor quality control &amp; documentation
+
+* Results analysis &amp; interpretation: p-hacking, ignoring alternative explanations
+
+* Story telling: Hypothesizing/justifying after results are known &lt;br&gt; ([HARKing, JARKing](https://www.nature.com/articles/526182a))
+
+* Write-up &amp; publication bias towards positive results
+
+* Avoiding null-results &amp; non-replications
+
+---
+
+&lt;!-- # Biases throughout the research process --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=800} --&gt;
+&lt;!-- knitr::include_graphics("figures/cruwell_biases_cycle.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- [Crüwell et al. 2018](https://osf.io/cfzyx) --&gt;
+&lt;!-- --- --&gt;
+
+# What do we do about all of this?
+
+&lt;div style="text-align:center"&gt; &lt;span style="font-weight: bold; color:#1f5c99"&gt; Acknowledge that we are all human:  protect against biases, correct mistakes and change incentives &lt;/font&gt; &lt;/span&gt; &lt;/div&gt;
+
+* Slower and more careful science &lt;font size = "4"&gt; &lt;a href="http://www.sciencedirect.com/science/article/pii/S1364661319302426"&gt; Frith 2020 &lt;/a&gt; &lt;/font&gt; 
+    * Better documentation &amp; transparency (Open Science)
+    * Cumulative Science &lt;br&gt; &lt;br&gt;
+* Encourage collaboration &amp; team science
+    * Large datasets, replication projects
+    * Methodological experts&lt;br&gt;&lt;br&gt;
+* Change incentive structures for publication &amp; hiring &lt;font size = "4"&gt; &lt;a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2000995"&gt; Higginson &amp; Munafo, 2016 &lt;/a&gt; &lt;/font&gt;
+    * Evaluation based on rigour not novelty &lt;br&gt;&lt;br&gt;
+     
+---
+layout: true
+---
+
+# Concrete Solutions tomorrow!
+
+### Acknowledgements
+
+* Some slides based on presentations by Alex Cristia &lt;br&gt; (Ecole Normale Supérieure, Paris)
+
+    * [Good practices materials](https://sites.google.com/site/cogmasterbonnespratiques/train-yourself)
+
+---
+
+# Discussion
+
+* Break-out rooms with 3 people
+    * Come back in 20 minutes
+    * Summary round (until 15h)
+
+* Which of these biases and problems are issues in your discipline?
+
+* Which solutions can you imagine?
+
+* How could digital tools be used to adress challenges and implement solutions in your discipline?
+    * Which tool for which problem/bias?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
