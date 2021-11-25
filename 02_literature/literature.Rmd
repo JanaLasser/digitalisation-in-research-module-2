@@ -362,7 +362,7 @@ knitr::include_graphics("figures/zotero_related_entries.png")
 
 * Annotations: 
   * Marked parts of PDF as a summary
-  * Zotfile extension: Manage Attachments => Extract Annotations
+  * [Zotfile](http://zotfile.com/) extension: Manage Attachments => Extract Annotations
 
 * Press Alt to find collection of an item &ensp;
 ```{r, echo=FALSE, out.width=500}
