@@ -1,7 +1,7 @@
 ---
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Digitally Enhanced Literature Search and Management"
-author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
+author: "Hannah Metzler <br> *CSH Vienna & Medical Universitpy of Vienna*"
 date: "25.11.2021"
 output:
   xaringan::moon_reader:
@@ -259,7 +259,7 @@ knitr::include_graphics("figures/core.svg")
 # (Collaboratively) Managing literature
 
 .pull-left[
-* Many: Mendely, Endnote, F1000, Citavi...
+* Many: Mendeley, Endnote, F1000, Citavi...
 * [**Zotero**](https://www.zotero.org/): Open source & flexible
 
 * **Store, organize and cite papers**

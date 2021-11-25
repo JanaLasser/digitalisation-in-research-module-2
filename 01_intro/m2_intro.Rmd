@@ -98,6 +98,10 @@ www.hannahmetzler.eu    |    metzler@csh.ac.at    |    Twitter: 
   * Social Media: Twitter
 ]
 
+???
+Viel praktisches, hoffentlich gut mit Zoom
+Rundumschlag, hoffentlich einzelne Tools dabei
+
 ---
 
 # Slides und Kursmaterialien
@@ -116,6 +120,12 @@ knitr::include_graphics('figures/timeplan.png')
 ```
 ]]
 
+???
+Gekürzt, hoffen dass es passt, Gerne helfen auf die Zeit zu achten
+Immer gerne fragen, unterbrechen
+Videos
+
+
 ---
 
 # Wer seid ihr?
@@ -132,4 +142,7 @@ knitr::include_graphics('figures/timeplan.png')
   * Open Data, Code etc?
 
 * Erfahrung mit Code? R, Python etc?
+
+
+
 
