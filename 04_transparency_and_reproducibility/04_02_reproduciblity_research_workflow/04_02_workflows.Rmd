@@ -352,18 +352,18 @@ knitr::include_graphics("figures/research_lifecycle_osf_repositories_code.svg")
 ]]
 
 .pull-right[.center-right[
-
+  
 ### Repositories: 
-
-* Keeping track & (optional) sharing
-* (Long-term) data storage <br> <br>
-* Find the repository that suits you: 
-    * [Zenodo](www.zenodo.org): European Union
-    * [Open Science Framework](www.osf.io)
-    * [Figshare](https://figshare.com/features)
-    * [Github](www.github.com) for code
-* [Registry of research data repositories](https://www.re3data.org/)
-]]
+  
+  * Keeping track & (optional) sharing
+  * (Long-term) data storage <br> <br>
+  * Find the repository that suits you: 
+      * [Zenodo](www.zenodo.org): European Union
+      * [Open Science Framework](www.osf.io)
+      * [Figshare](https://figshare.com/features)
+      * [Github](www.github.com) for code
+  * [Registry of research data repositories](https://www.re3data.org/)
+  ]]
 
 ---
 
@@ -510,6 +510,7 @@ knitr::include_graphics("figures/house-576347_1280.png")
 * Digital tools to create your data management plan
     * [DMP tool](https://dmptool.org)
     * [DMP online](https://dmponline.dcc.ac.uk/)
+* (Detailed) example [Data Management Plan](https://zenodo.org/record/3733238) for a large collaborative project
 
 
 
