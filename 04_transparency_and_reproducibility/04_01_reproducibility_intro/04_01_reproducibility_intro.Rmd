@@ -182,18 +182,18 @@ layout: true
 <!-- * Proportion of p-values .045-0.05 Head et al. Plos biology 2015 -->
 ]
 
-.pull-right[
+.pull-right[.center[
+<br> <br>
+![replication_opinions_disciplines](https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Fige_HTML.jpg?as=webp)
+]]
 
-```{r, echo=FALSE, out.width=380, fig.align='left'}
-knitr::include_graphics("figures/Baker_survey_disciplines.png")
-```
-]
+
 
 ---
 layout: true
 <div class="my-footer"><span>
-<a href="https://courses.lumenlearning.com/suny-natural-resources-biometrics/chapter/chapter-3-hypothesis-testing/"> Source Image 1; </a>
-<a href="https://libertytoday.uk/2013/03/07/the-nhs-can-only-guess/searching-blindfolded-man/"> Source Image 2</a>
+<a href="https://courses.lumenlearning.com/suny-natural-resources-biometrics/chapter/chapter-3-hypothesis-testing/"> Source Image 1 </a>
+<!-- <a href="https://libertytoday.uk/2013/03/07/the-nhs-can-only-guess/searching-blindfolded-man/"> Source Image 2</a> -->
 </span></div>
 
 ---
@@ -201,14 +201,15 @@ layout: true
 # What are the reasons?
 
 .left-column[
+<br>
 ```{r, echo=FALSE, out.width=200}
 knitr::include_graphics("figures/null_hypothesis.png")
 ```
 
-```{r, echo=FALSE, out.width=150,fig.align='center'}
-knitr::include_graphics("figures/searching-blindfolded-man.jpg")
-```
-<br>
+<!-- ```{r, echo=FALSE, out.width=150,fig.align='center'} -->
+<!-- knitr::include_graphics("figures/searching-blindfolded-man.jpg") -->
+<!-- ``` -->
+<br><br><br>
 ```{r, echo=FALSE, out.width=100,fig.align='center'}
 knitr::include_graphics("figures/manuscript-149606_1280.png")
 ```
@@ -334,6 +335,8 @@ layout: true
 * Some slides based on presentations by Alex Cristia <br> (Ecole Normale Supérieure, Paris)
 
     * [Good practices materials](https://sites.google.com/site/cogmasterbonnespratiques/train-yourself)
+
+* Images on slide 2,8 & 9 CC0 from pixabay.com
 
 ---
 

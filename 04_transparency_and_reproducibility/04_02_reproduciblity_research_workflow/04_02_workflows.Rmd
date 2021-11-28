@@ -469,6 +469,10 @@ knitr::include_graphics("figures/research_lifecycle_osf_publication.svg")
 ]]
 
 ---
+layout: true
+<div class="my-footer"><span><a> Image CC0 from pixabay.com </a></span></div>
+
+---
 
 # Peer review & Communication
 
@@ -495,6 +499,8 @@ knitr::include_graphics("figures/house-576347_1280.png")
 ```
 ]
 
+---
+layout: true
 ---
 
 # Resources

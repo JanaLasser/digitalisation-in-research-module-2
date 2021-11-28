@@ -2,10 +2,10 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Introduction & Overview"
 author: "Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)"
-date: "25.11.2021  <br> Folien: https://github.com/JanaLasser/digitalisation-in-research-module-2/"
+date: "25.11.2021"
 output:
   xaringan::moon_reader:
-    seal:  false # this hides the title slide to make a costum one below
+    #seal:  false # this hides the title slide to make a costum one below
     lib_dir: libs 
     css: [xaringan-themer.css, "libs/footer&middle.css"]
     nature:
@@ -35,21 +35,21 @@ options(htmltools.dir.version = FALSE)
 
 layout: true
 
----
-class: inverse, center, middle, title-slide
-background-image: url(figures/title_slide.svg)
-background-size: contain
+<!-- --- -->
+<!-- class: inverse, center, middle, title-slide -->
+<!-- background-image: url(figures/title_slide.svg) -->
+<!-- background-size: contain -->
 
 
----
-class: inverse, center, middle, title-slide
+<!-- --- -->
+<!-- class: inverse, center, middle, title-slide -->
 
-# Introduction & Overview
+<!-- # Introduction & Overview -->
 
 
-### Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)
+<!-- ### Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*) -->
 
-#### Folien: github.com/JanaLasser/digitalisation-in-research-module-2
+<!-- #### Folien: github.com/JanaLasser/digitalisation-in-research-module-2 -->
 
 ---
 layout: true
