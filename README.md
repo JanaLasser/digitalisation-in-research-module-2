@@ -1,7 +1,7 @@
 # Digitalization in research
 *Module 2 of the "[Digital Transformation in Research](https://www.youtube.com/watch?v=t_S4r1-Gl2U)" course, November 25 & 26, 2021.*
 
-
+This work is usable under the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
 ## Instructors
 [Hannah Metzler](https://hannahmetzler.eu/) <metzler@csh.ac.at>, PostDoc at [MedUni Vienna](https://www.meduniwien.ac.at/web/) and the [Complexity Science Hub Vienna](https://www.csh.ac.at/).
