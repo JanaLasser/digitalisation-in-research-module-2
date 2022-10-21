@@ -1,5 +1,5 @@
 # Digitalization in research
-*Module 2 of the "[Digital Transformation in Research](https://www.youtube.com/watch?v=t_S4r1-Gl2U)" course, November 25 & 26, 2021.*
+*Module 2 of the "[Digital Transformation in Research](https://www.youtube.com/watch?v=t_S4r1-Gl2U)" course, December 15 & 16, 2022.*
 
 This work is usable under the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
