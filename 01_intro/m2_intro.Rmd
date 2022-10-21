@@ -2,6 +2,7 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Introduction & Overview"
 author: "Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)"
+date: "15-16.12.2022"
 output:
   xaringan::moon_reader:
     #seal:  false # this hides the title slide to make a costum one below
@@ -120,7 +121,6 @@ knitr::include_graphics('figures/timeplan.png')
 ]]
 
 ???
-Gekürzt, hoffen dass es passt, Gerne helfen auf die Zeit zu achten
 Immer gerne fragen, unterbrechen
 Videos
 
