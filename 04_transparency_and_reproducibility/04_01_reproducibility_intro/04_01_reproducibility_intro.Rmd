@@ -2,7 +2,6 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Introduction to Biases and Reproducibility in Research"
 author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
-date: "25.11.2021"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below

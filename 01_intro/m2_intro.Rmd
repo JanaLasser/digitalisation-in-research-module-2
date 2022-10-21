@@ -2,7 +2,6 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Introduction & Overview"
 author: "Dr. Jana Lasser (*CSH Vienna & Meduni Wien*) <br> Dr. Hannah Metzler  (*TU Graz & CSH Vienna*)"
-date: "25.11.2021"
 output:
   xaringan::moon_reader:
     #seal:  false # this hides the title slide to make a costum one below

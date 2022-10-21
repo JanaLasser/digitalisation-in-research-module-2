@@ -4,6 +4,7 @@
     <title>Module 2: Digitalisation in Research</title>
     <meta charset="utf-8" />
     <meta name="author" content="Hannah Metzler   CSH Vienna &amp; Medical Universitpy of Vienna" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
   </head>
@@ -11,10 +12,15 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Module 2: Digitalisation in Research
+]
+.subtitle[
 ## Digitally Enhanced Literature Search and Management
+]
+.author[
 ### Hannah Metzler <br> <em>CSH Vienna &amp; Medical Universitpy of Vienna</em>
-### 25.11.2021
+]
 
 ---
 
@@ -427,6 +433,7 @@ GoogleDoc:
 http://ideophone.org/12-zotero-tips-and-techniques)
 
 * [Numerous other Add-ons](https://www.zotero.org/support/plugins)
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -476,6 +483,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
