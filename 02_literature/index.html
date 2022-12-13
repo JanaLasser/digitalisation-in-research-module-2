@@ -34,131 +34,206 @@ layout: true
 ---
 # Overview
 
-1. Finding relevant articles
-  * Overview: Open Knowledge Maps
-  * Smart literature search: Scite &amp; Research rabbit
-&lt;br&gt;&lt;br&gt;
+1. AI-powered &amp; open source tools for literature search to find relevant articles
+
+  * Workflow: **Google Scholar, Zotero + ResearchRabbit**
+  * Finding specific articles or get an overview: **Elicit**
+
 2. Staying informed
-  * Practical session: Setting alerts &amp; Twitter
+  * Practical session: Setting alerts &amp; **Twitter**
 &lt;br&gt;&lt;br&gt;
-3. (Collaborative) Management of literature &amp; citations
-  * Zotero
-  * Integration with text processing software
+3. (Collaborative) Management of literature &amp; citations: **Zotero**
+
+???
+&lt;!-- --- --&gt;
+
+&lt;!-- # Open Knowledge Maps --&gt;
+
+&lt;!-- .left-column[ --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=130, fig.align='left'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_overview.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- &lt;br&gt; --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=130, fig.align='right'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_irrelevant.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=150, fig.align='left'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_concepts.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=85, fig.align='right'} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map_open.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ] --&gt;
+
+&lt;!-- .right-column[.center-right[ --&gt;
+&lt;!-- * Visual search engine at [openknowledgemaps.org](https://openknowledgemaps.org) --&gt;
+
+&lt;!--   * Get an overview of a research topic --&gt;
+
+&lt;!--   * Clustering similar papers  --&gt;
+&lt;!--       * Based on text similarity algorithm --&gt;
+
+&lt;!--   * Identify relevant concepts --&gt;
+&lt;!--   * Highlights open content --&gt;
+
+&lt;!-- ]] --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=950} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_map.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- --- --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=950} --&gt;
+&lt;!-- knitr::include_graphics("figures/knowledge_maps_zoomin.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- --- --&gt;
+
+&lt;!-- # Smart literature search: scite_ --&gt;
+
+&lt;!-- * Web Of Science, Scopus, Pubmed, Google Scholar, ... --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=100, fig.align='left'} --&gt;
+&lt;!-- knitr::include_graphics("figures/scite.svg") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- * [**Scite.ai**](https://scite.ai): Platform for discovering and evaluating scientific articles --&gt;
+&lt;!-- &lt;br&gt; --&gt;
+&lt;!-- * Search within articles (not just titles/abstracts) --&gt;
+&lt;!-- * What research articles say about each other --&gt;
+&lt;!-- * Powered by Deep Learning --&gt;
+&lt;!-- &lt;br&gt;&lt;br&gt; --&gt;
+&lt;!-- * Smart Citations:  --&gt;
+&lt;!--   * Displays the context of the citation --&gt;
+&lt;!--   * Classification: supporting or contrasting evidence for the cited claim --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- ## Scite_: Smart citations --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=800} --&gt;
+&lt;!-- knitr::include_graphics("figures/smart-citations-illo.svg") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!--  Source: Scite.ai --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Useful Scite_ features: search &amp; reports --&gt;
+
+&lt;!-- * Literature [search](https://scite.ai/search?q=power%20posing) with smart citations --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=1000} --&gt;
+&lt;!-- knitr::include_graphics("figures/scite_search.png") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- * [Citation reports](https://scite.ai/reports/power-posing-1L19pj) on a publication --&gt;
+&lt;!--     * Citation type: Contrasting, supporting, mentioning --&gt;
+&lt;!--     * Citation section: Introduction, methods, results, discussion --&gt;
+&lt;!--     * Publication type: preprint, article, book --&gt;
+&lt;!--     * Self-cite vs. independent --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Useful Scite_ features: checks &amp; add-on --&gt;
+
+&lt;!-- * Upload documents to [check the reliability of references](https://scite.ai/reference-check/c1c9bbe2-976a-4adb-9d02-fa173329bf3a) --&gt;
+&lt;!--     * Stop citing retracted or heavily disputed papers unintentionally --&gt;
+&lt;!-- &lt;br&gt;&lt;br&gt; --&gt;
+&lt;!-- * Alerts for citations, publications or research claims --&gt;
+&lt;!-- &lt;br&gt;&lt;br&gt; --&gt;
+&lt;!-- * [Browser extension](https://scite.ai/extension-install) --&gt;
+&lt;!--     * e.g. on Google Scholar: --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=1000} --&gt;
+&lt;!-- knitr::include_graphics("figures/googlescholar_scite.png") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Useful Scite_ features: visualize ciations --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=800} --&gt;
+&lt;!-- knitr::include_graphics("figures/scite_visualize.png") --&gt;
+&lt;!-- ``` --&gt;
 
 ---
 
-# Open Knowledge Maps
+# Google Scholar
 
+.pull-left[
+* Includes all content (pre-prints etc)
 
-.left-column[
-&lt;img src="figures/knowledge_map_overview.png" width="130" style="display: block; margin: auto auto auto 0;" /&gt;
-&lt;br&gt;
-&lt;img src="figures/knowledge_map_irrelevant.png" width="130" style="display: block; margin: auto 0 auto auto;" /&gt;
-&lt;img src="figures/knowledge_map_concepts.png" width="150" style="display: block; margin: auto auto auto 0;" /&gt;
-&lt;img src="figures/knowledge_map_open.png" width="85" style="display: block; margin: auto 0 auto auto;" /&gt;
+* Ranks articles by citation count
 
+* Researcher profiles with all references
 
+* Adds content immediately: good for alerts
+  * Use very specific keywords or important authors
 ]
-.right-column[.center-right[
-* Visual search engine at [openknowledgemaps.org](https://openknowledgemaps.org)
 
-  * Get an overview of a research topic
-  
-  * Clustering similar papers 
-      * Based on text similarity algorithm
-  
-  * Identify relevant concepts
-  * Highlights open content
-  
-]]
-
----
-&lt;img src="figures/knowledge_map.png" width="950" /&gt;
----
-&lt;img src="figures/knowledge_maps_zoomin.png" width="950" /&gt;
+.pull-right[
+&lt;img src="figures/googlescholar.png" width="600" /&gt;
+]
 ---
 
-# Smart literature search: scite_
+## If Google Scholar does not find the pdf...
 
-* Web Of Science, Scopus, Pubmed, Google Scholar, ...
+* Google Scholar usually finds open access version of articles behind paywalls
 
-&lt;img src="figures/scite.svg" width="100" style="display: block; margin: auto auto auto 0;" /&gt;
+  * Repositories
+  * Personal website
 
-* [**Scite.ai**](https://scite.ai): Platform for discovering and evaluating scientific articles
-&lt;br&gt;
-* Search within articles (not just titles/abstracts)
-* What research articles say about each other
-* Powered by Deep Learning
-&lt;br&gt;&lt;br&gt;
-* Smart Citations: 
-  * Displays the context of the citation
-  * Classification: supporting or contrasting evidence for the cited claim
+#### Other ways to access articles: 
 
----
-## Scite_: Smart citations
-
-&lt;img src="figures/smart-citations-illo.svg" width="800" /&gt;
- Source: Scite.ai
-
----
-
-## Useful Scite_ features: search &amp; reports
-
-* Literature [search](https://scite.ai/search?q=power%20posing) with smart citations
-
-&lt;img src="figures/scite_search.png" width="1000" /&gt;
-* [Citation reports](https://scite.ai/reports/power-posing-1L19pj) on a publication
-    * Citation type: Contrasting, supporting, mentioning
-    * Citation section: Introduction, methods, results, discussion
-    * Publication type: preprint, article, book
-    * Self-cite vs. independent
-
----
-
-## Useful Scite_ features: checks &amp; add-on
-
-* Upload documents to [check the reliability of references](https://scite.ai/reference-check/c1c9bbe2-976a-4adb-9d02-fa173329bf3a)
-    * Stop citing retracted or heavily disputed papers unintentionally
-&lt;br&gt;&lt;br&gt;
-* Alerts for citations, publications or research claims
-&lt;br&gt;&lt;br&gt;
-* [Browser extension](https://scite.ai/extension-install)
-    * e.g. on Google Scholar:
-
-&lt;img src="figures/googlescholar_scite.png" width="1000" /&gt;
-
----
-
-## Useful Scite_ features: visualize ciations
-
-&lt;img src="figures/scite_visualize.png" width="800" /&gt;
+* [CORE](https://core.ac.uk) (Plugin + Website): &amp;ensp;
+&lt;img src="figures/core.svg" width="60" /&gt;
+      * Locate free versions of articles behind paywall
+      
+* Absolutely never use Sci-Hub!
 
 ---
 name: researchrabbit
 
 # Smart literature search: ResearchRabbit
 
-* ["Spotify" for papers](https://researchrabbitapp.com): Discover papers via recommendations based on articles you like &lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;img src="figures/researchrabbit_logo.png" width="200" style="display: block; margin: auto;" /&gt;
+&lt;br&gt; 
+
+* ["Spotify" for papers](https://researchrabbitapp.com)
+
+* Discover papers via recommendations based on articles you chose
+
 * Visualize paper networks: topic, citations, references
+
 * Collaboration networks: Discover research teams &amp; their work
 
 * Timelines, earlier &amp; later work
 
-.pull-left[.center-left[
-* Personalized alerts on new content
+---
 
-* Comments/annotations
-* Share collections
-]]
+&lt;img src="figures/research_rabbit.png" width="950" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figures/research_rabbit_authors.png" width="850" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Other ResearchRabbit features
+.pull-left[
+Personalized alerts on new content
+
+Comments/annotations
+
+&lt;img src="figures/research_rabbit_alerts.png" width="250" /&gt;
+&lt;img src="figures/research_rabbit_comments.png" width="250" /&gt;
+]
 .pull-right[
-&lt;img src="figures/researchrabbit_logo.png" width="200" style="display: block; margin: auto;" /&gt;
+Share collections
+
+&lt;img src="figures/research_rabbit_share.png" width="320" style="display: block; margin: auto;" /&gt;
 ]
 
----
 
-&lt;img src="figures/research_rabbit.png" width="1500" /&gt;
-
----
+???
 
 # ResearchRabbit vs. scite_
 
@@ -172,39 +247,130 @@ name: researchrabbit
     * free
     
 ---
+name: workflow
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href = "https://twitter.com/rdpalacio/status/1601640985858957312"&gt; Workflow: Ruben Dario on Twitter &lt;/a&gt;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
 
-# Google Scholar
 
-* Includes all content (preprints etc)
-* Adds content immediately: good for alerts
-  * Alerts tip: (quite specific) keywords or important author
-* Researcher profiles with all references
-* Often finds open access version
+## Literature search workflow
 
-**Other useful resources for accessing content behind paywalls:**
+* [Zotero](www.zotero.org): powerful open source literature management
+  * Organizes articles into collections (per topic or project)
 
-* [CORE](https://core.ac.uk) (Plugin + Website): &amp;ensp;
-&lt;img src="figures/core.svg" width="40" /&gt;
-      * Locate free versions of articles behind paywall
-      
-* Absolutely never use Sci-Hub!
+.right-column[.center-right[
+1. Find highly cited articles with Google Scholar
+2. Open on publisher website &amp; import to Zotero collection
+3. Sync the collection with ResearchRabbit
+4. Explore recommendations via ResearchRabbit
+5. Add papers to Zotero collection via ResearchRabbit
+
+&lt;img src="figures/zotero_sync_researchrabbit.png" width="750" /&gt;
+
+]]
 .left-column[
+#### Workflow
+&lt;img src="figures/zotero_addtocollection_browser.png" width="200" /&gt;
 ]
-.right-column[
+
+---
+
+# [Elicit: The AI research assistant](www.elicit.org)
+
+- Can help you find specific studies with advanced filters
+  - Comparison Google Scholar: finds highly cited/central papers
+  
+- Summarizes abstracts (also across several papers)
+.pull-left[.center-left[
+- Overview of
+
+  - Interventions
+  - Outcome measures
+  - Sample size
+  ]]
+.pull-right[
+- Study information
+
+  - Sample description
+  - Trustworthiness
+  - How is it cited?
+  - Find information within paper
 ]
+
+---
+
+## Paper overview 
+
+&lt;img src="figures/elicit_overview.png" width="1300" /&gt;
+---
+
+## Intervention, outcome measure and sample size
+
+&lt;img src="figures/elicit_overview2.png" width="1300" /&gt;
+
+---
+
+## Study information 
+
+.pull-left[
+&lt;img src="figures/elicit_studyinfo.png" width="570" /&gt;
+]
+.pull-right[
+&lt;img src="figures/elicit_citations_in_context.png" width="550" /&gt;
+]
+---
+
+## Find information in paper
+
+.pull-left[
+
+Enter a question/keyword
+
+&lt;img src="figures/elicit_questions.png" width="570" /&gt;
+]
+.pull-right[
+
+Text is highlighted in the source
+
+&lt;img src="figures/elicit_question_anwers.png" width="550" /&gt;
+]
+---
+
+## Find specific types of papers
+
+.pull-left[
+
+With keywords
+
+&lt;img src="figures/elicit_keyword_filters.png" width="570" /&gt;
+]
+.pull-right[
+
+With filters
+&lt;img src="figures/elicit_RCTFilter.png" width="450" /&gt;
+]
+---
+
+## Summaries across small sets of studies
+
+&lt;img src="figures/elicit_papersummaries.png" height="500" /&gt;
+
 
 ---
 
 # Staying informed: Exercise (15 min)
 
-* [ResearchRabbit](https://researchrabbitapp.com)
+* Topic 1:  [ResearchRabbit](https://researchrabbit.ai)
       * Create a collection &amp; explore steps from [overview slide](#researchrabbit)
-      * Automatically keeps track of new work and sends updates
+      * Set an alert if collection is relevant
       
-* Alternative 1: [Scite](https://scite.ai): save a search &amp; choose type of alert
+* Topic 2: [Elicit](www.elicit.org): Explore all steps with a question of your interest
 
-* Alternative 2: [Google Scholar](https://scholar.google.com/)
-      * Save a search &amp; "Create alert" button
+* If you know these - implement the [workflow](#workflow): 
+  * Find a highly cited paper on [Google Scholar](https://scholar.google.com/) or a specific paper on [Elicit](www.elicit.org)
+  * Add to Zotero collection, and sync with ResearchRabbit
+   * Expand your collection
 
 * [Twitter](www.twitter.com): Follow the most important scholars for your research topic
 

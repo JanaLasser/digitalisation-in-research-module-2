@@ -62,7 +62,7 @@ layout: true
 # Wer sind wir?
 
 **Dr. Jana Lasser** <br> <br>
-TU Graz und Complexity Science Hub Wien <br>
+TU Graz <br>
 Physik und Data Science  <br> <br>
 www.janalasser.at    |    jana.lasser@tugraz.at    |    Twitter: @janalasser <br>
 
