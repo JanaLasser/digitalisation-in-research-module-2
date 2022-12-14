@@ -38,7 +38,7 @@ Every topic will feature an introduction into the challenges and possibilities t
     * Good documentation practices [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html)] [[exercise: document your repositories](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_04_documentation/slides/index.html#/8)]
     * Interactive and enriched research articles [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_05_coding_notebooks/slides/index.html)]
     * Coding best practices and reproducibility [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_06_coding_best_practices/slides/index.html)]
-        * Alternative Zotero exercise: [slide](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#33)
+        * Alternative Zotero exercise: [[slide](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#33)]
     * Licenses [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_07_licenses/slides/index.html)] [[exercise: license your research](https://janalasser.github.io/digitalisation-in-research-module-2/04_transparency_and_reproducibility/04_07_licenses/slides/index.html#/20)]
 
 * Using digital tools to communicate your research
