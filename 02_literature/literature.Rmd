@@ -40,11 +40,12 @@ layout: true
 1. AI-powered & open source tools for literature search to find relevant articles
 
   * Workflow: **Google Scholar, Zotero + ResearchRabbit**
+  
   * Finding specific articles or get an overview: **Elicit**
 
 2. Staying informed
-  * Practical session: Setting alerts & **Twitter**
-<br><br>
+  * Practical exercises with these tools
+
 3. (Collaborative) Management of literature & citations: **Zotero**
 
 ???
