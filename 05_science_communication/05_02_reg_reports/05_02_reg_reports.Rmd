@@ -1,7 +1,7 @@
 ---
 title: "Module 2: Digitalisation in Research" 
 subtitle: "New publishing practices for transparency & reproducibility: Registered & Exploratory Reports"
-author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
+author: "Hannah Metzler <br> <br>*CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below
@@ -33,6 +33,10 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
+<div class = "my-footer"> <span>
+<a href="https://www.zotero.org/groups/479248/osf/collections/KEJP68G9"> Zotero library with RRs; </a> 
+<a href="https://www.cos.io/initiatives/registered-reports"> More on RRs </a> 
+</span> </div>
 
 ---
 
@@ -59,6 +63,40 @@ _"Because the study is accepted in advance, the incentives for authors change fr
 knitr::include_graphics("figures/reg_reports_osf_graphic.png")
 ```
 ]]
+
+---
+layout: true
+<div class = "my-footer"> <span>
+<a href="https://twitter.com/chrisdc77/status/1585908780394487809"> Chris Chambers on PC Reg Reports on Twitter
+</a> </span> </div>
+
+---
+
+## Community control over reviewing & publishing RRs
+
+**From reforming journals to reclaiming control & value**
+
+.pull-left[.center-left[
+```{r, echo=FALSE, out.width=450}
+knitr::include_graphics("figures/success_RRs_ChambersTweet.png")
+```
+
+```{r, echo=FALSE, out.width=400}
+knitr::include_graphics("figures/PCIRegReports.png")
+```
+]]
+
+.pull-right[
+* Journals justify fees with added value of editing/review
+
+[Peer Community In](https://rr.peercommunityin.org/) 
+* free meta-journal platform that reviews & recommends RRs
+* since 2022
+* Brings value of peer-review back to community
+* Publishing in journals still possible
+]
+
+
 
 
 ---
