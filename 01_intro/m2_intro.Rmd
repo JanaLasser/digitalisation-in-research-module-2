@@ -115,8 +115,24 @@ https://github.com/JanaLasser/digitalisation-in-research-module-2
 ]
 
 .right-column[.center-right[
-```{r, echo=FALSE, out.width=800}
+```{r, echo=FALSE, out.width=700}
 knitr::include_graphics('figures/timeplan.png')
+```
+]]
+
+???
+Immer gerne fragen, unterbrechen
+Videos
+
+---
+
+.left-column[
+# Zeitplan Tag 2
+]
+
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=700}
+knitr::include_graphics('figures/timeplan_day2.png')
 ```
 ]]
 
