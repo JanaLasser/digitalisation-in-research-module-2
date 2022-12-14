@@ -272,6 +272,7 @@ layout: true
 <a href = "https://twitter.com/rdpalacio/status/1601640985858957312"> Workflow: Ruben Dario on Twitter </a>
 </a></span></div>
 
+---
 
 ## Literature search workflow
 
@@ -288,14 +289,17 @@ layout: true
 ```{r, echo=FALSE, out.width=750}
 knitr::include_graphics("figures/zotero_sync_researchrabbit.png")
 ```
-
 ]]
+
 .left-column[
 #### Workflow
 ```{r, echo=FALSE, out.width=200}
 knitr::include_graphics("figures/zotero_addtocollection_browser.png")
 ```
 ]
+
+---
+layout: true
 
 ---
 
