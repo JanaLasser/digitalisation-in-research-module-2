@@ -327,13 +327,13 @@ layout: true
 knitr::include_graphics("figures/AsPredicted1.png")
 ```
 ]]
-<!-- --- -->
+
 .right-column[.center-right[
 ```{r, echo=FALSE, out.width=700}
 knitr::include_graphics("figures/AsPredicted2.png")
 ```
 ]]
-<!-- --- -->
+
 # Preregistration exercise
 
 Write your own pre-registration
