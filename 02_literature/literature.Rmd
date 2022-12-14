@@ -306,6 +306,13 @@ name: elicit
 
 # [Elicit: The AI research assistant](www.elicit.org)
 
+```{r, echo=FALSE, out.width=1000}
+knitr::include_graphics("figures/elicit_start.png")
+```
+---
+
+# [Elicit](www.elicit.org): useful features
+
 - Can help you find specific studies with advanced filters
   - Comparison Google Scholar: finds highly cited/central papers
   
@@ -413,13 +420,12 @@ knitr::include_graphics("figures/elicit_papersummaries.png")
       
 * Topic 2: [Elicit](www.elicit.org): Explore all steps from [slides](#elicit) with a question of your interest
 
-* More? Implement the [workflow](#workflow): 
+* Topic 3: Implement the [workflow](#workflow) 
   * Find a highly cited paper on [Google Scholar](https://scholar.google.com/) or a specific paper on [Elicit](www.elicit.org)
-  * Add to a Zotero collection, and sync it with ResearchRabbit
+  * Add to a Zotero collection, and sync it with [ResearchRabbit](https://researchrabbit.ai)
   * Expand your collection
 
-* [Twitter](www.twitter.com): Follow the most important scholars for your research topic
-
+* ([Twitter](www.twitter.com): Follow the most important scholars for your research topic)
 
 ---
 
@@ -483,7 +489,6 @@ knitr::include_graphics("figures/zotero_overview.png")
   * Tags
   * Related
 
-
 ---
 
 ## Zotero: Getting papers into your library
@@ -538,13 +543,12 @@ knitr::include_graphics("figures/zotero_colour_tags_papers.png")
 # Zotero: Features of each item
 
 * Related articles &ensp;
-```{r, echo=FALSE, out.width=700}
+```{r, echo=FALSE, out.width=730}
 knitr::include_graphics("figures/zotero_related_entries.png")
 ```
 
-* Annotations: 
-  * Marked parts of PDF as a summary
-  * [Zotfile](http://zotfile.com/) extension: Manage Attachments => Extract Annotations
+* Automatic summary notes with annotations from PDF &ensp; <br>
+  * Right click on PDF: Add notes from annotations
 
 * Press Alt to find collection of an item &ensp;
 ```{r, echo=FALSE, out.width=500}
@@ -594,15 +598,17 @@ knitr::include_graphics("figures/zotero_syncing.png")
 ```{r, echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("figures/zotero_search.png")
 ```
-  
+
+.pull-left[
 * Advanced search: 
     * can be saved
     * constantly updating collection
-    
-```{r, echo=FALSE, out.width=400, fig.align='center'}
+]
+.pull-right[
+```{r, echo=FALSE, out.width=550, fig.align='right'}
 knitr::include_graphics("figures/zotero_advanced_search_window.png")
 ```
-
+]
 ---
 
 ## Group libraries
@@ -693,3 +699,26 @@ http://ideophone.org/12-zotero-tips-and-techniques)
 
 * [Numerous other Add-ons](https://www.zotero.org/support/plugins)
 
+---
+
+## Zotero exercise for day 2
+
+.pull-left[
+* Add a paper to a collection: 
+  * via plugin on publisher website
+  * by pulling in a PDF
+  * via DOI
+  
+* Add keywords in "Tags"
+* Create a color tag "to read" in red
+
+* Link it to a second related article
+
+* Make & save an advanced search
+]
+
+.pull-right[
+* Open a PDF within Zotero, mark important sentences/keywords
+  * Extract the annotations with [Zotfile](http://zotfile.com/) 
+  
+]

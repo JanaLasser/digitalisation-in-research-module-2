@@ -1,8 +1,7 @@
 ---
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Research designs and workflows for transparent and reproducible results "
-author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
-date: "26.11.2021"
+author: "Hannah Metzler <br>  <br> *CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:  
   #  seal: false # this hides the title slide to make a costum one below
@@ -42,7 +41,7 @@ layout: true
 ]
 .right-column[
 ```{r, echo=FALSE, out.width=700}
-knitr::include_graphics("figures/timeplan_day2.png")
+knitr::include_graphics("../../01_intro/figures/timeplan_day2.png")
 ```
 ]
 ---
@@ -105,7 +104,7 @@ layout: true
 
 ]
 .right-column[.center-right[
-.center[Technology to **enable** change]
+.center[Technology to enable change]
 
 ```{r, echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("figures/research_lifecycle_osf_tools.png")
@@ -166,15 +165,16 @@ knitr::include_graphics("figures/research_lifecycle_osf_literature.svg")
 ```
 ]]
 
-.pull-right[
+.pull-right[.center-right[
 * Research Rabbit:
-  * good article recommendations <br><br>
-* Open Knowledge Maps: 
-  * discover other related concepts<br><br>
-* Scite: 
-  * find contrasting evidence<br><br>
+  * expand collection with personalized recommendations
+  * independent research teams <br><br>
+* Elicit: 
+  * trustworthiness & sample size
+  * critical citations
+  * find contrasting evidence <br><br>
 * Be aware of your biases
-]
+]]
 .center[
 **Look for alternative findings & explanations**
 ]
@@ -434,14 +434,20 @@ layout: true
 
 ---
 
-# Data management (plans)
+## Data management (plans)
 
 * Overview of formats and types of data
+
 * Research methodology (data collection, processing, and analyzing)
+
 * Roles & responsibilities for data collection, description, processing, analysis
+
 * Standards you will use to describe your data (metadata)
+
 * Storage and backup procedures 
+
 * Long-term archiving and preservation plan 
+
 * Access policies and provisions for secondary uses
 * Security measures taken to protect data and/or participant confidentiality
 
@@ -462,7 +468,7 @@ knitr::include_graphics("figures/research_lifecycle_osf_publication.svg")
   * Clearly label exploratory/confirmatory analyses 
   
 * Publication bias: New publishing formats
-    * Preprints
+    * Pre-prints
     * Preregistration & registered reports
     * New journals that emphasize reproducibility
     * Journals for null-results & replications
@@ -478,7 +484,7 @@ layout: true
 
 .pull-left[.center-left[
 * Peer review
-  * [Publons](https://publons.com/): credits for reviewing
+  * Profile: [Web of Science](https://access.clarivate.com/login?app=wos): credits for reviewing ([example](https://www.webofscience.com/wos/author/record/AAH-4442-2020))
  * Open peer review
  <font size = "4"> <a href="http://f1000research.com/articles/6-588/v2"> Ross-Hellauer 2017 </a> </font>
       * content and/or names 
