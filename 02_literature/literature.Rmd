@@ -411,12 +411,12 @@ knitr::include_graphics("figures/elicit_papersummaries.png")
       * Create a collection & explore steps from [overview slide](#researchrabbit)
       * Set an alert
       
-* Topic 2: [Elicit](www.elicit.org): Explore all steps with a question of your interest
+* Topic 2: [Elicit](www.elicit.org): Explore all steps from [slides](#elicit) with a question of your interest
 
-* If you know these - implement the [workflow](#workflow): 
+* More? Implement the [workflow](#workflow): 
   * Find a highly cited paper on [Google Scholar](https://scholar.google.com/) or a specific paper on [Elicit](www.elicit.org)
-  * Add to Zotero collection, and sync with ResearchRabbit
-   * Expand your collection
+  * Add to a Zotero collection, and sync it with ResearchRabbit
+  * Expand your collection
 
 * [Twitter](www.twitter.com): Follow the most important scholars for your research topic
 
@@ -439,7 +439,7 @@ knitr::include_graphics("figures/elicit_papersummaries.png")
 # (Collaboratively) Managing literature
 
 .pull-left[
-* Many: Mendeley, Endnote, F1000, Citavi...
+* Mendeley, Endnote, F1000, Citavi
 * [**Zotero**](https://www.zotero.org/): Open source & flexible
 
 * **Store, organize and cite papers**
@@ -452,35 +452,37 @@ knitr::include_graphics("figures/elicit_papersummaries.png")
 * Organize: Collections & tags
 
 * Citing: 
-  * Add-ins for Word, Google docs etc
+  * Add-ins for Word, GoogleDocs
   * Automated bibliographies
   
 * Group libraries for sharing literature
+
+* Marking PDFs & automatic notes
 ]
 
 ---
 
-.left-column[
-**Overview**
-* Library
-* Collections
-* Subcollections
-* Items
-  * Info
-  * Notes
-  * Snapshot
-  * Attached PDFs
-* Item types
-  * article
-  * chapter
-  * ...
-* Tags
-]
-.right-column[
-```{r, echo=FALSE, out.width=1200}
+```{r, echo=FALSE, out.width=1050}
 knitr::include_graphics("figures/zotero_overview.png")
 ```
-]
+
+---
+
+## Zotero features on previous slide
+
+* My Library
+* Collections
+  * Subcollections <br> <br>
+* Items (articles)
+  * Snapshot of website (available offline)
+  * Attached PDFs (automatic option) <br> <br>
+* Item features: 
+  * Info
+    * Item Type: article, book chapter, report, pre-print, conference paper etc
+  * Notes
+  * Tags
+  * Related
+
 
 ---
 
@@ -551,6 +553,17 @@ knitr::include_graphics("figures/zotero_findcollection.png")
 
 * Drag-&-drop PDF or item entry from Zotero to send/move files or reference
 
+---
+
+## Notes & Annotating PDFs
+
+```{r, echo=FALSE, out.width=1000}
+knitr::include_graphics("figures/zotero_notes.png")
+```
+
+```{r, echo=FALSE, out.width=1000}
+knitr::include_graphics("figures/zotero_pdf_annotating.png")
+```
 
 ---
 
@@ -604,7 +617,6 @@ in Zotero:
 knitr::include_graphics("figures/zotero_group_libraries.png")
 ```
 ]
-
 * Make collections available online
   * private or public
   * read or edit access
@@ -652,11 +664,12 @@ knitr::include_graphics("figures/zotero_citation_styles.png")
 * In Bibliography: check item type in Zotero if formatting not correct (article, book, etc)
 ]]
 .pull-right[.center-right[
-```{r, echo=FALSE, out.width=350}
+```{r, echo=FALSE, out.width=500}
 knitr::include_graphics("figures/zotero_suppress_prefix.png")
 ```
 ]]
----
+
+???
 
 ## Combine Zotero & Scite
 
