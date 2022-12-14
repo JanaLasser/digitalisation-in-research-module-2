@@ -125,7 +125,7 @@ layout: true
 
 * [Social sciences 2018](https://www.nature.com/articles/s41562-018-0399-z): published in Nature & Science 2010-2015: 50%-67%
 
-* [SCORE project](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): Expert pedictions
+* [SCORE](https://royalsocietypublishing.org/doi/10.1098/rsos.200566): Expert predictions   ==>
 ]]
 .pull-right[.center-right[
 Expected replication rates: 
@@ -335,7 +335,7 @@ layout: true
 
     * [Good practices materials](https://sites.google.com/site/cogmasterbonnespratiques/train-yourself)
 
-* Images on slide 2,8 & 9 CC0 from pixabay.com
+* Images on slide 2,8 & 9 CC0 from [pixabay.com](www.pixabay.com)
 
 ---
 

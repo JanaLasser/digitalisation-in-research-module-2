@@ -2,7 +2,6 @@
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Data management practices and platforms for sharing data"
 author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
-date: "26.11.2021"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below
@@ -61,12 +60,16 @@ layout: true
 # Repositories: 
 
 * Keeping track & (optional) sharing
-* (Long-term) data storage <br> <br>
+
+* (Long-term) data storage
+
 * Find the repository that suits you: 
     * [Zenodo](www.zenodo.org): European Union
     * [Open Science Framework](www.osf.io)
     * [Figshare](https://figshare.com/features)
     * [Github](www.github.com) for code
+    * Institutional repositories
+    
 * [Registry of research data repositories](https://www.re3data.org/)
 
 ---
@@ -101,6 +104,7 @@ knitr::include_graphics("figures/DMPTool.png")
     * [Tutorial: Basics of Research Data Management](https://www.youtube.com/watch?v=3sDhQRIYUmA) (Foster, OpenAire)
     * [Research data management 101](https://www.youtube.com/watch?v=_pHVMwfOZf8) (University of Sydney)
     * [Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme#bestpractices) (Research Data Management Service Group)
+    
 * Digital tools to create your data management plan
     * [DMP tool](https://dmptool.org)
     * [DMP online](https://dmponline.dcc.ac.uk/)

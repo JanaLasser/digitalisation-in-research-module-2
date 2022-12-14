@@ -23,7 +23,7 @@ Every topic will feature an introduction into the challenges and possibilities t
 
 * Introduction and Module overview [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/01_intro/index.html)]
 
-* Digitally enhanced literature search and management 
+* Digitally enhanced literature search and management [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1)]
     * Tools to find relevant articles [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#3)]
     * Ways to stay informed about new articles [[exercise: staying informed](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#15)]
     * Locally and collaboratively managing relevant literature [[slides](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#17)]
@@ -50,8 +50,7 @@ To make full use of the sessions, please bring your laptop and charger. We will 
 
 * If you want to follow the [literature management demonstrations](https://janalasser.github.io/digitalisation-in-research-module-2/02_literature/index.html#1):
     * Make an account at [Zotero](https://www.zotero.org/), [install](https://www.zotero.org/download/) Zotero (Standalone) and the Connector for the browser you usually use.
-    * Make an account on [Twitter](https://www.twitter.com). **Note**: if you want to later use this account in the “research communication” demonstration, make sure you use an account name (the text after the “@”) that is either close to your real name or sounds otherwise professional. You don’t need to fill your profile with more information about you, we will do that together.
-
+    * Make an account at [Elicit](www.elicit.org)
     * Make an account on [ResearchRabbit](https://researchrabbitapp.com).
 
 * If you want to follow the [Git & GitHub demonstration](https://janalasser.github.io/digitalisation-in-research-module-2/03_collaborations/03_02_collaborative_code_writing/slides/index.html):
