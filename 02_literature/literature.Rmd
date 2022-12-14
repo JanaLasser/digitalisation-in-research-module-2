@@ -1,7 +1,7 @@
 ---
 title: "Module 2: Digitalisation in Research" 
 subtitle: "Digitally Enhanced Literature Search and Management"
-author: "Hannah Metzler <br> *CSH Vienna & Medical Universitpy of Vienna*"
+author: "Hannah Metzler <br><br> *CSH Vienna & Medical Universitpy of Vienna*"
 output:
   xaringan::moon_reader:
   #  seal: false # this hides the title slide to make a costum one below
@@ -701,7 +701,7 @@ http://ideophone.org/12-zotero-tips-and-techniques)
 
 ---
 
-## Zotero exercise for day 2
+## Zotero exercises for day 2
 
 .pull-left[
 * Add a paper to a collection: 
@@ -719,6 +719,11 @@ http://ideophone.org/12-zotero-tips-and-techniques)
 
 .pull-right[
 * Open a PDF within Zotero, mark important sentences/keywords
-  * Extract the annotations with [Zotfile](http://zotfile.com/) 
+  * Add note from annotations
+* In a Google or Word doc
+  * Add a few citations, with/wo author
+  * Create a reference list
+  
+* For [Obsidian](https://obsidian.md/) users: check out step 10-15 in this [tutorial](https://twitter.com/rdpalacio/status/1601641098535129088)
   
 ]
