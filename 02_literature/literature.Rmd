@@ -300,6 +300,7 @@ knitr::include_graphics("figures/zotero_addtocollection_browser.png")
 
 ---
 layout: true
+name: elicit
 
 ---
 
@@ -408,7 +409,7 @@ knitr::include_graphics("figures/elicit_papersummaries.png")
 
 * Topic 1:  [ResearchRabbit](https://researchrabbit.ai)
       * Create a collection & explore steps from [overview slide](#researchrabbit)
-      * Set an alert if collection is relevant
+      * Set an alert
       
 * Topic 2: [Elicit](www.elicit.org): Explore all steps with a question of your interest
 
