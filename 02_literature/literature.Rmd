@@ -1,6 +1,6 @@
 ---
-title: "Module 2: Digitalisation in Research" 
-subtitle: "Digitally Enhanced Literature Search and Management"
+subtitle: "Module 2: Digitalisation in Research" 
+title: "Digitally Enhanced Literature Search and Management"
 author: "Hannah Metzler <br><br> *CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:

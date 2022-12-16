@@ -1,6 +1,6 @@
 ---
-title: "Module 2: Digitalisation in Research" 
-subtitle: "New publishing practices for transparency & reproducibility: Registered & Exploratory Reports"
+subtitle: "Module 2: Digitalisation in Research" 
+title: "New publishing practices <br> for transparency & reproducibility: <br> Registered & Exploratory Reports"
 author: "Hannah Metzler <br> <br>*CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:
@@ -72,7 +72,7 @@ layout: true
 
 ---
 
-## Community control over reviewing & publishing RRs
+## Community control over review & publishing RRs
 
 **From reforming journals to reclaiming control & value**
 

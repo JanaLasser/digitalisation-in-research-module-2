@@ -1,6 +1,6 @@
 ---
-title: "Module 2: Digitalisation in Research" 
-subtitle: "Research designs and workflows for transparent and reproducible results "
+title: "Research designs and workflows for transparent and reproducible results"
+subtitle: "Module 2: Digitalisation in Research" 
 author: "Hannah Metzler <br>  <br> *CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:  
@@ -16,6 +16,9 @@ output:
 ---
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+# This is about 15 min too long, around 45 min instead of 30
+
 # #This block contains the theme configuration for the CSS lab slides style
 library(xaringanthemer) #
 library(showtext)

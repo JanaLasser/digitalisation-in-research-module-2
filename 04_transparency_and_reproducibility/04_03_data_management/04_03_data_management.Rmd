@@ -1,6 +1,6 @@
 ---
-title: "Module 2: Digitalisation in Research" 
-subtitle: "Data management practices and platforms for sharing data"
+subtitle: "Module 2: Digitalisation in Research" 
+title: "Data management practices and platforms for sharing data"
 author: "Hannah Metzler <br> *CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:
