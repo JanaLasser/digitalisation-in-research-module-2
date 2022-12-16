@@ -1,6 +1,6 @@
 ---
 subtitle: "Module 2: Digitalisation in Research" 
-title: "New publishing practices <br> for transparency & reproducibility: <br> Registered & Exploratory Reports"
+title: "New publishing practices <br> for transparency & reproducibility: <br> Registered Reports & Transparent Journals"
 author: "Hannah Metzler <br> <br>*CSH Vienna & Medical University of Vienna*"
 output:
   xaringan::moon_reader:
@@ -96,16 +96,15 @@ knitr::include_graphics("figures/PCIRegReports.png")
 * Publishing in journals still possible
 ]
 
+???
 
+<!-- --- -->
+<!-- layout: true -->
+<!-- <div class = "my-footer"> <span> -->
+<!-- <a href="https://doi.org/10.1016/j.cortex.2017.07.014"> McIntosh (2017) Exploratory reports: A new article type for Cortex; </a>  -->
+<!-- <a href = "https://osf.io/vzse8/wiki/Author%20guidelines%20and%20editorials/"> OSF Resources for RRs </a> </span> </div> -->
 
-
----
-layout: true
-<div class = "my-footer"> <span>
-<a href="https://doi.org/10.1016/j.cortex.2017.07.014"> McIntosh (2017) Exploratory reports: A new article type for Cortex; </a> 
-<a href = "https://osf.io/vzse8/wiki/Author%20guidelines%20and%20editorials/"> OSF Resources for RRs </a> </span> </div>
-
----
+<!-- --- -->
 
 # Exploratory Reports
 
