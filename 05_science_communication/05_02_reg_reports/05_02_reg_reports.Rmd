@@ -102,21 +102,18 @@ knitr::include_graphics("figures/PCIRegReports.png")
 ---
 layout: true
 <div class = "my-footer"> <span>
-<a href="https://doi.org/10.1016/j.cortex.2017.07.014"> McIntosh (2017) Exploratory reports: A new article type for Cortex. 
-</a> </span> </div>
+<a href="https://doi.org/10.1016/j.cortex.2017.07.014"> McIntosh (2017) Exploratory reports: A new article type for Cortex; </a> 
+<a href = "https://osf.io/vzse8/wiki/Author%20guidelines%20and%20editorials/"> OSF Resources for RRs </a> </span> </div>
 
 ---
 
 # Exploratory Reports
 
 .pull-left[.center-left[
-* Open research questions
-
-* No strong predictions
-
+* Open questions without strong predictions
 * Generation of hypotheses
 
-* Transparency for researchers, reviewers, readers
+* Emphasis on transparency & <br> rigor instead of novelty
   * Open data & materials
   * No story telling
   
