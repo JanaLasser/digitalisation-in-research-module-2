@@ -36,6 +36,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
 
 ---
 
@@ -158,8 +159,10 @@ knitr::include_graphics("figures/research_lifecycle_osf.svg")
 ]
 ---
 layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
 
 ---
+
 # Literature search
 
 .pull-left[.center-left[
@@ -345,6 +348,10 @@ Write your own pre-registration
 * Alternatively: Plan the direct replication of a study
 
 ---
+layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
+
+---
 
 # Open data, code & materials
 
@@ -456,6 +463,8 @@ layout: true
 
 ---
 layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
+
 ---
 
 # Publication
@@ -510,6 +519,8 @@ knitr::include_graphics("figures/house-576347_1280.png")
 
 ---
 layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
+
 ---
 
 # Resources

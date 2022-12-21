@@ -33,6 +33,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
 ---
 
 ## Can humans predict the future? 
@@ -141,8 +142,7 @@ knitr::include_graphics("figures/Golden_scoreproject.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a> Begley & Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012;  <br> 
-Francis, 2014; Ioannidis et al. 2009;   Lancee et al. 2017;Amara & Neves 2021
+<a> Begley & Ioannidis 2015; Errington et al. 2014; Prinz et al. 2011; Begley & Ellis 2012; Francis, 2014; Ioannidis et al. 2009; Lancee et al. 2017; <br> Amara & Neves 2021
 </a></span></div>
 
 ---
@@ -325,6 +325,8 @@ layout: true
      
 ---
 layout: true
+<div class="my-footer"><span><a href = "www.hannahmetzler.eu"> Hannah Metzler </a> </span></div> 
+
 ---
 
 # Concrete Solutions tomorrow!
